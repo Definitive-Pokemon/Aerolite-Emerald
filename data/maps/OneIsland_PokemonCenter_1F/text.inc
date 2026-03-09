@@ -155,19 +155,24 @@ OneIsland_PokemonCenter_1F_Text_CelioImModifyingMyNetworkMachine::
     .string "How am I doing?\p"
     .string "Well, I'm modifying my Network\n"
     .string "Machine.\p"
+    .string "When I get done with the machine,\n"
+    .string "I hope you'll be first to use it,\l"
+    .string "{PLAYER}.$"
 
 OneIsland_PokemonCenter_1F_Text_CelioCaughtMoreMonMaybeICanBeUseful::
     .string "CELIO: {PLAYER}, how have things\n"
     .string "been for you?\p"
     .string "Oh, is that right?\n"
-    .string "You've caught more POKéMON.$"
+    .string "You've caught more POKéMON.\p"
+    .string "Do you know what?\n"
+    .string "Maybe I can be useful to you.$"
 
 OneIsland_PokemonCenter_1F_Text_YoullBeTradingFromTrainersFarAway::
     .string "I'm modifying the Network Machine\n"
     .string "right now.\p"
     .string "I'm changing it so it can handle\n"
     .string "trades over long distances.\p"
-    .string "When I get finished, I'll be\n"
+    .string "When I get finished, you'll be\n"
     .string "trading for exotic POKéMON from\l"
     .string "TRAINERS far away.$"
 
@@ -235,17 +240,6 @@ OneIsland_PokemonCenter_1F_Text_PassLetYouGetToAllIslands::
     .string "{PLAYER}, please, I can't do\n"
     .string "it without your help.$"
 
-OneIsland_PokemonCenter_1F_Text_PassLetYouGetToAllIslandsScott::
-    .string "This is my own ferry PASS.\p"
-    .string "It will let you get to all the\n"
-    .string "SEVII ISLANDS.\p"
-    .string "{PLAYER}, please, I can't do\n"
-    .string "it without your help.\p"
-    .string "As the CHAMPION, your POKéMON\n"
-    .string "are amazingly strong.\p"
-    .string "You should be safe exploring\n"
-    .string "the rest of the islands.$"
-
 OneIsland_PokemonCenter_1F_Text_HandedSapphireToCelio::
     .string "{PLAYER} handed the SAPPHIRE\n"
     .string "to CELIO.$"
@@ -258,7 +252,7 @@ OneIsland_PokemonCenter_1F_Text_ThankYouGiveMeTime::
     .string "You don't have to tell me. I know\n"
     .string "it wasn't easy.\p"
     .string "Thank you so much!\p"
-    .string "Now it's my turn to work this out!\n"
+    .string "Now it's my turn to work for you!\n"
     .string "Please give me a little time.$"
 
 OneIsland_PokemonCenter_1F_Text_OkayThisIsGood::
@@ -266,29 +260,18 @@ OneIsland_PokemonCenter_1F_Text_OkayThisIsGood::
 
 OneIsland_PokemonCenter_1F_Text_LinkedUpWithLanette::
     .string "I did it!\n"
-    .string "I linked up with my colleagues!$"
+    .string "I linked up with LANETTE!$"
 
 OneIsland_PokemonCenter_1F_Text_ManagedToLinkWithHoennThankYou::
     .string "{PLAYER}…\n"
     .string "{PLAYER}, I did it!\p"
     .string "I've managed to link up with\n"
-    .string "TRAINERS in exotic regions!\p"
+    .string "TRAINERS in the HOENN region!\p"
     .string "Finally, the Network Machine is\n"
     .string "fully operational!\p"
     .string "{PLAYER}, I owe it all to you!\p"
     .string "Thanks to you, my dream came\n"
-    .string "true…\p"
-    .string "I want to give you something\n"
-    .string "to thank you for all your help.$"
-
-OneIsland_PokemonCenter_1F_Text_ExplainDive::
-    .string "Sometimes while SURFING, you'll\n"
-    .string "notice dark patches of water.\p"
-    .string "The water there's deep, so you can\n"
-    .string "use DIVE to drop to the seafloor.\p"
-    .string "When you want to surface, you can\n"
-    .string "use DIVE again as long there's\l"
-    .string "nothing blocking you.$"
+    .string "true…$"
 
 OneIsland_PokemonCenter_1F_Text_WishYouBestOfLuck::
     .string "I…\n"
@@ -300,16 +283,6 @@ OneIsland_PokemonCenter_1F_Text_WishYouBestOfLuck::
 
 OneIsland_PokemonCenter_1F_Text_CelioHearingRumorsAboutYou::
     .string "CELIO: Hello!\p"
-    .string "{PLAYER}, I've been hearing rumors\n"
-    .string "about you.$"
-	
-OneIsland_PokemonCenter_1F_Text_CelioHearingRumorsAboutYou2::
-    .string "CELIO: Hello, {PLAYER}!\n"
-    .string "How nice to meet you again.\p"
-    .string "I've been honing my skills here\n"
-    .string "at TRAINER TOWER, and boy,\l"
-    .string "are these TRAINERS tough!\p"
-    .string "But that's enough about me.\p"
     .string "{PLAYER}, I've been hearing rumors\n"
     .string "about you.$"
 
@@ -377,7 +350,7 @@ OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKantoAndHoenn::
     .string "Network Machine\n"
     .string "Link Level 2\p"
     .string "Link established with the KANTO\n"
-    .string "and ALOLA regions.$"
+    .string "and HOENN regions.$"
 
 OneIsland_PokemonCenter_1F_Text_ObtainedTriPass::
     .string "Obtained the TRI-PASS!$"
