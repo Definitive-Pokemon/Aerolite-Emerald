@@ -4640,6 +4640,78 @@
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/NavelRock_Unown_Room_2/border.bin",
       "blockdata_filepath": "data/layouts/NavelRock_Unown_Room_2/map.bin"
+    },
+    {
+      "id": "LAYOUT_ONE_ISLAND",
+      "name": "OneIsland_Layout",
+      "width": 24,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/OneIsland/border.bin",
+      "blockdata_filepath": "data/layouts/OneIsland/map.bin"
+    },   
+	{
+      "id": "LAYOUT_ONE_ISLAND_KINDLE_ROAD",
+      "name": "OneIsland_KindleRoad_Layout",
+      "width": 24,
+      "height": 140,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/OneIsland_KindleRoad/border.bin",
+      "blockdata_filepath": "data/layouts/OneIsland_KindleRoad/map.bin"
+    },
+    {
+      "id": "LAYOUT_ONE_ISLAND_TREASURE_BEACH",
+      "name": "OneIsland_TreasureBeach_Layout",
+      "width": 24,
+      "height": 40,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/OneIsland_TreasureBeach/border.bin",
+      "blockdata_filepath": "data/layouts/OneIsland_TreasureBeach/map.bin"
+    },		
+	{
+      "id": "LAYOUT_ONE_ISLAND_POKEMON_CENTER_1F",
+      "name": "OneIsland_PokemonCenter_1F_Layout",
+      "width": 19,
+      "height": 11,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/OneIsland_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/OneIsland_PokemonCenter_1F/map.bin"
+    },
+	{
+      "id": "LAYOUT_ONE_ISLAND_POKEMON_CENTER_2F",
+      "name": "OneIsland_PokemonCenter_2F_Layout",
+      "width": 15,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/OneIsland_PokemonCenter_2F/border.bin",
+      "blockdata_filepath": "data/layouts/OneIsland_PokemonCenter_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ONE_ISLAND_KINDLE_ROAD_EMBER_SPA",
+      "name": "OneIsland_KindleRoad_EmberSpa_Layout",
+      "width": 27,
+      "height": 39,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa/border.bin",
+      "blockdata_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa/map.bin"
     }
   ]
 }

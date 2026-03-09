@@ -16,7 +16,7 @@
     "gMapGroup_IndoorLilycove",
     "gMapGroup_IndoorMossdeep",
     "gMapGroup_IndoorSootopolis",
-    "gMapGroup_IndoorEverGrande",
+	"gMapGroup_IndoorEverGrande",
     "gMapGroup_IndoorRoute104",
     "gMapGroup_IndoorRoute111",
     "gMapGroup_IndoorRoute112",
@@ -33,7 +33,8 @@
     "gMapGroup_IndoorRoute113",
     "gMapGroup_IndoorRoute123",
     "gMapGroup_IndoorRoute119",
-    "gMapGroup_IndoorRoute124"
+    "gMapGroup_IndoorRoute124",
+    "gMapGroup_IndoorOneIsland"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -52,6 +53,7 @@
     "FallarborTown",
     "VerdanturfTown",
     "PacifidlogTown",
+    "OneIsland",
     "Route101",
     "Route102",
     "Route103",
@@ -86,6 +88,8 @@
     "Route132",
     "Route133",
     "Route134",
+    "OneIsland_KindleRoad",
+    "OneIsland_TreasureBeach",
     "Underwater_Route124",
     "Underwater_Route126",
     "Underwater_Route127",
@@ -336,6 +340,13 @@
   ],
   "gMapGroup_IndoorRoute121": [
     "Route121_SafariZoneEntrance"
+  ],
+  "gMapGroup_IndoorOneIsland": [
+    "OneIsland_PokemonCenter_1F",
+    "OneIsland_PokemonCenter_2F",
+    "OneIsland_House1",
+    "OneIsland_House2",
+    "OneIsland_Harbor"
   ],
   "gMapGroup_Dungeons": [
     "MeteorFalls_1F_1R",
