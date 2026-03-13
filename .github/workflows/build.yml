@@ -48,6 +48,6 @@ jobs:
         id: upload-rom
         uses: softprops/action-gh-release@v1
         with:
-          files: pokeemerald.gba
+          files: pokeemerald_modern.gba
 
           
