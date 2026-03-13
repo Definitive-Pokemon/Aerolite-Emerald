@@ -6,10 +6,22 @@ on:
   pull_request:
 
 jobs:
-  build_rom:
+  build:
     name: Build ROM
     runs-on: ubuntu-latest
     steps:
+      - name: Cache Build Environment
+        id: cache-build
+        uses: actions/cache@v4
+        with:
+          path: |
+                /usr
+                /opt
+                /agbcc
+                /pokeemerald
+                /bin
+          key: default-cache
+          
       - uses: actions/checkout@v2
       - name: Install dependencies
         run: |
@@ -22,6 +34,19 @@ jobs:
           cd agbcc
           ./build.sh
           ./install.sh ../pokeemerald
+          
+      - name: Ensure setup cache-wise
+        if: steps.cache-build.outputs.cache-hit
+        run: |
+              cd ./pokeemerald
       - name: Build ROM
         run: |
           make modern
+        
+      - name: Release and upload ROM
+        id: upload-rom
+        uses: softprops/action-gh-release@v1
+        with:
+          files: pokeemerald.gba
+
+          
