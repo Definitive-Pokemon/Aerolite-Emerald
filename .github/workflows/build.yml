@@ -11,7 +11,7 @@ jobs:
     name: Build ROM
     runs-on: ubuntu-latest
     steps:
-      - name: Cache Build Environment
+      - name: Check for cache
         id: cache-build
         uses: actions/cache@v4
         with:
@@ -24,11 +24,13 @@ jobs:
           key: default-cache
           
       - uses: actions/checkout@v2
-      - name: Install dependencies
+      - name: Install dependencies (no cache)
+        if: steps.cache-build.outputs.cache-hit != 'true'
         run: |
           sudo apt-get update
           sudo apt-get install binutils-arm-none-eabi gcc-arm-none-eabi libpng-dev
-      - name: Build & install agbcc
+      - name: Build & install agbcc (no cache)
+        if: steps.cache-build.outputs.cache-hit != 'true'
         run: |
           cd ..
           git clone --depth 1 https://github.com/pret/agbcc
@@ -36,7 +38,7 @@ jobs:
           ./build.sh
           ./install.sh ../pokeemerald
           
-      - name: Ensure setup cache-wise
+      - name: Start from Cache
         if: steps.cache-build.outputs.cache-hit
         run: |
               cd ./pokeemerald
