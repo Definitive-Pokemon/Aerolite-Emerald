@@ -16,7 +16,7 @@
     "gMapGroup_IndoorLilycove",
     "gMapGroup_IndoorMossdeep",
     "gMapGroup_IndoorSootopolis",
-	"gMapGroup_IndoorEverGrande",
+    "gMapGroup_IndoorEverGrande",
     "gMapGroup_IndoorRoute104",
     "gMapGroup_IndoorRoute111",
     "gMapGroup_IndoorRoute112",
@@ -341,13 +341,6 @@
   "gMapGroup_IndoorRoute121": [
     "Route121_SafariZoneEntrance"
   ],
-  "gMapGroup_IndoorOneIsland": [
-    "OneIsland_PokemonCenter_1F",
-    "OneIsland_PokemonCenter_2F",
-    "OneIsland_House1",
-    "OneIsland_House2",
-    "OneIsland_Harbor"
-  ],
   "gMapGroup_Dungeons": [
     "MeteorFalls_1F_1R",
     "MeteorFalls_1F_2R",
@@ -670,5 +663,12 @@
   ],
   "gMapGroup_IndoorRoute124": [
     "Route124_DivingTreasureHuntersHouse"
+  ],
+  "gMapGroup_IndoorOneIsland": [
+    "OneIsland_PokemonCenter_1F",
+    "OneIsland_PokemonCenter_2F",
+    "OneIsland_House1",
+    "OneIsland_House2",
+    "OneIsland_Harbor"
   ]
 }
