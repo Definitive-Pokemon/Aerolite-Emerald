@@ -10,7 +10,7 @@ OneIsland_OnTransition::
 	end
 
 OneIsland_OnFrame::
-	map_script_2 VAR_MAP_SCENE_ONE_ISLAND_HARBOR, 2, OneIsland_EventScript_EnterOneIslandFirstTime
+	@map_script_2 VAR_MAP_SCENE_ONE_ISLAND_HARBOR, 2, OneIsland_EventScript_EnterOneIslandFirstTime
 	.2byte 0
 
 OneIsland_EventScript_EnterOneIslandFirstTime::
@@ -31,7 +31,7 @@ OneIsland_EventScript_EnterOneIslandFirstTime::
 	closedoor 14, 5
 	waitdooranim
 	removeobject LOCALID_ONE_ISLAND_BILL
-	setvar VAR_MAP_SCENE_ONE_ISLAND_HARBOR, 3
+	@setvar VAR_MAP_SCENE_ONE_ISLAND_HARBOR, 3
 	warp MAP_ONE_ISLAND_POKEMON_CENTER_1F, 9, 9
 	waitstate
 	releaseall
@@ -79,8 +79,8 @@ OneIsland_Movement_BillEnterPokeCenter::
 OneIsland_EventScript_OldMan::
 	lock
 	faceplayer
-	goto_if_set FLAG_SYS_CAN_LINK_WITH_RS, OneIsland_EventScript_OldManLinkHoenn
-	goto_if_set FLAG_SEVII_DETOUR_FINISHED, OneIsland_EventScript_OldManLinkKanto
+	@goto_if_set FLAG_SYS_CAN_LINK_WITH_RS, OneIsland_EventScript_OldManLinkHoenn
+	@goto_if_set FLAG_SEVII_DETOUR_FINISHED, OneIsland_EventScript_OldManLinkKanto
 	msgbox OneIsland_Text_LuckyToHaveCelioHere
 	release
 	end
