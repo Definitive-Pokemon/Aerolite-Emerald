@@ -1,3 +1,15 @@
+/*
+trainer_control by surskitty
+    .nickname = _("Nickname")
+    .ivs[NUM_STATS] OR .iv Use .iv to assign all IVs to the same number. .ivs needs an array of six stats, in order of HP ATK DEF SPEED SPATK SPDEF; many optimal IV spreads are pre-defined in include/constants/pokemon.h
+    .heldItem and .moves[MAX_MON_MOVES] are as in vanilla.
+    .ability should be set to ABILITY_SLOT_1, ABILITY_SLOT_2, or ABILITY_HIDDEN for future-proofing.
+    .evs[NUM_STATS] again uses the stat order. The constants provided are not player-legal.
+    .ball will still allow trainer-class balls to function when unset.
+    .shiny = TRUE if you want shinies :)
+    .friendship should be set to TRAINER_MON_FRIENDLY or TRAINER_MON_UNFRIENDLY to adjust Return/Frustration.
+*/
+// Mt Chimney Hiker
 static const struct TrainerMonNoItemDefaultMoves sParty_Sawyer1[] = {
     {
     .iv = 0,
