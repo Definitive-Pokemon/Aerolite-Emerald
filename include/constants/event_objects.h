@@ -240,6 +240,21 @@
 #define OBJ_EVENT_GFX_LINK_RS_MAY                236
 #define OBJ_EVENT_GFX_LUGIA                      237
 #define OBJ_EVENT_GFX_HOOH                       238
+
+// Extended Object Graphics. 
+#define OBJ_EVENT_GFX_ROCKET_M                   256
+#define OBJ_EVENT_GFX_ROCKET_F                   257
+#define OBJ_EVENT_GFX_BIKER                      258
+#define OBJ_EVENT_BATTLE_GIRL                    259
+#define OBJ_EVENT_TRAINER_TOWER_DUDE             260
+#define OBJ_EVENT_GFX_LORELEI                    261
+#define OBJ_EVENT_GFX_BILL                       262
+#define OBJ_EVENT_GFX_CELIO                      263
+#define OBJ_EVENT_GFX_SEAGALLOP                  264
+#define OBJ_EVENT_GFX_RUBY                       265
+#define OBJ_EVENT_GFX_SAPPHIRE                   266
+#define EXT_OBJ_EVENT_GFX_END                    267
+
 #define OBJ_EVENT_GFX_POKE_BALL                  OBJ_EVENT_GFX_ITEM_BALL // replaces ITEM_BALL
 #define OBJ_EVENT_GFX_OW_MON                     OBJ_EVENT_GFX_REGICE
 #define OBJ_EVENT_GFX_LIGHT_SPRITE               OBJ_EVENT_GFX_QUINTY_PLUMP
@@ -274,7 +289,6 @@
 // stores graphics ids will need to be increased in size. See wiki entry below:
 // https://github.com/pret/pokeemerald/wiki/Feature-Branches#overworld-expansion
 #define NUM_OBJ_EVENT_GFX                        239
-
 
 // These are dynamic object gfx ids.
 // They correspond with the values of the VAR_OBJ_GFX_ID_X vars.

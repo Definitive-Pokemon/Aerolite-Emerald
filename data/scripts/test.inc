@@ -36,7 +36,7 @@ U_A_Sign::
 	lockall
 	msgbox U_A_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x26A, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_A_Check_Flag
 	end
 
@@ -57,7 +57,7 @@ U_Show_A::
 	applymovement LOCALID_A, Went_Away_U_A_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x26A
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -111,7 +111,7 @@ U_B_Sign::
 	lockall
 	msgbox U_B_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x26B, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_B_Check_Flag
 	end
 
@@ -132,7 +132,7 @@ U_Show_B::
 	applymovement LOCALID_B, Went_Away_U_B_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x26B
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -187,7 +187,7 @@ U_C_Sign::
 	lockall
 	msgbox U_C_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x26C, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_C_Check_Flag
 	end
 
@@ -208,7 +208,7 @@ U_Show_C::
 	applymovement LOCALID_C, Went_Away_U_C_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x26C
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -264,7 +264,7 @@ U_D_Sign::
 	lockall
 	msgbox U_D_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x26D, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_D_Check_Flag
 	end
 
@@ -285,7 +285,7 @@ U_Show_D::
 	applymovement LOCALID_D, Went_Away_U_D_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x26D
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -340,7 +340,7 @@ U_E_Sign::
 	lockall
 	msgbox U_E_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x26E, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_E_Check_Flag
 	end
 
@@ -361,7 +361,7 @@ U_Show_E::
 	applymovement LOCALID_E, Went_Away_U_E_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x26E
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -413,7 +413,7 @@ U_F_Sign::
 	lockall
 	msgbox U_F_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x26F, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_F_Check_Flag
 	end
 
@@ -434,7 +434,7 @@ U_Show_F::
 	applymovement LOCALID_F, Went_Away_U_F_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x26F
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -489,7 +489,7 @@ U_G_Sign::
 	lockall
 	msgbox U_G_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x270, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_G_Check_Flag
 	end
 
@@ -510,7 +510,7 @@ U_Show_G::
 	applymovement LOCALID_G, Went_Away_U_G_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x270
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -565,7 +565,7 @@ U_H_Sign::
 	lockall
 	msgbox U_H_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x271, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_H_Check_Flag
 	end
 
@@ -586,7 +586,7 @@ U_Show_H::
 	applymovement LOCALID_H, Went_Away_U_H_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x271
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -638,7 +638,7 @@ U_I_Sign::
 	lockall
 	msgbox U_I_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x272, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_I_Check_Flag
 	end
 
@@ -659,7 +659,7 @@ U_Show_I::
 	applymovement LOCALID_I, Went_Away_U_I_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x272
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -711,7 +711,7 @@ U_J_Sign::
 	lockall
 	msgbox U_J_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x273, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_J_Check_Flag
 	end
 
@@ -732,7 +732,7 @@ U_Show_J::
 	applymovement LOCALID_J, Went_Away_U_J_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x273
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -786,7 +786,7 @@ U_K_Sign::
 	lockall
 	msgbox U_K_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x274, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_K_Check_Flag
 	end
 
@@ -807,7 +807,7 @@ U_Show_K::
 	applymovement LOCALID_K, Went_Away_U_K_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x274
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -861,7 +861,7 @@ U_L_Sign::
 	lockall
 	msgbox U_L_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x275, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_L_Check_Flag
 	end
 
@@ -882,7 +882,7 @@ U_Show_L::
 	applymovement LOCALID_L, Went_Away_U_L_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x275
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -934,7 +934,7 @@ U_M_Sign::
 	lockall
 	msgbox U_M_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x276, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_M_Check_Flag
 	end
 
@@ -955,7 +955,7 @@ U_Show_M::
 	applymovement LOCALID_M, Went_Away_U_M_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x276
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -1011,7 +1011,7 @@ U_N_Sign::
 	lockall
 	msgbox U_N_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x277, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_N_Check_Flag
 	end
 
@@ -1032,7 +1032,7 @@ U_Show_N::
 	applymovement LOCALID_N, Went_Away_U_N_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x277
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -1087,7 +1087,7 @@ U_O_Sign::
 	lockall
 	msgbox U_O_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x278, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_O_Check_Flag
 	end
 
@@ -1108,7 +1108,7 @@ U_Show_O::
 	applymovement LOCALID_O, Went_Away_U_O_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x278
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -1164,7 +1164,7 @@ U_P_Sign::
 	lockall
 	msgbox U_P_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x279, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_P_Check_Flag
 	end
 
@@ -1185,7 +1185,7 @@ U_Show_P::
 	applymovement LOCALID_P, Went_Away_U_P_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x279
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -1235,7 +1235,7 @@ U_Q_Sign::
 	lockall
 	msgbox U_Q_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x27A, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_Q_Check_Flag
 	end
 
@@ -1256,7 +1256,7 @@ U_Show_Q::
 	applymovement LOCALID_Q, Went_Away_U_Q_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x27A
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -1313,7 +1313,7 @@ U_R_Sign::
 	lockall
 	msgbox U_R_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x27B, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_R_Check_Flag
 	end
 
@@ -1334,7 +1334,7 @@ U_Show_R::
 	applymovement LOCALID_R, Went_Away_U_R_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x27B
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -1387,7 +1387,7 @@ U_S_Sign::
 	lockall
 	msgbox U_S_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x27C, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_S_Check_Flag
 	end
 
@@ -1408,7 +1408,7 @@ U_Show_S::
 	applymovement LOCALID_S, Went_Away_U_S_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x27C
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -1466,7 +1466,7 @@ U_T_Sign::
 	lockall
 	msgbox U_T_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x27D, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_T_Check_Flag
 	end
 
@@ -1487,7 +1487,7 @@ U_Show_T::
 	applymovement LOCALID_T, Went_Away_U_T_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x27D
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -1544,7 +1544,7 @@ U_U_Sign::
 	lockall
 	msgbox U_U_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x27E, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_U_Check_Flag
 	end
 
@@ -1565,7 +1565,7 @@ U_Show_U::
 	applymovement LOCALID_U, Went_Away_U_U_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x27E
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -1616,7 +1616,7 @@ U_V_Sign::
 	lockall
 	msgbox U_V_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x27F, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_V_Check_Flag
 	end
 
@@ -1637,7 +1637,7 @@ U_Show_V::
 	applymovement LOCALID_V, Went_Away_U_V_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x27F
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -1688,7 +1688,7 @@ U_W_Sign::
 	lockall
 	msgbox U_W_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x280, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_W_Check_Flag
 	end
 
@@ -1709,7 +1709,7 @@ U_Show_W::
 	applymovement LOCALID_W, Went_Away_U_W_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x280
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -1762,7 +1762,7 @@ U_X_Sign::
 	lockall
 	msgbox U_X_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x281, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_X_Check_Flag
 	end
 
@@ -1783,7 +1783,7 @@ U_Show_X::
 	applymovement LOCALID_X, Went_Away_U_X_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x281
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -1830,7 +1830,7 @@ U_Y_Sign::
 	lockall
 	msgbox U_Y_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x282, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_Y_Check_Flag
 	end
 
@@ -1851,7 +1851,7 @@ U_Show_Y::
 	applymovement LOCALID_Y, Went_Away_U_Y_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x282
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -1903,7 +1903,7 @@ U_Z_Sign::
 	lockall
 	msgbox U_Z_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x283, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_Z_Check_Flag
 	end
 
@@ -1924,7 +1924,7 @@ U_Show_Z::
 	applymovement LOCALID_Z, Went_Away_U_Z_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x283
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -1976,7 +1976,7 @@ U_EM_Sign::
 	lockall
 	msgbox U_EM_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x284, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_EM_Check_Flag
 	end
 
@@ -1997,7 +1997,7 @@ U_Show_EM::
 	applymovement LOCALID_EM, Went_Away_U_EM_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x284
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining
@@ -2048,7 +2048,7 @@ U_QM_Sign::
 	lockall
 	msgbox U_QM_Text, MSGBOX_SIGN
 	closemessage
-	goto_if_set FLAG_UNUSED_0x285, Test_Event_Check_U_Remaining
+
 	goto_if_set FLAG_COLLECTED_ALL_GOLD_SYMBOLS, U_Show_QM_Check_Flag
 	end
 
@@ -2069,7 +2069,7 @@ U_Show_QM::
 	applymovement LOCALID_QM, Went_Away_U_QM_Movement
 	waitmovement 0
 	subvar VAR_TEST, 1
-	setflag FLAG_UNUSED_0x285
+
 	callnative UpdateFollowingPokemon
 	goto_if_eq VAR_TEST, 0, Test_Event_All_U_Found
 	goto Test_Event_Check_U_Remaining

@@ -2,7 +2,7 @@
   "id": "MAP_ONE_ISLAND_KINDLE_ROAD",
   "name": "OneIsland_KindleRoad",
   "layout": "LAYOUT_ONE_ISLAND_KINDLE_ROAD",
-  "music": "MUS_ROUTE3",
+  "music": "MUS_RG_ROUTE3",
   "region_map_section": "MAPSEC_KINDLE_ROAD",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -11,6 +11,7 @@
   "allow_escaping": false,
   "allow_running": true,
   "show_map_name": true,
+  "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
@@ -21,6 +22,7 @@
   ],
   "object_events": [
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F_WATER",
       "x": 11,
       "y": 32,
@@ -31,10 +33,10 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "OneIsland_KindleRoad_EventScript_Maria",
-      "flag": "0",
-      "type": "object"
+      "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F_LAND",
       "x": 17,
       "y": 132,
@@ -45,10 +47,10 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "OneIsland_KindleRoad_EventScript_Abigail",
-      "flag": "0",
-      "type": "object"
+      "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M_WATER",
       "x": 7,
       "y": 39,
@@ -59,10 +61,10 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "OneIsland_KindleRoad_EventScript_Finn",
-      "flag": "0",
-      "type": "object"
+      "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M_LAND",
       "x": 19,
       "y": 79,
@@ -73,10 +75,10 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "OneIsland_KindleRoad_EventScript_Garrett",
-      "flag": "0",
-      "type": "object"
+      "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_FISHER",
       "x": 15,
       "y": 25,
@@ -87,10 +89,10 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "OneIsland_KindleRoad_EventScript_Tommy",
-      "flag": "0",
-      "type": "object"
+      "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BATTLE_GIRL",
       "x": 9,
       "y": 53,
@@ -101,10 +103,10 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "OneIsland_KindleRoad_EventScript_Sharon",
-      "flag": "0",
-      "type": "object"
+      "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BATTLE_GIRL",
       "x": 18,
       "y": 105,
@@ -115,10 +117,10 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "OneIsland_KindleRoad_EventScript_Tanya",
-      "flag": "0",
-      "type": "object"
+      "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BLACKBELT",
       "x": 16,
       "y": 64,
@@ -129,10 +131,10 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "OneIsland_KindleRoad_EventScript_Shea",
-      "flag": "0",
-      "type": "object"
+      "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BLACKBELT",
       "x": 11,
       "y": 64,
@@ -143,10 +145,10 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "OneIsland_KindleRoad_EventScript_Hugh",
-      "flag": "0",
-      "type": "object"
+      "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CAMPER",
       "x": 11,
       "y": 89,
@@ -157,10 +159,10 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "OneIsland_KindleRoad_EventScript_Bryce",
-      "flag": "0",
-      "type": "object"
+      "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
       "x": 9,
       "y": 108,
@@ -171,10 +173,10 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "OneIsland_KindleRoad_EventScript_Claire",
-      "flag": "0",
-      "type": "object"
+      "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BLACKBELT",
       "x": 8,
       "y": 68,
@@ -185,10 +187,10 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "OneIsland_KindleRoad_EventScript_Mik",
-      "flag": "0",
-      "type": "object"
+      "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BATTLE_GIRL",
       "x": 9,
       "y": 68,
@@ -199,10 +201,10 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "OneIsland_KindleRoad_EventScript_Kia",
-      "flag": "0",
-      "type": "object"
+      "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 8,
       "y": 104,
@@ -213,10 +215,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_13",
-      "type": "object"
+      "flag": "FLAG_TEMP_13"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 11,
       "y": 95,
@@ -227,10 +229,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_15",
-      "type": "object"
+      "flag": "FLAG_TEMP_15"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 12,
       "y": 96,
@@ -241,10 +243,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_16",
-      "type": "object"
+      "flag": "FLAG_TEMP_16"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 10,
       "y": 95,
@@ -255,10 +257,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_17",
-      "type": "object"
+      "flag": "FLAG_TEMP_17"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 9,
       "y": 105,
@@ -269,10 +271,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_18",
-      "type": "object"
+      "flag": "FLAG_TEMP_18"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 15,
       "y": 75,
@@ -283,10 +285,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_19",
-      "type": "object"
+      "flag": "FLAG_TEMP_19"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 9,
       "y": 84,
@@ -297,10 +299,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_1A",
-      "type": "object"
+      "flag": "FLAG_TEMP_1A"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 15,
       "y": 74,
@@ -311,10 +313,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_1B",
-      "type": "object"
+      "flag": "FLAG_TEMP_1B"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 15,
       "y": 73,
@@ -325,10 +327,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_1C",
-      "type": "object"
+      "flag": "FLAG_TEMP_1C"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 18,
       "y": 111,
@@ -339,10 +341,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_1D",
-      "type": "object"
+      "flag": "FLAG_TEMP_1D"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 10,
       "y": 86,
@@ -353,10 +355,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_1E",
-      "type": "object"
+      "flag": "FLAG_TEMP_1E"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 9,
       "y": 110,
@@ -367,10 +369,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_1F",
-      "type": "object"
+      "flag": "FLAG_TEMP_1F"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 18,
       "y": 112,
@@ -381,10 +383,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_RockSmash",
-      "flag": "FLAG_TEMP_11",
-      "type": "object"
+      "flag": "FLAG_TEMP_11"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 15,
       "y": 70,
@@ -395,10 +397,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "OneIsland_KindleRoad_EventScript_ItemEther",
-      "flag": "FLAG_HIDE_ONE_ISLAND_KINDLE_ROAD_ETHER",
-      "type": "object"
+      "flag": "FLAG_HIDE_ONE_ISLAND_KINDLE_ROAD_ETHER"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 17,
       "y": 103,
@@ -409,10 +411,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "OneIsland_KindleRoad_EventScript_ItemMaxRepel",
-      "flag": "FLAG_HIDE_ONE_ISLAND_KINDLE_ROAD_MAX_REPEL",
-      "type": "object"
+      "flag": "FLAG_HIDE_ONE_ISLAND_KINDLE_ROAD_MAX_REPEL"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 18,
       "y": 114,
@@ -423,8 +425,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "OneIsland_KindleRoad_EventScript_ItemCarbos",
-      "flag": "FLAG_HIDE_ONE_ISLAND_KINDLE_ROAD_CARBOS",
-      "type": "object"
+      "flag": "FLAG_HIDE_ONE_ISLAND_KINDLE_ROAD_CARBOS"
     }
   ],
   "warp_events": [
@@ -432,27 +433,25 @@
       "x": 11,
       "y": 6,
       "elevation": 3,
-      "dest_map": "MAP_DYNAMIC",
+      "dest_map": "MAP_MT_EMBER_EXTERIOR",
       "dest_warp_id": "0"
     },
     {
       "x": 12,
       "y": 6,
       "elevation": 3,
-      "dest_map": "MAP_DYNAMIC",
+      "dest_map": "MAP_MT_EMBER_EXTERIOR",
       "dest_warp_id": "1"
     },
     {
       "x": 15,
       "y": 58,
       "elevation": 3,
-      "dest_map": "MAP_DYNAMIC",
+      "dest_map": "MAP_ONE_ISLAND_KINDLE_ROAD_EMBER_SPA",
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",
@@ -470,6 +469,5 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "OneIsland_KindleRoad_EventScript_RouteSign"
     }
-  ],
-  "floor_number": 0
+  ]
 }

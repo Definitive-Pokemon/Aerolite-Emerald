@@ -1167,6 +1167,8 @@ static void RegionMap_InitializeStateBasedOnSSTidalLocation(void)
 
 static u8 GetMapsecType(u16 mapSecId)
 {
+
+    // TODO!
     switch (mapSecId)
     {
     case MAPSEC_NONE:

@@ -99,35 +99,35 @@
 #define VAR_LOTAD_SIZE_RECORD                            0x404F
 #define VAR_LITTLEROOT_TOWN_STATE                        0x4050
 #define VAR_OLDALE_TOWN_STATE                            0x4051
-#define VAR_DEWFORD_TOWN_STATE                           0x4052 // Unused Var
+#define VAR_MAP_SCENE_ONE_ISLAND_HARBOR                          0x4052 // RG
 #define VAR_LAVARIDGE_TOWN_STATE                         0x4053
 #define VAR_CURRENT_SECRET_BASE                          0x4054 // was probably allocated for VAR_FALLARBOR_TOWN_STATE at one point
-#define VAR_VERDANTURF_TOWN_STATE                        0x4055 // Unused Var
-#define VAR_PACIFIDLOG_TOWN_STATE                        0x4056 // Unused Var
+#define VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F                      0x4055 // RG
+#define VAR_MAP_SCENE_TWO_ISLAND                     0x4056 // RG
 #define VAR_PETALBURG_CITY_STATE                         0x4057
 #define VAR_SLATEPORT_CITY_STATE                         0x4058
-#define VAR_MAUVILLE_CITY_STATE                          0x4059 // Unused Var
+#define VAR_MAP_SCENE_TWO_ISLAND_JOYFUL_GAME_CORNER       0x4059 // RG
 #define VAR_RUSTBORO_CITY_STATE                          0x405A
-#define VAR_FORTREE_CITY_STATE                           0x405B // Unused Var
-#define VAR_LILYCOVE_CITY_STATE                          0x405C // Unused Var
+#define VAR_MAP_SCENE_THREE_ISLAND                      0x405B // RG
+#define VAR_MAP_SCENE_FOUR_ISLAND                      0x405C // RG
 #define VAR_MOSSDEEP_CITY_STATE                          0x405D
 #define VAR_SOOTOPOLIS_CITY_STATE                        0x405E
-#define VAR_EVER_GRANDE_CITY_STATE                       0x405F // Unused Var
+#define VAR_MAP_SCENE_ROCKET_WAREHOUSE                   0x405F // RG
 #define VAR_ROUTE101_STATE                               0x4060
-#define VAR_ROUTE102_STATE                               0x4061 // Unused Var
-#define VAR_ROUTE103_STATE                               0x4062 // Unused Var
+#define VAR_MAP_SCENE_FIVE_ISLAND_LOST_CAVE_ROOM10              0x4061 // RG
+#define VAR_MAP_SCENE_FIVE_ISLAND_RESORT_GORGEOUS             0x4062 // RG
 #define VAR_ROUTE104_STATE                               0x4063
 #define VAR_SURF_MON_SLOT                                0x4064 // Replaced unused 'VAR_ROUTE105_STATE' for Surfing Overworlds
 #define VAR_FREEZE_SURF_BLOB                             0x4065 // Replaced unused 'VAR_ROUTE106_STATE' for Surfing Overworlds - Set on surf init to stop blob overlay being offset incorrectly
-#define VAR_ROUTE107_STATE                               0x4066 // Unused Var
-#define VAR_ROUTE108_STATE                               0x4067 // Unused Var
-#define VAR_ROUTE109_STATE                               0x4068 // Unused Var
+#define VAR_RESORT_GORGEOUS_REWARD                       0x4066 // RG
+#define VAR_RESORT_GORGEOUS_REQUESTED_MON                     0x4067 // RG
+#define VAR_MAP_SCENE_ICEFALL_CAVE_BACK                 0x4068 // RG
 #define VAR_ROUTE110_STATE                               0x4069
-#define VAR_ROUTE111_STATE                               0x406A // Unused Var
-#define VAR_ROUTE112_STATE                               0x406B // Unused Var
-#define VAR_ROUTE113_STATE                               0x406C // Unused Var
-#define VAR_ROUTE114_STATE                               0x406D // Unused Var
-#define VAR_ROUTE115_STATE                               0x406E // Unused Var
+#define VAR_MAP_SCENE_MT_EMBER_EXTERIOR                    0x406A // RG
+#define VAR_MAP_SCENE_SEVEN_ISLAND_HOUSE_ROOM1                0x406B // RG
+#define VAR_MAP_SCENE_TRAINER_TOWER                     0x406C // RG
+#define VAR_MAP_SCENE_SIX_ISLAND_POKEMON_CENTER_1F             0x406D // RG
+#define VAR_ELEVATOR_FLOOR                       0x406E // RG
 #define VAR_ROUTE116_STATE                               0x406F
 #define VAR_ROUTE117_STATE                               0x4070 // Unused Var
 #define VAR_ROUTE118_STATE                               0x4071

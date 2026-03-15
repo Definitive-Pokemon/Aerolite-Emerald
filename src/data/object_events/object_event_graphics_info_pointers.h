@@ -269,7 +269,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayWatering
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayDecorating_RS;
 
 
-const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
+const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[EXT_OBJ_EVENT_GFX_END] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
     [OBJ_EVENT_GFX_BRENDAN_MACH_BIKE] =        &gObjectEventGraphicsInfo_BrendanMachBike,
     [OBJ_EVENT_GFX_BRENDAN_SURFING] =          &gObjectEventGraphicsInfo_BrendanSurfing,
@@ -532,6 +532,17 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_MAY_FISHING_RS] =           &gObjectEventGraphicsInfo_MayFishing_RS,
     [OBJ_EVENT_GFX_MAY_WATERING_RS] =          &gObjectEventGraphicsInfo_MayWatering_RS,
     [OBJ_EVENT_GFX_MAY_DECORATING_RS] =        &gObjectEventGraphicsInfo_MayDecorating_RS,
+    [OBJ_EVENT_GFX_ROCKET_M] =                 &gObjectEventGraphicsInfo_Fossil,
+    [OBJ_EVENT_GFX_ROCKET_F] =                 &gObjectEventGraphicsInfo_Fossil,
+    [OBJ_EVENT_GFX_BIKER] =                    &gObjectEventGraphicsInfo_Fossil,
+    [OBJ_EVENT_BATTLE_GIRL] =                  &gObjectEventGraphicsInfo_Fossil,
+    [OBJ_EVENT_TRAINER_TOWER_DUDE] =           &gObjectEventGraphicsInfo_Fossil,
+    [OBJ_EVENT_GFX_LORELEI] =                  &gObjectEventGraphicsInfo_Fossil,
+    [OBJ_EVENT_GFX_BILL] =                     &gObjectEventGraphicsInfo_Fossil,
+    [OBJ_EVENT_GFX_CELIO] =                    &gObjectEventGraphicsInfo_Fossil,
+    [OBJ_EVENT_GFX_SEAGALLOP] =                &gObjectEventGraphicsInfo_Fossil,
+    [OBJ_EVENT_GFX_RUBY] =                     &gObjectEventGraphicsInfo_Fossil,
+    [OBJ_EVENT_GFX_SAPPHIRE] =                 &gObjectEventGraphicsInfo_Fossil,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {
