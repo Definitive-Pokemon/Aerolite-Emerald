@@ -4,7 +4,8 @@ FiveIsland_House2_MapScripts::
 FiveIsland_House2_EventScript_OldMan::
 	msgbox FiveIsland_House2_Text_MeadowBelongedToFamily, MSGBOX_NPC
 	end
-FiveIsland_House2_Text_MeadowBelongedToFamily::
+
+FiveIsland_House2_Text_MeadowBelongedToFamily:
     .string "That MEADOW has belonged to our\n"
     .string "family for generations.\p"
     .string "I should have had a giant mansion\n"

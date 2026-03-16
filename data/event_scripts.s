@@ -1053,6 +1053,7 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/text/trainers.inc"
 	.include "data/scripts/repel.inc"
 	.include "data/scripts/safari_zone.inc"
+	.include "data/scripts/seagallop.inc"
 	.include "data/scripts/roulette.inc"
 	.include "data/text/pokedex_rating.inc"
 	.include "data/text/lottery_corner.inc"

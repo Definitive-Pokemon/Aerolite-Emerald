@@ -7,7 +7,7 @@ ThreeIsland_Mart_EventScript_Clerk::
 	message Text_MayIHelpYou
 	waitmessage
 	pokemart ThreeIsland_Mart_Items
-	msgbox Text_PleaseComeAgain
+	msgbox gText_PleaseComeAgain
 	release
 	end
 

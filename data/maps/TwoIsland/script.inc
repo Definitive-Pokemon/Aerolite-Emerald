@@ -109,7 +109,7 @@ TwoIsland_EventScript_ClerkShopSkipIntro::
 
 TwoIsland_EventScript_ShopInitial::
 	pokemart TwoIsland_Items_ShopInitial
-	msgbox Text_PleaseComeAgain
+	msgbox gText_PleaseComeAgain
 	release
 	end
 
@@ -123,7 +123,7 @@ TwoIsland_Items_ShopInitial::
 
 TwoIsland_EventScript_ShopExpanded1::
 	pokemart TwoIsland_Items_ShopExpanded1
-	msgbox Text_PleaseComeAgain
+	msgbox gText_PleaseComeAgain
 	release
 	end
 
@@ -139,7 +139,7 @@ TwoIsland_Items_ShopExpanded1::
 
 TwoIsland_EventScript_ShopExpanded2::
 	pokemart TwoIsland_Items_ShopExpanded2
-	msgbox Text_PleaseComeAgain
+	msgbox gText_PleaseComeAgain
 	release
 	end
 
@@ -157,7 +157,7 @@ TwoIsland_Items_ShopExpanded2::
 
 TwoIsland_EventScript_ShopExpanded3::
 	pokemart TwoIsland_Items_ShopExpanded3
-	msgbox Text_PleaseComeAgain
+	msgbox gText_PleaseComeAgain
 	release
 	end
 

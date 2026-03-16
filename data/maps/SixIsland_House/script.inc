@@ -4,6 +4,7 @@ SixIsland_House_MapScripts::
 SixIsland_House_EventScript_OldMan::
 	msgbox SixIsland_House_Text_GoodPlaceForNatureAndHistory, MSGBOX_NPC
 	end
+    
 SixIsland_House_Text_GoodPlaceForNatureAndHistory::
     .string "There's nothing that young people'd\n"
     .string "find exciting here on this island.\p"
