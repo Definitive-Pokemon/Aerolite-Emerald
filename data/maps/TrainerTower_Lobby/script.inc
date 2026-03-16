@@ -126,7 +126,7 @@ TrainerTower_Lobby_EventScript_MartClerk::
 	message Text_MayIHelpYou
 	waitmessage
 	pokemart TrainerTower_Lobby_Mart_Items
-	msgbox gText_PleaseComeAgain
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 

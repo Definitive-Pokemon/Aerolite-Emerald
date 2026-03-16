@@ -7,7 +7,7 @@ FourIsland_Mart_EventScript_Clerk::
 	message Text_MayIHelpYou
 	waitmessage
 	pokemart FourIsland_Mart_Items
-	msgbox gText_PleaseComeAgain
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
