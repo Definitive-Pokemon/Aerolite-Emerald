@@ -99,7 +99,7 @@ TwoIsland_EventScript_ClerkShopInitial::
 	end
 
 TwoIsland_EventScript_ClerkShopSkipIntro::
-	message Text_MayIHelpYou
+	message gText_HowMayIServeYou
 	waitmessage
 	goto_if_eq VAR_MAP_SCENE_TWO_ISLAND, 4, TwoIsland_EventScript_ShopExpanded3
 	goto_if_eq VAR_MAP_SCENE_TWO_ISLAND, 3, TwoIsland_EventScript_ShopExpanded2

@@ -123,7 +123,7 @@ TrainerTower_Lobby_EventScript_ReceptionistEnd::
 TrainerTower_Lobby_EventScript_MartClerk::
 	lock
 	faceplayer
-	message Text_MayIHelpYou
+	message gText_HowMayIServeYou
 	waitmessage
 	pokemart TrainerTower_Lobby_Mart_Items
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT

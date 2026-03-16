@@ -4,7 +4,7 @@ ThreeIsland_Mart_MapScripts::
 ThreeIsland_Mart_EventScript_Clerk::
 	lock
 	faceplayer
-	message Text_MayIHelpYou
+	message gText_HowMayIServeYou
 	waitmessage
 	pokemart ThreeIsland_Mart_Items
 	msgbox gText_PleaseComeAgain

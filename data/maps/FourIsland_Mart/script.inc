@@ -4,7 +4,7 @@ FourIsland_Mart_MapScripts::
 FourIsland_Mart_EventScript_Clerk::
 	lock
 	faceplayer
-	message Text_MayIHelpYou
+	message gText_HowMayIServeYou
 	waitmessage
 	pokemart FourIsland_Mart_Items
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT

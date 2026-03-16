@@ -4,10 +4,10 @@ SevenIsland_Mart_MapScripts::
 SevenIsland_Mart_EventScript_Clerk::
 	lock
 	faceplayer
-	message Text_MayIHelpYou
+	message gText_HowMayIServeYou
 	waitmessage
 	pokemart SevenIsland_Mart_Items
-	msgbox gText_PleaseComeAgain
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
@@ -37,6 +37,7 @@ SevenIsland_Mart_EventScript_Hiker::
 SevenIsland_Mart_EventScript_Fisher::
 	msgbox SevenIsland_Mart_Text_NeedToFishOnSevenIsland, MSGBOX_NPC
 	end
+
 SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn::
     .string "POKéMON have personalities of their\n"
     .string "own, just like people.\p"

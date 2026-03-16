@@ -4,7 +4,7 @@ SixIsland_Mart_MapScripts::
 SixIsland_Mart_EventScript_Clerk::
 	lock
 	faceplayer
-	message Text_MayIHelpYou
+	message gText_HowMayIServeYou
 	waitmessage
 	pokemart SixIsland_Mart_Items
 	msgbox gText_PleaseComeAgain
