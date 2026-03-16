@@ -37,7 +37,6 @@ EventScript_SailToThreeIsland2::
 
 EventScript_ChooseDestFromIsland::
 	goto_if_ge VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 5, EventScript_SeviiDestinationsPage1
-	goto_if_ge VAR_MAP_SCENE_CINNABAR_ISLAND, 4, EventScript_ChooseDestFromIslandVermilionAllowed
 	multichoice 19, 6, MULTI_SEAGALLOP_12, FALSE
 	switch VAR_RESULT
 	case 0, EventScript_SailToOneIsland2
@@ -66,30 +65,14 @@ EventScript_DepartingNotVermilion::
 EventScript_SetSail::
 	closemessage
 	delay 20
-	goto_if_questlog EventScript_ReleaseEnd
-	special QuestLog_CutRecording
 	fadescreen FADE_TO_BLACK
 	special DoSeagallopFerryScene
 	waitstate
 	end
 
 EventScript_CancelSail::
-	specialvar VAR_RESULT, IsPlayerLeftOfVermilionSailor
-	goto_if_eq VAR_RESULT, TRUE, VermilionCity_EventScript_WalkUpPier
 	release
 	end
-
-VermilionCity_EventScript_WalkUpPier::
-	closemessage
-	applymovement LOCALID_VERMILION_FERRY_SAILOR, Common_Movement_FaceOriginalDirection
-	applymovement LOCALID_PLAYER, VermilionCity_Movement_WalkUp
-	waitmovement 0
-	releaseall
-	end
-
-VermilionCity_Movement_WalkUp::
-	walk_up
-	step_end
 
 EventScript_SeviiDestinationsPage1::
 	setvar VAR_0x8005, 0

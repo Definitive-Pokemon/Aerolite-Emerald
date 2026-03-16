@@ -7,6 +7,7 @@
 #include "constants/battle_factory.h"
 #include "constants/battle_frontier.h"
 #include "constants/battle_palace.h"
+#include "constants/seagallop.h"
 #include "constants/battle_pike.h"
 #include "constants/battle_pyramid.h"
 #include "constants/battle_setup.h"
