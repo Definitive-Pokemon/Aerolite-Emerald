@@ -58,7 +58,7 @@ OneIsland_PokemonCenter_1F_OnFrame::
 
 OneIsland_PokemonCenter_1F_EventScript_MeetCelioScene::
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+	@textcolor NPC_TEXT_COLOR_MALE
 	applymovement OBJ_EVENT_ID_PLAYER, OneIsland_PokemonCenter_1F_Movement_PlayerWalkToCelio
 	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, OneIsland_PokemonCenter_1F_Movement_BillWalkToCelio
 	waitmovement 0
@@ -437,7 +437,7 @@ OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerBottom::
 	end
 
 OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandScene::
-	textcolor NPC_TEXT_COLOR_MALE
+	@textcolor NPC_TEXT_COLOR_MALE
 	playse SE_PIN
 	applymovement LOCALID_ONE_ISLAND_POKEMON_CENTER_BILL, Common_Movement_ExclamationMark
 	waitmovement 0

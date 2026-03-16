@@ -33,7 +33,7 @@ SevenIsland_House_Room1_OnFrame::
 
 SevenIsland_House_Room1_EventScript_OldWomanCommentOnBattle::
 	lockall
-	textcolor NPC_TEXT_COLOR_FEMALE
+	@textcolor NPC_TEXT_COLOR_FEMALE
 	applymovement LOCALID_PLAYER, SevenIsland_House_Room1_Movement_PlayerReEnterRoom
 	waitmovement 0
 	applymovement LOCALID_SEVEN_ISLAND_HOUSE_OLD_WOMAN, SevenIsland_House_Room1_Movement_OldWomanWalkBehindPlayer

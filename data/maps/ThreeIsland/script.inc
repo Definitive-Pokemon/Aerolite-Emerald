@@ -145,7 +145,7 @@ ThreeIsland_EventScript_AntiBiker2BikersGone::
 
 ThreeIsland_EventScript_BikerBossIntroTrigger::
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+	@textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_THREE_ISLAND_ANTIBIKER1, ThreeIsland_Movement_SpeakRight
 	waitmovement 0
 	msgbox ThreeIsland_Text_AreYouBossGoBackToKanto
@@ -204,7 +204,7 @@ ThreeIsland_EventScript_BattleBikersTriggerRight::
 	end
 
 ThreeIsland_EventScript_BattleBikersScene::
-	textcolor NPC_TEXT_COLOR_MALE
+	@textcolor NPC_TEXT_COLOR_MALE
 	applymovement LOCALID_THREE_ISLAND_BIKER1, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	playse SE_PIN
