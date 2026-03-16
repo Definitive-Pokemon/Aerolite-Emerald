@@ -57,8 +57,6 @@
 #define MAP_ROUTE132                  (48 | (0 << 8))
 #define MAP_ROUTE133                  (49 | (0 << 8))
 #define MAP_ROUTE134                  (50 | (0 << 8))
-#define MAP_ONE_ISLAND_KINDLE_ROAD    (51 | (0 << 8))
-#define MAP_ONE_ISLAND_TREASURE_BEACH (52 | (0 << 8))
 #define MAP_UNDERWATER_ROUTE124       (53 | (0 << 8))
 #define MAP_UNDERWATER_ROUTE126       (54 | (0 << 8))
 #define MAP_UNDERWATER_ROUTE127       (55 | (0 << 8))
@@ -632,13 +630,6 @@
 
 // gMapGroup_IndoorRoute124
 #define MAP_ROUTE124_DIVING_TREASURE_HUNTERS_HOUSE (0 | (33 << 8))
-
-// gMapGroup_IndoorOneIsland
-#define MAP_ONE_ISLAND_POKEMON_CENTER_1F (0 | (34 << 8))
-#define MAP_ONE_ISLAND_POKEMON_CENTER_2F (1 | (34 << 8))
-#define MAP_ONE_ISLAND_HOUSE1            (2 | (34 << 8))
-#define MAP_ONE_ISLAND_HOUSE2            (3 | (34 << 8))
-#define MAP_ONE_ISLAND_HARBOR            (4 | (34 << 8))
 
 #define MAP_GROUPS_COUNT 35
 

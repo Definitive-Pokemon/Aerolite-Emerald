@@ -99,8 +99,6 @@
     "Route132",
     "Route133",
     "Route134",
-    "OneIsland_KindleRoad",
-    "OneIsland_TreasureBeach",
     "Underwater_Route124",
     "Underwater_Route126",
     "Underwater_Route127",
@@ -717,8 +715,7 @@
     "SevenIsland_TanobyRuins_ViapoisChamber",
     "ThreeIsland_DunsparceTunnel",
     "SevenIsland_SevaultCanyon_TanobyKey",
-    "OneIsland_KindleRoad_EmberSpa",
-    "BirthIsland_Harbor"
+    "OneIsland_KindleRoad_EmberSpa"
   ],
   "gMapGroup_IndoorRoute104Prototype": [
     "Route104_Prototype",
