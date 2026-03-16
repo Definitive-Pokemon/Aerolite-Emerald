@@ -1716,6 +1716,7 @@ const u8 gText_1BigMushroom[] = _("1 BIG MUSHROOM");
 const u8 gText_OneIsland[] = _("ONE ISLAND");
 const u8 gText_TwoIsland[] = _("TWO ISLAND");
 const u8 gText_ThreeIsland[] = _("THREE ISLAND");
+const u8 gText_Knockout[] = _("KNOCKOUT");
 
 const u8 *const gTextTable_Players[] = {
     gText_F700Players,

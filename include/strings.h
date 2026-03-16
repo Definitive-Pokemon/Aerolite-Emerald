@@ -3217,6 +3217,7 @@ extern const u8 gText_UnitSystemMetric[];   //tx_optionsPlus
 extern const u8 gText_UnitSystemImperial[]; //tx_optionsPlus
 extern const u8 gText_Var1DotVar2_Metric[];
 
+extern const u8 gText_Knockout[];
 extern const u8 gText_Mixed[];
 extern const u8 gText_2Tinymushrooms[];
 extern const u8 gText_1BigMushroom[];
