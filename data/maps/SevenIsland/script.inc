@@ -1,3 +1,5 @@
+.set LOCALID_SWORDS_DANCE_TUTOR, 1
+
 SevenIsland_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, SevenIsland_OnTransition
 	.byte 0
