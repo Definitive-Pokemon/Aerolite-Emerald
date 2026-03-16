@@ -798,6 +798,43 @@ static const struct MenuAction MultichoiceList_TagGamemode[] =
     {gText_Modern},
 };
 
+static const struct MenuAction MultichoiceList_Island23[] = {
+    {gText_TwoIsland},
+    {gText_ThreeIsland},
+    {gText_Exit}
+};
+
+static const struct MenuAction MultichoiceList_Island13[] = {
+    {gText_OneIsland},
+    {gText_ThreeIsland},
+    {gText_Exit}
+};
+
+static const struct MenuAction MultichoiceList_Island12[] = {
+    {gText_OneIsland},
+    {gText_TwoIsland},
+    {gText_Exit}
+};
+
+static const struct MenuAction MultichoiceList_Mushrooms[] = {
+    {gText_2Tinymushrooms},
+    {gText_1BigMushroom}
+};
+
+static const struct MenuAction MultichoiceList_TrainerTowerMode[] = {
+    {gText_Single2},
+    {gText_Double2},
+    {gText_Knockout},
+    {gText_Mixed},
+    {gText_Exit}
+};
+
+static const struct MenuAction MultichoiceList_RooftopB1F[] = {
+    {gText_Rooftop},
+    {gText_B1F},
+    {gText_Exit}
+};
+
 static const struct MenuAction MultichoiceList_Exit[] =
 {
     {gText_Exit},
@@ -925,7 +962,12 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_SLATEPORT_TENT_RULES]       = MULTICHOICE(MultichoiceList_SlateportTentRules),
     [MULTI_FALLARBOR_TENT_RULES]       = MULTICHOICE(MultichoiceList_FallarborTentRules),
     [MULTI_TAG_MATCH_TYPE]             = MULTICHOICE(MultichoiceList_TagMatchType),
-    [MULTI_GAME_CORNER_DOLLS2]          = MULTICHOICE(MultichoiceList_GameCornerDolls2),
+    [MULTI_TRAINER_TOWER_ELEVATOR]     = MULTICHOICE(MultichoiceList_RooftopB1F),
+    [MULTI_TRAINER_TOWER_CHOICE]       = MULTICHOICE(MultichoiceList_TrainerTowerMode),
+    [MULTI_MUSHROOMS]                  = MULTICHOICE(MultichoiceList_Mushrooms),
+    [MULTI_SEAGALLOP_12]               = MULTICHOICE(MultichoiceList_Island12),
+    [MULTI_SEAGALLOP_23]               = MULTICHOICE(MultichoiceList_Island23),
+    [MULTI_SEAGALLOP_13]               = MULTICHOICE(MultichoiceList_Island13),
 };
 
 const u8 *const gStdStrings[] =

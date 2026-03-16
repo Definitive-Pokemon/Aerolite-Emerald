@@ -1710,6 +1710,12 @@ const u8 gText_F700Players[] = _("{DYNAMIC 0} players");
 const u8 gText_F701Players[] = _("{DYNAMIC 1} players");
 const u8 gText_F702Players[] = _("{DYNAMIC 2} players");
 const u8 gText_F703Players[] = _("{DYNAMIC 3} players");
+const u8 gText_Mixed[] = _("MIXED");
+const u8 gText_2Tinymushrooms[] = _("2 TINYMUSHROOMS");
+const u8 gText_1BigMushroom[] = _("1 BIG MUSHROOM");
+const u8 gText_OneIsland[] = _("ONE ISLAND");
+const u8 gText_TwoIsland[] = _("TWO ISLAND");
+const u8 gText_ThreeIsland[] = _("THREE ISLAND");
 
 const u8 *const gTextTable_Players[] = {
     gText_F700Players,
