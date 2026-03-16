@@ -753,13 +753,6 @@
   "gMapGroup_IndoorRoute124": [
     "Route124_DivingTreasureHuntersHouse"
   ],
-  "gMapGroup_IndoorOneIsland": [
-    "OneIsland_PokemonCenter_1F",
-    "OneIsland_PokemonCenter_2F",
-    "OneIsland_House1",
-    "OneIsland_House2",
-    "OneIsland_Harbor"
-  ],
   "gMapGroup_IndoorSevenIsland": [
     "SevenIsland_House_Room1",
     "SevenIsland_House_Room2",
@@ -768,6 +761,13 @@
     "SevenIsland_PokemonCenter_2F",
     "SevenIsland_UnusedHouse",
     "SevenIsland_Harbor"
+  ],
+  "gMapGroup_IndoorOneIsland": [
+    "OneIsland_PokemonCenter_1F",
+    "OneIsland_PokemonCenter_2F",
+    "OneIsland_House1",
+    "OneIsland_House2",
+    "OneIsland_Harbor"
   ],
   "gMapGroup_IndoorTwoIsland": [
     "TwoIsland_JoyfulGameCorner",
