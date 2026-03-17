@@ -58,7 +58,7 @@ Island1_Main_EventScript_PokemonNetCenterSign::
 	end
 	
 Island1_Main_Text_BillProblemsBeingCaused::
-    .string "Hi there! You must be {Player}. I'm Bill,\n"
+    .string "Hi there! You must be {PLAYER}. I'm Bill,\n"
     .string "I've heard about you from some of my\p"
     .string "friends in Hoenn! It seems you've made\n"
     .string "quite the impression over there during\p"
