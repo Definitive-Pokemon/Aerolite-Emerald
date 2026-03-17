@@ -689,36 +689,36 @@
 #define FLAG_SURF_PICHU_OBTAINED  0x286 // Surf Pichu
 #define FLAG_RS_OUTFIT     0x287
 #define FLAG_OUTFIT_BOX_OBTAINED  0x288
-#define FLAG_UNUSED_0x289  0x289 // Unused Flag
-#define FLAG_UNUSED_0x28A  0x28A // Unused Flag
-#define FLAG_UNUSED_0x28B  0x28B // Unused Flag
-#define FLAG_UNUSED_0x28C  0x28C // Unused Flag
-#define FLAG_UNUSED_0x28D  0x28D // Unused Flag
-#define FLAG_UNUSED_0x28E  0x28E // Unused Flag
-#define FLAG_UNUSED_0x28F  0x28F // Unused Flag
-#define FLAG_UNUSED_0x290  0x290 // Unused Flag
-#define FLAG_UNUSED_0x291  0x291 // Unused Flag
-#define FLAG_UNUSED_0x292  0x292 // Unused Flag
-#define FLAG_UNUSED_0x293  0x293 // Unused Flag
-#define FLAG_UNUSED_0x294  0x294 // Unused Flag
-#define FLAG_UNUSED_0x295  0x295 // Unused Flag
-#define FLAG_UNUSED_0x296  0x296 // Unused Flag
-#define FLAG_UNUSED_0x297  0x297 // Unused Flag
-#define FLAG_UNUSED_0x298  0x298 // Unused Flag
-#define FLAG_UNUSED_0x299  0x299 // Unused Flag
-#define FLAG_UNUSED_0x29A  0x29A // Unused Flag
-#define FLAG_UNUSED_0x29B  0x29B // Unused Flag
-#define FLAG_UNUSED_0x29C  0x29C // Unused Flag
-#define FLAG_UNUSED_0x29D  0x29D // Unused Flag
-#define FLAG_UNUSED_0x29E  0x29E // Unused Flag
-#define FLAG_UNUSED_0x29F  0x29F // Unused Flag
-#define FLAG_UNUSED_0x2A0  0x2A0 // Unused Flag
-#define FLAG_UNUSED_0x2A1  0x2A1 // Unused Flag
-#define FLAG_UNUSED_0x2A2  0x2A2 // Unused Flag
-#define FLAG_UNUSED_0x2A3  0x2A3 // Unused Flag
-#define FLAG_UNUSED_0x2A4  0x2A4 // Unused Flag
-#define FLAG_UNUSED_0x2A5  0x2A5 // Unused Flag
-#define FLAG_UNUSED_0x2A6  0x2A6 // Unused Flag
+#define FLAG_ITEM_TREASURE_BEACH_STAR_DUST                          0x289
+#define FLAG_ITEM_TREASURE_BEACH_STAR_DUST_2                        0x28A
+#define FLAG_ITEM_TREASURE_BEACH_ULTRA_BALL                         0x28B
+#define FLAG_ITEM_TREASURE_BEACH_ULTRA_BALL_2                       0x28C
+#define FLAG_ITEM_TREASURE_BEACH_PEARL                              0x28D
+#define FLAG_ITEM_TREASURE_BEACH_PEARL_2                            0x28E
+#define FLAG_ITEM_TREASURE_BEACH_STAR_PIECE                         0x28F
+#define FLAG_ITEM_TREASURE_BEACH_BIG_PEARL                          0x290
+#define FLAG_VISITED_ONE_ISLAND_OLD                                 0x291 //reuse this maybe, SET IN SAVE ALREADY
+#define FLAG_ONE_ISLAND_HIDE_BILL                                   0x292
+#define FLAG_ITEM_KINDLE_ROAD_ETHER                                 0x293
+#define FLAG_ITEM_KINDLE_ROAD_MAX_REPEL                             0x294
+#define FLAG_ITEM_KINDLE_ROAD_CARBOS                                0x295
+#define FLAG_HIDE_MT_EMBER_EXTERIOR_GRUNTS                          0x296
+#define FLAG_ITEM_MT_EMBER_ULTRA_BALL                               0x297
+#define FLAG_ITEM_MT_EMBER_FIRE_STONE                               0x298
+#define FLAG_ITEM_MT_EMBER_DIRE_HIT                                 0x299
+#define FLAG_HIDDEN_ITEM_MT_EMBER_FIRE_STONE                        0x29A
+#define FLAG_HIDDEN_ITEM_MT_EMBER_ULTRA_BALL                        0x29B
+#define FLAG_MT_EMBER_HIDE_MOLTRES                                  0x29C
+#define FLAG_ITEM_CAPE_BRINK_RARE_CANDY                             0x29D
+#define FLAG_ITEM_CAPE_BRINK_PP_MAX                                 0x29E
+#define FLAG_TWO_ISLAND_HIDE_AQUA                                   0x29F 
+#define FLAG_TWO_ISLAND_HIDE_LOSTELLE                               0x2A0
+#define FLAG_TWO_ISLAND_HIDE_SHELLY                                 0x2A1
+#define FLAG_CAPE_BRINK_HIDE_AQUA                                   0x2A2
+#define FLAG_TWO_ISLAND_HIDE_SUICUNE                                0x2A3
+#define FLAG_TWO_ISLAND_HIDE_SHELLY_HARBOR                          0x2A4
+#define FLAG_THREE_ISLAND_HIDE_AQUA_BLOCKADE                        0x2A5
+#define FLAG_THREE_ISLAND_HIDE_AQUA                                 0x2A6
 #define FLAG_UNUSED_0x2A7  0x2A7 // Unused Flag
 #define FLAG_UNUSED_0x2A8  0x2A8 // Unused Flag
 #define FLAG_UNUSED_0x2A9  0x2A9 // Unused Flag
@@ -738,8 +738,10 @@
 #define FLAG_UNUSED_0x2B7  0x2B7 // Unused Flag
 #define FLAG_UNUSED_0x2B8  0x2B8 // Unused Flag
 #define FLAG_UNUSED_0x2B9  0x2B9 // Unused Flag
-#define FLAG_UNUSED_0x2BA  0x2BA // Unused Flag
-#define FLAG_UNUSED_0x2BB  0x2BB // Unused Flag
+#define FLAG_ISLAND1_COURTNEY_DEFEATED                              0x2BA
+#define FLAG_ISLAND1_TABITHA_DEFEATED                               0x2BB 
+
+
 
 // Event Flags
 #define FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG                      0x2BC
@@ -1384,13 +1386,13 @@
 #define FLAG_IS_CHAMPION                            (SYSTEM_FLAGS + 0x1F) // Seems to be related to linking.
 #define FLAG_NURSE_UNION_ROOM_REMINDER              (SYSTEM_FLAGS + 0x20)
 
-#define FLAG_UNUSED_0x881                           (SYSTEM_FLAGS + 0x21) // Unused Flag
-#define FLAG_UNUSED_0x882                           (SYSTEM_FLAGS + 0x22) // Unused Flag
-#define FLAG_UNUSED_0x883                           (SYSTEM_FLAGS + 0x23) // Unused Flag
-#define FLAG_UNUSED_0x884                           (SYSTEM_FLAGS + 0x24) // Unused Flag
-#define FLAG_UNUSED_0x885                           (SYSTEM_FLAGS + 0x25) // Unused Flag
-#define FLAG_UNUSED_0x886                           (SYSTEM_FLAGS + 0x26) // Unused Flag
-#define FLAG_UNUSED_0x887                           (SYSTEM_FLAGS + 0x27) // Unused Flag
+#define FLAG_VISITED_ONE_ISLAND                     (SYSTEM_FLAGS + 0x21) 
+#define FLAG_VISITED_TWO_ISLAND                     (SYSTEM_FLAGS + 0x22) 
+#define FLAG_VISITED_THREE_ISLAND                   (SYSTEM_FLAGS + 0x23) 
+#define FLAG_VISITED_FOUR_ISLAND                    (SYSTEM_FLAGS + 0x24) 
+#define FLAG_VISITED_FIVE_ISLAND                    (SYSTEM_FLAGS + 0x25) 
+#define FLAG_VISITED_SEVEN_ISLAND                   (SYSTEM_FLAGS + 0x26) 
+#define FLAG_VISITED_SIX_ISLAND                     (SYSTEM_FLAGS + 0x27)
 
 #define FLAG_SYS_USE_FLASH                          (SYSTEM_FLAGS + 0x28)
 #define FLAG_SYS_USE_STRENGTH                       (SYSTEM_FLAGS + 0x29)

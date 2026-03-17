@@ -1,0 +1,416 @@
+const LOCALID_CAPEBRINK_GRUNT = 10 
+const LOCALID_CAPEBRINK_SHELLY = 11 
+const LOCALID__SHELLY = 12 
+
+mapscripts Island2_Main_MapScripts {
+	MAP_SCRIPT_ON_FRAME_TABLE [
+		VAR_TWO_ISLAND_STATE, 1: Island2_Main_CutsceneFromGameCorner
+		VAR_TWO_ISLAND_STATE, 2: Island2_Main_CutsceneFromCapeBrink
+	]
+	MAP_SCRIPT_ON_TRANSITION {
+		setflag(FLAG_VISITED_TWO_ISLAND)
+		if(var(VAR_TWO_ISLAND_STATE) == 2)
+		{
+			special(StorePlayerCoordsInVars)
+			switch(var(VAR_0x8005)) {
+				case 8:
+					clearflag(FLAG_TWO_ISLAND_HIDE_AQUA)
+					clearflag(FLAG_TWO_ISLAND_HIDE_SHELLY)
+				case 10:
+					clearflag(FLAG_TWO_ISLAND_HIDE_SHELLY_HARBOR)
+			}
+		}
+		end
+	}
+}
+
+script Island2_Main_Merchant {
+	lockall
+	faceplayer
+	msgbox(format("Salutations traveler! I sell only the most exclusive of items, come have a look!"))
+	pokemart(Island2_Main_Mart)
+	releaseall
+	end
+}
+
+mart Island2_Main_Mart {
+	ITEM_SODA_POP
+	ITEM_FRESH_WATER
+	ITEM_LEMONADE
+	ITEM_BERRY_JUICE
+	ITEM_LAVA_COOKIE
+	ITEM_LIGHT_BALL
+	ITEM_SOUL_DEW
+	ITEM_STICK
+	ITEM_THICK_CLUB
+	ITEM_LUCKY_PUNCH
+	ITEM_LUCKY_EGG
+	ITEM_MOOMOO_MILK
+	ITEM_POKE_DOLL
+}
+
+script Island2_Main_Sailor{
+	lockall
+	faceplayer
+	msgbox(format("That fellow there, he moved here from Celadon City. He started up a shop with his younger brother. You have to wonder if he knew what he was getting into..."))
+	releaseall
+	end
+}
+
+script Island2_Main_Woman{
+	lockall
+	faceplayer
+	msgbox(format("The shopkeepers brother took a job at the Game Corner. He was originally just trying to get some money so they could expand, but he liked it so much that he stayed there! The shop is doing well these days too!"))
+	releaseall
+	end
+}
+
+script Island2_Main_Beauty{
+	lockall
+	faceplayer
+	msgbox(format("Listen, listen. Did you know? A famous trainer came to the island a while back. He's one of the Kanto region's Elite Four. His name is Bruno. He went away disappointed when he found out that they were all sold out of Rage Candybars."))
+	releaseall
+	end
+}
+
+script Island2_Main_SuperNerd{
+	lockall
+	faceplayer
+	msgbox(format("The discerning trainer knows to buy rare items here!"))
+	releaseall
+	end
+}
+
+script Island2_Main_Boy {
+	lockall
+	faceplayer
+	msgbox(format("There's an old woman who lives in a cottage out on the cape. She gives the eye to Pokémon. It's a bit unnerving."))
+	releaseall
+	end
+}
+
+script Island2_Main_LittleBoy {
+	lockall
+	faceplayer
+	msgbox(format("Boing! Boing!\n Have you tried the jumping game?\p The Pokémon you can enter…\n Boing!\p Some go boing!\p And some go boooooooing!\p Did you know that?\n Boing!"))
+	releaseall
+	end
+}
+
+script Island2_Main_Sign{
+	msgbox(format("Two Island\n Boon island for two"), MSGBOX_SIGN)
+	setflag(FLAG_TWO_ISLAND_HIDE_AQUA)
+	setflag(FLAG_TWO_ISLAND_HIDE_SHELLY)
+	end
+}
+
+script Island2_Main_FastCurrentSign{
+	msgbox(format("DANGER! FAST CURRENT!\n Fishing and surfing prohibited"), MSGBOX_SIGN)
+	end
+}
+
+script Island2_Main_GameCornerSign{
+	msgbox(format("Skip&Chomp!\n Joyful Game Corner"), MSGBOX_SIGN)
+	end
+}
+
+script Island2_Main_CutsceneFromGameCorner{
+	lockall
+	special(SpawnCameraObject)
+	addobject(LOCALID_CAPEBRINK_GRUNT)
+	addobject(LOCALID_CAPEBRINK_SHELLY) 
+	applymovement(OBJ_EVENT_ID_CAMERA, Island2Main_Movement_CameraToCutsceneGC)
+	waitmovement(0)
+	special(RemoveCameraObject)
+	applymovement(LOCALID_CAPEBRINK_SHELLY, Common_Movement_WalkInPlaceFasterLeft)
+	msgbox(format("Ok! We've got Suicune, and Matt has radioded me that he's got the girl as well. You go and follow Matt...apparently the brat has followed us all the way here so I'm going to stay behind to hold them off!"))
+	closemessage
+	applymovement(LOCALID_CAPEBRINK_GRUNT, Common_Movement_WalkInPlaceFasterRight)
+	msgbox(format("You got it boss! We'll get to Three Island as fast as possible."))
+	closemessage
+	applymovement(LOCALID_CAPEBRINK_GRUNT, Island2Main_Movement_GruntWalkAwayGCCutscene)
+	applymovement(LOCALID_CAPEBRINK_SHELLY, Island2Main_Movement_ShellyWalkAwayGCCutscene)
+	waitmovement(0)
+	special(SpawnCameraObject)
+	applymovement(OBJ_EVENT_ID_CAMERA, Island2Main_Movement_CameraBackFromCutsceneGC)
+	waitmovement(0)
+	special(RemoveCameraObject)
+	setvar(VAR_TWO_ISLAND_STATE, 3)
+	clearflag(FLAG_TWO_ISLAND_HIDE_SHELLY)
+	addobject(LOCALID__SHELLY)
+	removeobject(LOCALID_CAPEBRINK_GRUNT)
+	removeobject(LOCALID_CAPEBRINK_SHELLY)
+	releaseall
+	end
+}
+
+script Island2_Main_CutsceneFromCapeBrink{
+	lockall
+	//this can be triggered from 3 different points, either coming back from cape brink, flying or teleporting in or from the harbor, different things have to happen in each case
+	special(StorePlayerCoordsInVars)
+	special(SpawnCameraObject)
+	switch(var(VAR_0x8005)) {
+		case 0:
+			//back from cape brink
+			switch(var(VAR_0x8004)) {
+				case 36:
+					applymovement(OBJ_EVENT_ID_CAMERA,Island2Main_Movement_CameraToCutsceneCB36)
+				case 37:
+					applymovement(OBJ_EVENT_ID_CAMERA,Island2Main_Movement_CameraToCutsceneCB37)
+				case 38:
+					applymovement(OBJ_EVENT_ID_CAMERA,Island2Main_Movement_CameraToCutsceneCB38)
+				case 39:
+					applymovement(OBJ_EVENT_ID_CAMERA,Island2Main_Movement_CameraToCutsceneCB39)
+				case 40:
+					applymovement(OBJ_EVENT_ID_CAMERA,Island2Main_Movement_CameraToCutsceneCB40)
+			}
+			waitmovement(0)
+			opendoor(39,9)
+			playse(SE_DOOR)
+			waitdooranim
+			addobject(15)
+			msgbox(format("Shelly come in!...I've got the girl, let's go!"))
+			closemessage
+			applymovement(15,Island2Main_Movement_MattWalkOut)
+			addobject(14)
+			closedoor(39,9)
+			waitdooranim
+			msgbox(format("Waaaaaaaaaah! Somebody help meeeee!"))
+			closemessage
+			applymovement(15, Common_Movement_WalkInPlaceFasterRight)
+			waitmovement(0)
+			msgbox(format("Shut up you little brat! You're going to show us where your friend lives in that Berry Forest."))
+			closemessage
+			applymovement(15,Island2Main_Movement_MattWalkAway)
+			applymovement(14,Island2Main_Movement_LostelleWalkAway)
+			waitmovement(0)
+			removeobject(14)
+			removeobject(15)
+			addobject(LOCALID__SHELLY)
+			switch(var(VAR_0x8004)) {
+				case 36:
+					applymovement(OBJ_EVENT_ID_CAMERA,Island2Main_Movement_CameraBackFromCutsceneCB36)
+				case 37:
+					applymovement(OBJ_EVENT_ID_CAMERA,Island2Main_Movement_CameraBackFromCutsceneCB37)
+				case 38:
+					applymovement(OBJ_EVENT_ID_CAMERA,Island2Main_Movement_CameraBackFromCutsceneCB38)
+				case 39:
+					applymovement(OBJ_EVENT_ID_CAMERA,Island2Main_Movement_CameraBackFromCutsceneCB39)
+				case 40:
+					applymovement(OBJ_EVENT_ID_CAMERA,Island2Main_Movement_CameraBackFromCutsceneCB40)
+			}
+			waitmovement(0)
+		case 8:
+			//fly or teleport
+			applymovement(LOCALID__SHELLY,Common_Movement_WalkInPlaceFasterLeft)
+			applymovement(17,Common_Movement_WalkInPlaceFasterRight)
+			waitmovement(0)
+			msgbox(format("Alright, let's head to Three Island..."))
+			applymovement(LOCALID__SHELLY, Common_Movement_WalkInPlaceFasterUp)
+			applymovement(16, Common_Movement_WalkInPlaceFasterUp)
+			applymovement(17, Common_Movement_WalkInPlaceFasterUp)
+			waitmovement(0)
+			applymovement(LOCALID__SHELLY, Common_Movement_ExclamationMark)
+			applymovement(16, Common_Movement_ExclamationMark)
+			applymovement(17, Common_Movement_ExclamationMark)
+			waitmovement(0)
+			msgbox(format("This brat again...I'll take care of them, you take the girl and go ahead!"))
+			closemessage
+			applymovement(17,Island2Main_Movement_MattWalkAwayPC)
+			applymovement(16,Island2Main_Movement_LostelleWalkAwayPC)
+			waitmovement(0)
+			removeobject(16)
+			removeobject(17)
+			setflag(FLAG_TWO_ISLAND_HIDE_AQUA)
+		case 10:
+			//harbor
+			applymovement(19, Common_Movement_WalkInPlaceFasterDown)
+			waitmovement(0)
+			applymovement(19, Common_Movement_ExclamationMark)
+			waitmovement(0)
+			trainerbattle_single(TRAINER_SHELLY_ISLAND_2, format("Where did you come from? Anyways, this time I will finally be able to end you!"), format("Arrgh! How does this keep happening..."), Island2_Main_ShellyDefeat2)
+	}
+	setflag(FLAG_TWO_ISLAND_HIDE_LOSTELLE)
+	special(RemoveCameraObject)
+	setvar(VAR_TWO_ISLAND_STATE,3)
+	clearflag(FLAG_TWO_ISLAND_HIDE_SHELLY)
+	releaseall
+	end
+}
+
+script Island2_Main_Shelly{
+	lockall
+	applymovement(LOCALID__SHELLY, Common_Movement_ExclamationMark)
+	waitmovement(0)
+	applymovement(LOCALID__SHELLY, Common_Movement_FacePlayer)
+	trainerbattle_single(TRAINER_SHELLY_ISLAND_2, format("You! Stop right there! You're not going anywhere, I'm taking you down!"), format("Arrgh! How does this keep happening..."), Island2_Main_ShellyDefeat)
+}
+
+script Island2_Main_ShellyDefeat{
+	addobject(13)
+	playmoncry(SPECIES_SUICUNE,CRY_MODE_WEAK)
+	applymovement(13,Island2Main_Movement_SuicuneRunAway)
+	waitmovement(0)
+	msgbox(format("And now this thing just ran away...why are they so hard to control? Anyhow, I think I've bought enough time for the others, hehe...good luck trying to stop all of us!"))
+	closemessage
+	setvar(VAR_TWO_ISLAND_STATE,4)
+	setflag(FLAG_TWO_ISLAND_HIDE_SHELLY)
+	fadescreen(FADE_TO_BLACK)
+	removeobject(LOCALID__SHELLY)
+	removeobject(13)
+	fadescreen(FADE_FROM_BLACK)
+	releaseall
+	end
+}
+
+script Island2_Main_ShellyDefeat2{
+	addobject(18)
+	playmoncry(SPECIES_SUICUNE,CRY_MODE_WEAK)
+	applymovement(19, Common_Movement_WalkInPlaceFasterLeft)
+	waitmovement(0)
+	applymovement(18,Island2Main_Movement_SuicuneRunAway2)
+	waitmovement(0)
+	applymovement(19, Common_Movement_WalkInPlaceFasterDown)
+	waitmovement(0)
+	msgbox(format("And now this thing just ran away...why are they so hard to control? Anyhow, I think I've bought enough time for the others, hehe...good luck trying to stop all of us!"))
+	closemessage
+	setvar(VAR_TWO_ISLAND_STATE,4)
+	setflag(FLAG_TWO_ISLAND_HIDE_SHELLY)
+	fadescreen(FADE_TO_BLACK)
+	setflag(FLAG_TWO_ISLAND_HIDE_LOSTELLE)
+	removeobject(19)
+	removeobject(18)
+	fadescreen(FADE_FROM_BLACK)
+	releaseall
+}
+
+movement Island2Main_Movement_CameraToCutsceneGC{
+	walk_up *7
+	walk_left*3
+}
+
+movement Island2Main_Movement_CameraBackFromCutsceneGC{
+	walk_right *3
+	walk_down *7
+}
+
+movement Island2Main_Movement_CameraToCutsceneCB36{
+	walk_down *10
+	walk_right*3
+}
+
+movement Island2Main_Movement_CameraToCutsceneCB37{
+	walk_down *10
+	walk_right*2
+}
+
+movement Island2Main_Movement_CameraToCutsceneCB38{
+	walk_down *10
+	walk_right
+}
+
+movement Island2Main_Movement_CameraToCutsceneCB39{
+	walk_down *10
+}
+
+movement Island2Main_Movement_CameraToCutsceneCB40{
+	walk_down *10
+	walk_left
+}
+
+movement Island2Main_Movement_CameraBackFromCutsceneCB36{
+	walk_up *10
+	walk_left*3
+}
+
+movement Island2Main_Movement_CameraBackFromCutsceneCB37{
+	walk_up *10
+	walk_left*2
+}
+
+movement Island2Main_Movement_CameraBackFromCutsceneCB38{
+	walk_up *10
+	walk_left
+}
+
+movement Island2Main_Movement_CameraBackFromCutsceneCB39{
+	walk_up *10
+}
+
+movement Island2Main_Movement_CameraBackFromCutsceneCB40{
+	walk_up *10
+	walk_right
+}
+
+
+
+movement Island2Main_Movement_GruntWalkAwayGCCutscene{
+	walk_down *3
+	walk_left *8
+}
+
+movement Island2Main_Movement_ShellyWalkAwayGCCutscene{
+	walk_down *3
+	walk_left *9
+}
+
+movement Island2Main_Movement_MattWalkOut{
+	walk_left
+}
+
+movement Island2Main_Movement_MattWalkAway{
+	delay_8
+	walk_left*9
+}
+
+movement Island2Main_Movement_LostelleWalkAway{
+	face_right
+	lock_facing_direction
+	walk_left*9
+}
+
+
+movement Island2Main_Movement_MattWalkAwayPC{
+	walk_down
+	walk_left
+	walk_down
+	walk_left*5
+	walk_up*5
+	walk_left*4
+}
+
+movement Island2Main_Movement_LostelleWalkAwayPC{
+	delay_16*2
+	walk_down*2
+	walk_left*5
+	walk_up*5
+	walk_left*4
+}
+
+movement Island2Main_Movement_SuicuneRunAway{
+	walk_faster_left *3
+	jump_2_left
+	walk_faster_left *6
+}
+
+movement Island2Main_Movement_SuicuneRunAway2{
+	walk_faster_left *9
+}
+
+movement Island2Main_Movement_ShellyRunAway{
+	walk_left *2
+	walk_down *2
+	walk_left *5
+	walk_up *5
+	walk_left
+}
+
+movement Island2Main_Movement_ShellyRunAway2{
+	walk_up
+	walk_right*6
+}
+
+script Island2_Main_Suicune{
+	bufferspeciesname(0, SPECIES_SUICUNE)
+	end
+}

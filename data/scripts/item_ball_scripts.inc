@@ -662,3 +662,27 @@ MagmaHideout_4F_EventScript_ItemMaxRevive::
 MagmaHideout_3F_3R_EventScript_ItemEscapeRope::
 	finditem ITEM_ESCAPE_ROPE
 	end
+
+Island1_KindleRoad_EventScript_ItemEther::
+	finditem ITEM_ETHER
+	end
+
+Island1_KindleRoad_EventScript_ItemMaxRepel::
+	finditem ITEM_MAX_REPEL
+	end
+
+Island1_KindleRoad_EventScript_ItemCarbos::
+	finditem ITEM_CARBOS
+	end
+	
+MtEmber_Exterior_EventScript_ItemUltraBall::
+	finditem ITEM_ULTRA_BALL
+	end
+
+MtEmber_Exterior_EventScript_ItemFireStone::
+	finditem ITEM_FIRE_STONE
+	end
+
+MtEmber_Exterior_EventScript_ItemDireHit::
+	finditem ITEM_DIRE_HIT
+	end
