@@ -7,7 +7,7 @@ Island2_CapeBrink_House_EventScript_Tutor::
 	faceplayer
 	msgbox Island2_CapeBrink_House_EventScript_Tutor_Text_0
 	waitmessage
-	multichoicedefault 21, 6, MULTI_CAPE_BRINK_TUTOR, 0, FALSE
+	@multichoicedefault 21, 6, MULTI_CAPE_BRINK_TUTOR, 0, FALSE
 	switch VAR_RESULT
 	case 0, Island2_CapeBrink_House_EventScript_Tutor_3
 	case 1, Island2_CapeBrink_House_EventScript_Tutor_4

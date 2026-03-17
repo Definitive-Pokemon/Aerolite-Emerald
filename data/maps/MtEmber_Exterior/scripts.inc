@@ -17,11 +17,11 @@ MtEmber_Exterior_EventScript_GruntsFaceDown::
 MtEmber_Exterior_EventScript_Grunt1::
 	lock
 	faceplayer
-	goto_if_defeated TRAINER_GRUNT_MT_EMBER_1, MtEmber_Exterior_EventScript_Grunt1Defeated
+	goto_if_defeated TRAINER_CLIFFORD, MtEmber_Exterior_EventScript_Grunt1Defeated
 	msgbox MtEmber_Exterior_Text_Grunt1Intro
-	trainerbattle_no_intro TRAINER_GRUNT_MT_EMBER_1, MtEmber_Exterior_Text_Grunt1Defeat
+	trainerbattle_no_intro TRAINER_CLIFFORD, MtEmber_Exterior_Text_Grunt1Defeat
 	msgbox MtEmber_Exterior_Text_Grunt1PostBattle
-	goto_if_defeated TRAINER_GRUNT_MT_EMBER_2, MtEmber_Exterior_EventScript_DefeatedBothGrunts
+	goto_if_defeated TRAINER_CLIFFORD, MtEmber_Exterior_EventScript_DefeatedBothGrunts
 	release
 	end
 
@@ -44,11 +44,11 @@ MtEmber_Exterior_EventScript_DefeatedBothGrunts::
 MtEmber_Exterior_EventScript_Grunt2::
 	lock
 	faceplayer
-	goto_if_defeated TRAINER_GRUNT_MT_EMBER_2, MtEmber_Exterior_EventScript_DefeatedGrunt2
+	goto_if_defeated TRAINER_CLIFFORD, MtEmber_Exterior_EventScript_DefeatedGrunt2
 	msgbox MtEmber_Exterior_Text_Grunt2Intro
-	trainerbattle_no_intro TRAINER_GRUNT_MT_EMBER_2, MtEmber_Exterior_Text_Grunt2Defeat
+	trainerbattle_no_intro TRAINER_CLIFFORD, MtEmber_Exterior_Text_Grunt2Defeat
 	msgbox MtEmber_Exterior_Text_Grunt2PostBattle
-	goto_if_defeated TRAINER_GRUNT_MT_EMBER_1, MtEmber_Exterior_EventScript_DefeatedBothGrunts
+	goto_if_defeated TRAINER_CLIFFORD, MtEmber_Exterior_EventScript_DefeatedBothGrunts
 	release
 	end
 

@@ -5,7 +5,7 @@ Island3_Harbor_EventScript_Sailor::
 	lock
 	faceplayer
 	setvar VAR_0x8004, 3
-	special ScriptMenu_CreateSeviiFerryMultichoice
+	@special ScriptMenu_CreateSeviiFerryMultichoice
 	waitstate
 	setvar VAR_0x8001, 3
 	switch VAR_RESULT

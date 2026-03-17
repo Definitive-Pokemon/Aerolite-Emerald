@@ -6,7 +6,7 @@ OneIsland_TreasureBeach_EventScript_Boy::
 	end
 	
 OneIsland_TreasureBeach_EventScript_Amara::
-	trainerbattle_single TRAINER_AMARA, OneIsland_TreasureBeach_Text_AmaraIntro, OneIsland_TreasureBeach_Text_AmaraDefeat
+	@trainerbattle_single TRAINER_AMARA, OneIsland_TreasureBeach_Text_AmaraIntro, OneIsland_TreasureBeach_Text_AmaraDefeat
 	msgbox OneIsland_TreasureBeach_Text_AmaraPostBattle, MSGBOX_AUTOCLOSE
 	end
 

@@ -238,7 +238,7 @@ Island2_Main_CutsceneFromCapeBrink_5:
 	waitmovement 0
 	applymovement 19, Common_Movement_ExclamationMark
 	waitmovement 0
-	trainerbattle_single TRAINER_SHELLY_ISLAND_2, Island2_Main_CutsceneFromCapeBrink_Text_5, Island2_Main_CutsceneFromCapeBrink_Text_6, Island2_Main_ShellyDefeat2
+	@trainerbattle_single TRAINER_SHELLY_ISLAND_2, Island2_Main_CutsceneFromCapeBrink_Text_5, Island2_Main_CutsceneFromCapeBrink_Text_6, Island2_Main_ShellyDefeat2
 	goto Island2_Main_CutsceneFromCapeBrink_1
 
 Island2_Main_CutsceneFromCapeBrink_8:
@@ -287,7 +287,7 @@ Island2_Main_Shelly::
 	applymovement 12, Common_Movement_ExclamationMark
 	waitmovement 0
 	applymovement 12, Common_Movement_FacePlayer
-	trainerbattle_single TRAINER_SHELLY_ISLAND_2, Island2_Main_Shelly_Text_0, Island2_Main_CutsceneFromCapeBrink_Text_6, Island2_Main_ShellyDefeat
+	@trainerbattle_single TRAINER_SHELLY_ISLAND_2, Island2_Main_Shelly_Text_0, Island2_Main_CutsceneFromCapeBrink_Text_6, Island2_Main_ShellyDefeat
 	return
 
 

@@ -3,21 +3,21 @@ MtEmber_SummitPath_2F_MapScripts::
 
 
 MtEmber_SummitPath_2F_Grunt1::
-	trainerbattle_single TRAINER_GRUNT_MT_EMBER_9, MtEmber_SummitPath_2F_Text_Grunt1Intro, MtEmber_SummitPath_2F_Text_Grunt1Defeat
+	trainerbattle_single TRAINER_CLIFFORD, MtEmber_SummitPath_2F_Text_Grunt1Intro, MtEmber_SummitPath_2F_Text_Grunt1Defeat
 	msgbox MtEmber_SummitPath_2F_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
 	waitmessage
 	end
 
 
 MtEmber_SummitPath_2F_Grunt2::
-	trainerbattle_single TRAINER_GRUNT_MT_EMBER_10, MtEmber_SummitPath_2F_Text_Grunt2Intro, MtEmber_SummitPath_2F_Text_Grunt2Defeat
+	trainerbattle_single TRAINER_CLIFFORD, MtEmber_SummitPath_2F_Text_Grunt2Intro, MtEmber_SummitPath_2F_Text_Grunt2Defeat
 	msgbox MtEmber_SummitPath_2F_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
 	waitmessage
 	end
 
 
 MtEmber_SummitPath_2F_Grunt3::
-	trainerbattle_single TRAINER_GRUNT_MT_EMBER_11, MtEmber_SummitPath_2F_Text_Grunt3Intro, MtEmber_SummitPath_2F_Text_Grunt3Defeat
+	trainerbattle_single TRAINER_CLIFFORD, MtEmber_SummitPath_2F_Text_Grunt3Intro, MtEmber_SummitPath_2F_Text_Grunt3Defeat
 	msgbox MtEmber_SummitPath_2F_Text_Grunt3PostBattle, MSGBOX_AUTOCLOSE
 	waitmessage
 	end

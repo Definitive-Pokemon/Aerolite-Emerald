@@ -27,7 +27,7 @@ Island1_Harbor_EventScript_Sailor::
 	faceplayer
 	msgbox Island_Harbors_Text_Oi_Chap, MSGBOX_DEFAULT
 	setvar VAR_0x8004, 1
-	special ScriptMenu_CreateSeviiFerryMultichoice
+	@special ScriptMenu_CreateSeviiFerryMultichoice
 	waitstate
 	setvar VAR_0x8001, 1
 	switch VAR_RESULT
