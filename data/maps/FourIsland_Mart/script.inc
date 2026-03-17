@@ -28,6 +28,7 @@ FourIsland_Mart_Items::
 FourIsland_Mart_EventScript_Camper::
 	msgbox FourIsland_Mart_Text_IcefallCaveIsFrigid, MSGBOX_NPC
 	end
+	
 FourIsland_Mart_Text_LoreleiGrewUpOnThisIsland::
     .string "We've had a great and powerful\n"
     .string "TRAINER grow up on this island.\p"

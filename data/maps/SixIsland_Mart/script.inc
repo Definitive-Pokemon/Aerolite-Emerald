@@ -7,7 +7,7 @@ SixIsland_Mart_EventScript_Clerk::
 	message gText_HowMayIServeYou
 	waitmessage
 	pokemart SixIsland_Mart_Items
-	msgbox gText_PleaseComeAgain
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
