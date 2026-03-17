@@ -130,11 +130,11 @@ Island2_Main_House_Text_DontHaveMoveToTeachPokemon:
 	.string "I can teach that Pokémon.$"
 
 Island2_Main_House_Text_HandedOverMushroom:
-	.string "{Player} handed over one\n"
+	.string "{PLAYER} handed over one\n"
     .string "Big Mushroom in exchange.$"
 	
 Island2_Main_House_Text_HandedOverMushrooms:
-	.string "{Player} handed over two\n"
+	.string "{PLAYER} handed over two\n"
     .string "Tinymushrooms in exchange.$"
 
 Island2_Main_House_Text_ComeBackWithMushroom:

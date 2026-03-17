@@ -59,7 +59,7 @@ EmberSpa_Text_EnjoyBowlOfChowder::
 EmberSpa_Text_WaterExquisiteFullyRefreshed::
     .string "The water is perfectly warm.\n"
     .string "It feels exquisite…\p"
-    .string "{Player} and the Pokémon were\n"
+    .string "{PLAYER} and the Pokémon were\n"
     .string "fully refreshed!$"
 
 EmberSpa_Text_HotSpringIsTherapeutic::

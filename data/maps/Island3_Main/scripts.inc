@@ -164,7 +164,7 @@ Island3_Main_Text_ThankYouOhYourMonGotHurt::
     .string "on my account.$"
 
 Island3_Main_Text_GivenFullRestore::
-    .string "{Player} was given\n"
+    .string "{PLAYER} was given\n"
     .string "a Full Restore.$"
 
 Island3_Main_Text_OhYourBagIsFull::
