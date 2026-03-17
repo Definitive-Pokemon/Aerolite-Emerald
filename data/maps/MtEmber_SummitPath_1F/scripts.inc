@@ -3,7 +3,7 @@ MtEmber_SummitPath_1F_MapScripts::
 
 
 MtEmber_SummitPath_1F_Grunt::
-	trainerbattle_single TRAINER_GRUNT_MT_EMBER_8, MtEmber_SummitPath_1F_Text_GruntIntro, MtEmber_SummitPath_1F_Text_GruntDefeat
+	trainerbattle_single TRAINER_CLIFFORD, MtEmber_SummitPath_1F_Text_GruntIntro, MtEmber_SummitPath_1F_Text_GruntDefeat
 	msgbox MtEmber_SummitPath_1F_Text_GruntPostBattle, MSGBOX_AUTOCLOSE
 	waitmessage
 	end

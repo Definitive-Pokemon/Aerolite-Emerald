@@ -14,7 +14,7 @@ MtEmber_RubyPath_B5F_Event_Script_Tabitha::
 	waitmovement 0
 	applymovement 1, Common_Movement_FacePlayer
 	msgbox MtEmber_RubyPath_B5F_Event_Script_Tabitha_Text_1
-	trainerbattle_no_intro TRAINER_TABITHA_ISLAND_1, MtEmber_RubyPath_B5F_Text_Tabitha_Defeat
+	trainerbattle_no_intro TRAINER_CLIFFORD, MtEmber_RubyPath_B5F_Text_Tabitha_Defeat
 	msgbox MtEmber_RubyPath_B5F_Event_Script_Tabitha_Text_2
 	fadescreen FADE_TO_BLACK
 	removeobject 1

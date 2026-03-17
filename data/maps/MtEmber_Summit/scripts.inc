@@ -65,7 +65,7 @@ MtEmber_Summit_TurnCourtney:
 	step_end
 
 MtEmber_Summit_Courtney::
-	trainerbattle_single TRAINER_COURTNEY_ISLAND_1, MtEmber_Summit_Text_CourtneyIntro, MtEmber_Summit_Text_CourtneyDefeat, MtEmber_Summit_CourtneyDefeat
+	trainerbattle_single TRAINER_CLIFFORD, MtEmber_Summit_Text_CourtneyIntro, MtEmber_Summit_Text_CourtneyDefeat, MtEmber_Summit_CourtneyDefeat
 	msgbox MtEmber_Summit_Text_CourtneyPostBattle
 	return
 

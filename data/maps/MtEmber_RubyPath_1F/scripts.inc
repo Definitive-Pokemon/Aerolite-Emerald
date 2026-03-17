@@ -3,7 +3,7 @@ MtEmber_RubyPath_1F_MapScripts::
 
 
 MtEmber_RubyPath_1F_Grunt::
-	trainerbattle_single TRAINER_GRUNT_MT_EMBER_3, MtEmber_RubyPath_1F_Text_GruntIntro, MtEmber_RubyPath_1F_Text_GruntDefeat
+	trainerbattle_single TRAINER_CLIFFORD, MtEmber_RubyPath_1F_Text_GruntIntro, MtEmber_RubyPath_1F_Text_GruntDefeat
 	msgbox MtEmber_RubyPath_1F_Text_GruntPostBattle, MSGBOX_AUTOCLOSE
 	waitmessage
 	end

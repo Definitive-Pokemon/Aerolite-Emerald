@@ -3,14 +3,14 @@ MtEmber_RubyPath_B4F_MapScripts::
 
 
 MtEmber_RubyPath_B4F_Grunt1::
-	trainerbattle_single TRAINER_GRUNT_MT_EMBER_6, MtEmber_RubyPath_B4F_Text_Grunt1Intro, MtEmber_RubyPath_B4F_Text_Grunt1Defeat
+	trainerbattle_single TRAINER_CLIFFORD, MtEmber_RubyPath_B4F_Text_Grunt1Intro, MtEmber_RubyPath_B4F_Text_Grunt1Defeat
 	msgbox MtEmber_RubyPath_B4F_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
 	waitmessage
 	end
 
 
 MtEmber_RubyPath_B4F_Grunt2::
-	trainerbattle_single TRAINER_GRUNT_MT_EMBER_7, MtEmber_RubyPath_B4F_Text_Grunt2Intro, MtEmber_RubyPath_B4F_Text_Grunt2Defeat
+	trainerbattle_single TRAINER_CLIFFORD, MtEmber_RubyPath_B4F_Text_Grunt2Intro, MtEmber_RubyPath_B4F_Text_Grunt2Defeat
 	msgbox MtEmber_RubyPath_B4F_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
 	waitmessage
 	end

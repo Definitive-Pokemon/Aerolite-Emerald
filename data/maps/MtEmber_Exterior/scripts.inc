@@ -83,17 +83,17 @@ MtEmber_Exterior_EventScript_GruntPasswordScene::
 	end
 
 MtEmber_Exterior_EventScript_Logan::
-	trainerbattle_single TRAINER_LOGAN, MtEmber_Exterior_Text_LoganIntro, MtEmber_Exterior_Text_LoganDefeat
+	trainerbattle_single TRAINER_CLIFFORD, MtEmber_Exterior_Text_LoganIntro, MtEmber_Exterior_Text_LoganDefeat
 	msgbox MtEmber_Exterior_Text_LoganPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtEmber_Exterior_EventScript_Beth::
-	trainerbattle_single TRAINER_BETH_SEVII, MtEmber_Exterior_Text_BethIntro, MtEmber_Exterior_Text_BethDefeat
+	trainerbattle_single TRAINER_CLIFFORD, MtEmber_Exterior_Text_BethIntro, MtEmber_Exterior_Text_BethDefeat
 	msgbox MtEmber_Exterior_Text_BethPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtEmber_Exterior_EventScript_Jocelyn::
-	trainerbattle_single TRAINER_JOCELYN_SEVII, MtEmber_Exterior_Text_JocelynIntro, MtEmber_Exterior_Text_JocelynDefeat
+	trainerbattle_single TRAINER_CLIFFORD, MtEmber_Exterior_Text_JocelynIntro, MtEmber_Exterior_Text_JocelynDefeat
 	msgbox MtEmber_Exterior_Text_JocelynPostBattle, MSGBOX_AUTOCLOSE
 	end
 	
