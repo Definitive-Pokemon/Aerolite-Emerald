@@ -65,6 +65,12 @@
 #define MAP_UNDERWATER_ROUTE105       (58 | (0 << 8))
 #define MAP_UNDERWATER_ROUTE125       (59 | (0 << 8))
 
+#define MAP_THREE_ISLAND_BOND_BRIDGE  (63 | (0 << 8))
+
+#define MAP_SIX_ISLAND_GREEN_PATH     (70 | (0 << 8))
+
+
+
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (1 << 8))
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F    (1 | (1 << 8))
@@ -436,6 +442,10 @@
 #define MAP_SCORCHED_SLAB_ZAPDOS                     (124 | (24 << 8))
 #define MAP_SCORCHED_SLAB_MODERN                     (125 | (24 << 8))
 
+
+#define MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F             (141 | (24 << 8))
+
+
 // gMapGroup_IndoorDynamic
 #define MAP_SECRET_BASE_RED_CAVE1    (0 | (25 << 8))
 #define MAP_SECRET_BASE_BROWN_CAVE1  (1 | (25 << 8))
@@ -631,6 +641,25 @@
 // gMapGroup_IndoorRoute124
 #define MAP_ROUTE124_DIVING_TREASURE_HUNTERS_HOUSE (0 | (33 << 8))
 
-#define MAP_GROUPS_COUNT 35
+// seven
+
+// one
+
+//two
+
+#define MAP_TWO_ISLAND_JOYFUL_GAME_CORNER (0 | (36 << 8))
+
+// three
+
+// four
+
+//five
+//six
+
+
+
+#define MAP_GROUPS_COUNT 47
+
+
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H
