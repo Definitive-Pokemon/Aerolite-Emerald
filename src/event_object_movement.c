@@ -3032,6 +3032,9 @@ const struct ObjectEventGraphicsInfo *GetObjectEventGraphicsInfo(u16 graphicsId)
     if (graphicsId >= OBJ_EVENT_GFX_VARS && graphicsId <= OBJ_EVENT_GFX_VAR_F)
         graphicsId = VarGetObjectEventGraphicsId(graphicsId - OBJ_EVENT_GFX_VARS);
 
+    if (graphicsId >= NUM_OBJ_EVENT_GFX && graphicsId <= EXT_OBJ_EVENT_GFX_END)
+        return gObjectEventGraphicsInfoPointers[graphicsId];
+
     // graphicsId may contain mon form info
     if (graphicsId > OBJ_EVENT_GFX_SPECIES_MASK) {
         form = graphicsId >> OBJ_EVENT_GFX_SPECIES_BITS;

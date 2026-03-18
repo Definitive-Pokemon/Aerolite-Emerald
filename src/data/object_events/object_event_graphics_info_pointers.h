@@ -269,7 +269,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayWatering
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayDecorating_RS;
 
 
-const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
+const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[EXT_OBJ_EVENT_GFX_END] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
     [OBJ_EVENT_GFX_BRENDAN_MACH_BIKE] =        &gObjectEventGraphicsInfo_BrendanMachBike,
     [OBJ_EVENT_GFX_BRENDAN_SURFING] =          &gObjectEventGraphicsInfo_BrendanSurfing,
@@ -520,7 +520,10 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_ROCKET_ADMIN_M] =           &gObjectEventGraphicsInfo_RocketAdminM,
     [OBJ_EVENT_GFX_ROCKET_ADMIN_F] =           &gObjectEventGraphicsInfo_RocketAdminF,
     [OBJ_EVENT_GFX_GIOVANNI] =                 &gObjectEventGraphicsInfo_Giovanni,
-
+    [OBJ_EVENT_GFX_RUBY] =                     &gObjectEventGraphicsInfo_Fossil,
+    [OBJ_EVENT_GFX_SAPPHIRE] =                 &gObjectEventGraphicsInfo_Fossil,
+    [OBJ_EVENT_GFX_CELIO] =                    &gObjectEventGraphicsInfo_Fossil,
+    [OBJ_EVENT_GFX_BILL] =                     &gObjectEventGraphicsInfo_Fossil,
     //RS Outfit, Brendan
     [OBJ_EVENT_GFX_BRENDAN_NORMAL_RS] =        &gObjectEventGraphicsInfo_BrendanNormal_RS,
     [OBJ_EVENT_GFX_BRENDAN_MACH_BIKE_RS] =     &gObjectEventGraphicsInfo_BrendanMachBike_RS,

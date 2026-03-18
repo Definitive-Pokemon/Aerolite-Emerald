@@ -283,6 +283,12 @@
 #define OBJ_EVENT_GFX_ROCKET_ADMIN_M             261
 #define OBJ_EVENT_GFX_ROCKET_ADMIN_F             262
 #define OBJ_EVENT_GFX_GIOVANNI                   263
+#define OBJ_EVENT_GFX_RUBY                       264
+#define OBJ_EVENT_GFX_SAPPHIRE                   265
+#define OBJ_EVENT_GFX_CELIO                      266
+#define OBJ_EVENT_GFX_BILL                       267
+
+#define EXT_OBJ_EVENT_GFX_END                    267
 
 // These are dynamic object gfx ids.
 // They correspond with the values of the VAR_OBJ_GFX_ID_X vars.
