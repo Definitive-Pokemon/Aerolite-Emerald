@@ -275,6 +275,14 @@
 // https://github.com/pret/pokeemerald/wiki/Feature-Branches#overworld-expansion
 #define NUM_OBJ_EVENT_GFX                        239
 
+#define OBJ_EVENT_GFX_AGATHA                     256
+#define OBJ_EVENT_GFX_LORELEI                    257
+#define OBJ_EVENT_GFX_POLICEMAN                  258
+#define OBJ_EVENT_GFX_ROCKET_GRUNT_M             259
+#define OBJ_EVENT_GFX_ROCKET_GRUNT_F             260
+#define OBJ_EVENT_GFX_ROCKET_ADMIN_M             261
+#define OBJ_EVENT_GFX_ROCKET_ADMIN_F             262
+#define OBJ_EVENT_GFX_GIOVANNI                   263
 
 // These are dynamic object gfx ids.
 // They correspond with the values of the VAR_OBJ_GFX_ID_X vars.

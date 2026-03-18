@@ -493,6 +493,7 @@ const u8 gInitialMovementTypeFacingDirections[NUM_MOVEMENT_TYPES] = {
 #define OBJ_EVENT_PAL_TAG_CASTFORM_RAINY          0x1126
 #define OBJ_EVENT_PAL_TAG_CASTFORM_SNOWY          0x1127
 #define OBJ_EVENT_PAL_TAG_RAYQUAZA                0x1128
+#define OBJ_EVENT_PAL_TAG_ROCKET_NPC              0x1128
 #if OW_MON_POKEBALLS
 // Vanilla
 #define OBJ_EVENT_PAL_TAG_BALL_MASTER             0x1150
@@ -590,10 +591,11 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_Lugia,                 OBJ_EVENT_PAL_TAG_LUGIA},
     {gObjectEventPal_RubySapphireBrendan,   OBJ_EVENT_PAL_TAG_RS_BRENDAN},
     {gObjectEventPal_RubySapphireMay,       OBJ_EVENT_PAL_TAG_RS_MAY},
-    {gObjectEventPal_CastformSunny, OBJ_EVENT_PAL_TAG_CASTFORM_SUNNY},
-    {gObjectEventPal_CastformRainy, OBJ_EVENT_PAL_TAG_CASTFORM_RAINY},
-    {gObjectEventPal_CastformSnowy, OBJ_EVENT_PAL_TAG_CASTFORM_SNOWY},
-    {gObjectEventPal_Rayquaza, OBJ_EVENT_PAL_TAG_RAYQUAZA},
+    {gObjectEventPal_CastformSunny,         OBJ_EVENT_PAL_TAG_CASTFORM_SUNNY},
+    {gObjectEventPal_CastformRainy,         OBJ_EVENT_PAL_TAG_CASTFORM_RAINY},
+    {gObjectEventPal_CastformSnowy,         OBJ_EVENT_PAL_TAG_CASTFORM_SNOWY},
+    {gObjectEventPal_Rayquaza,              OBJ_EVENT_PAL_TAG_RAYQUAZA},
+    {gObjectEventPal_TeamRocket,            OBJ_EVENT_PAL_TAG_ROCKET_NPC},
     #if OW_MON_POKEBALLS
     // Vanilla
     {gObjectEventPal_MasterBall,            OBJ_EVENT_PAL_TAG_BALL_MASTER},

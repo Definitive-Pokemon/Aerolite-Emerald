@@ -345,6 +345,15 @@ const u32 gObjectEventPic_Noland[] = INCBIN_U32("graphics/object_events/pics/peo
 const u32 gObjectEventPic_Lucy[] = INCBIN_U32("graphics/object_events/pics/people/frontier_brains/lucy.4bpp");
 const u32 gObjectEventPic_Brandon[] = INCBIN_U32("graphics/object_events/pics/people/frontier_brains/brandon.4bpp");
 const u32 gObjectEventPic_PokeBall[] = INCBIN_U32("graphics/object_events/pics/misc/ball_poke.4bpp");
+const u32 gObjectEventPic_Policeman[] = INCBIN_U32("graphics/object_events/pics/people/policeman.4bpp");
+const u32 gObjectEventPic_Agatha[] = INCBIN_U32("graphics/object_events/pics/people/agatha.4bpp");
+const u32 gObjectEventPic_Lorelei[] = INCBIN_U32("graphics/object_events/pics/people/lorelei.4bpp");
+const u16 gObjectEventPal_TeamRocket[] = INCBIN_U16("graphics/object_events/palettes/rocket.gbapal");
+const u32 gObjectEventPic_RocketGruntM[] = INCBIN_U32("graphics/object_events/pics/people/team_rocket/rocket_grunt_m.4bpp");
+const u32 gObjectEventPic_RocketGruntF[] = INCBIN_U32("graphics/object_events/pics/people/team_rocket/rocket_grunt_f.4bpp");
+const u32 gObjectEventPic_RocketAdminM[] = INCBIN_U32("graphics/object_events/pics/people/team_rocket/rocket_admin_m.4bpp");
+const u32 gObjectEventPic_RocketAdminF[] = INCBIN_U32("graphics/object_events/pics/people/team_rocket/rocket_admin_f.4bpp");
+const u32 gObjectEventPic_Giovanni[] = INCBIN_U32("graphics/object_events/pics/people/team_rocket/giovanni.4bpp");
 
 // Normally, INCBIN_COMP acts like INCBIN_U32, but appends `.lz` to the file, compressing it;
 // If not compressing follower gfx, make this an alias to INCBIN_32, so gfx will *not* be compressed

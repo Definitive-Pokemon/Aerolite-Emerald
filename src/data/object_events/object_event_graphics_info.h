@@ -246,6 +246,39 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PokeBall = {TAG_NO
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Follower = {TAG_NONE, OBJ_EVENT_PAL_TAG_DYNAMIC, OBJ_EVENT_PAL_TAG_NONE, 512, 32, 32, 2, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_Following, sPicTable_Togetic, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BallLight = {TAG_NONE, OBJ_EVENT_PAL_TAG_LIGHT, OBJ_EVENT_PAL_TAG_LIGHT_2, 512, 32, 32, 2, SHADOW_SIZE_NONE, TRUE, FALSE, TRACKS_NONE, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_Inanimate, gFieldEffectObjectPicTable_BallLight, gDummySpriteAffineAnimTable};
 
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lorelei = {
+    TAG_NONE, OBJ_EVENT_PAL_TAG_NPC_2, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 2, 
+    SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, 
+    sAnimTable_Standard, sPicTable_Lorelei, gDummySpriteAffineAnimTable};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Policeman = {
+    TAG_NONE, OBJ_EVENT_PAL_TAG_NPC_1, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 2, 
+    SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, 
+    sAnimTable_Standard, sPicTable_Policeman, gDummySpriteAffineAnimTable};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Agatha = {
+    TAG_NONE, OBJ_EVENT_PAL_TAG_NPC_4, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 2, 
+    SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, 
+    sAnimTable_Standard, sPicTable_Agatha, gDummySpriteAffineAnimTable};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketGruntM = {
+    TAG_NONE, OBJ_EVENT_PAL_TAG_ROCKET_NPC, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 2, 
+    SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, 
+    sAnimTable_Standard, sPicTable_RocketGruntM, gDummySpriteAffineAnimTable};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketGruntF = {
+    TAG_NONE, OBJ_EVENT_PAL_TAG_ROCKET_NPC, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 2, 
+    SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, 
+    sAnimTable_Standard, sPicTable_RocketGruntF, gDummySpriteAffineAnimTable};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketAdminM = {
+    TAG_NONE, OBJ_EVENT_PAL_TAG_ROCKET_NPC, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 2, 
+    SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, 
+    sAnimTable_Standard, sPicTable_RocketAdminM, gDummySpriteAffineAnimTable};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketAdminF = {
+    TAG_NONE, OBJ_EVENT_PAL_TAG_ROCKET_NPC, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 2, 
+    SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, 
+    sAnimTable_Standard, sPicTable_RocketAdminF, gDummySpriteAffineAnimTable};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Giovanni = {
+    TAG_NONE, OBJ_EVENT_PAL_TAG_ROCKET_NPC, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 2, 
+    SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, 
+    sAnimTable_Standard, sPicTable_Giovanni, gDummySpriteAffineAnimTable};
+
 //RS Outfit, Brendan
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanNormal_RS = {TAG_NONE, OBJ_EVENT_PAL_TAG_RS_BRENDAN, OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION, 512, 16, 32, 0, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, sAnimTable_BrendanMayNormal, sPicTable_BrendanNormal_RS, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanMachBike_RS = {TAG_NONE, OBJ_EVENT_PAL_TAG_RS_BRENDAN, OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION, 512, 32, 32, 0, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_BIKE_TIRE, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_Standard, sPicTable_BrendanMachBike_RS, gDummySpriteAffineAnimTable};

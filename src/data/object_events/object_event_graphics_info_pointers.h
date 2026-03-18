@@ -512,6 +512,15 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_POKE_BALL] =                &gObjectEventGraphicsInfo_PokeBall,
     [OBJ_EVENT_GFX_OW_MON] =                   &gObjectEventGraphicsInfo_Follower,
     [OBJ_EVENT_GFX_LIGHT_SPRITE] =             &gObjectEventGraphicsInfo_BallLight,
+    [OBJ_EVENT_GFX_AGATHA] =                   &gObjectEventGraphicsInfo_Agatha,
+    [OBJ_EVENT_GFX_LORELEI] =                  &gObjectEventGraphicsInfo_Lorelei,
+    [OBJ_EVENT_GFX_POLICEMAN] =                &gObjectEventGraphicsInfo_Policeman,
+    [OBJ_EVENT_GFX_ROCKET_GRUNT_M] =           &gObjectEventGraphicsInfo_RocketGruntM,
+    [OBJ_EVENT_GFX_ROCKET_GRUNT_F] =           &gObjectEventGraphicsInfo_RocketGruntF,
+    [OBJ_EVENT_GFX_ROCKET_ADMIN_M] =           &gObjectEventGraphicsInfo_RocketAdminM,
+    [OBJ_EVENT_GFX_ROCKET_ADMIN_F] =           &gObjectEventGraphicsInfo_RocketAdminF,
+    [OBJ_EVENT_GFX_GIOVANNI] =                 &gObjectEventGraphicsInfo_Giovanni,
+
     //RS Outfit, Brendan
     [OBJ_EVENT_GFX_BRENDAN_NORMAL_RS] =        &gObjectEventGraphicsInfo_BrendanNormal_RS,
     [OBJ_EVENT_GFX_BRENDAN_MACH_BIKE_RS] =     &gObjectEventGraphicsInfo_BrendanMachBike_RS,
