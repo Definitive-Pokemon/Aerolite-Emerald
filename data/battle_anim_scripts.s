@@ -384,6 +384,7 @@ gBattleAnims_Moves::
 	.4byte Move_PLAY_ROUGH
 	.4byte Move_MOONBLAST
 	.4byte Move_POISON_JAB
+	.4byte Move_CRUSH_GRIP
 	.4byte Move_COUNT @ cannot be reached, because last move is Psycho Boost
 
 	.align 2
@@ -9932,6 +9933,9 @@ WeatherBallIce:
 	playsewithpan SE_M_ICY_WIND, SOUND_PAN_TARGET
 	call IceCrystalEffectShort
 	waitforvisualfinish
+	end
+
+Move_CRUSH_GRIP:
 	end
 
 Move_COUNT:
