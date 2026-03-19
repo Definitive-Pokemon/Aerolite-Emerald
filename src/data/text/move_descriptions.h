@@ -1469,7 +1469,7 @@ static const u8 sPoisonJabDescription[] = _(
     "A stabbing attack that\n"
     "may poison the foe.");
 
-static const u8 gMoveDescription_CrushGrip[] = _(
+static const u8 sCrushGripDescription[] = _(
     "A grab that is strongest\n"
     "on unharmed foes.");
 
