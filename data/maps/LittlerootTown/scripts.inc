@@ -56,6 +56,15 @@ LittlerootTown_OnTransition:
 	call_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 2, LittlerootTown_EventScript_LeftLabAfterDexUpgrade
 	end
 
+Debug_Give_Mon::
+	givemon SPECIES_REGIGIGAS, 2
+	end
+
+Debug_Fight_Regi::
+	setwildbattle SPECIES_REGIGIGAS, 2
+	dowildbattle
+	end
+
 LittlerootTown_Disable_Pokeball_Mints::
 	setflag FLAG_MODEST_MINT_LILYCOVE
 	setflag FLAG_TIMID_MINT_MAUVILLE
