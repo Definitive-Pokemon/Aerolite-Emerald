@@ -248,6 +248,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketGrunt
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketAdminM;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketAdminF;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Giovanni;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Blue;
 
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Bard;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Hipster;
@@ -528,6 +529,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[EXT
     [OBJ_EVENT_GFX_ROCKET_ADMIN_M] =           &gObjectEventGraphicsInfo_RocketAdminM,
     [OBJ_EVENT_GFX_ROCKET_ADMIN_F] =           &gObjectEventGraphicsInfo_RocketAdminF,
     [OBJ_EVENT_GFX_GIOVANNI] =                 &gObjectEventGraphicsInfo_Giovanni,
+    [OBJ_EVENT_GFX_BLUE] =                     &gObjectEventGraphicsInfo_Blue,
     [OBJ_EVENT_GFX_RUBY] =                     &gObjectEventGraphicsInfo_Fossil,
     [OBJ_EVENT_GFX_SAPPHIRE] =                 &gObjectEventGraphicsInfo_Fossil,
     [OBJ_EVENT_GFX_CELIO] =                    &gObjectEventGraphicsInfo_Fossil,

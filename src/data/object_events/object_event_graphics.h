@@ -354,6 +354,7 @@ const u32 gObjectEventPic_RocketGruntF[] = INCBIN_U32("graphics/object_events/pi
 const u32 gObjectEventPic_RocketAdminM[] = INCBIN_U32("graphics/object_events/pics/people/team_rocket/rocket_admin_m.4bpp");
 const u32 gObjectEventPic_RocketAdminF[] = INCBIN_U32("graphics/object_events/pics/people/team_rocket/rocket_admin_f.4bpp");
 const u32 gObjectEventPic_Giovanni[] = INCBIN_U32("graphics/object_events/pics/people/team_rocket/giovanni.4bpp");
+const u32 gObjectEventPic_Blue[] = INCBIN_U32("graphics/object_events/pics/people/blue.4bpp");
 
 // Normally, INCBIN_COMP acts like INCBIN_U32, but appends `.lz` to the file, compressing it;
 // If not compressing follower gfx, make this an alias to INCBIN_32, so gfx will *not* be compressed

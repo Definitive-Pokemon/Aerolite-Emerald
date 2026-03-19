@@ -278,6 +278,10 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Giovanni = {
     TAG_NONE, OBJ_EVENT_PAL_TAG_ROCKET_NPC, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 2, 
     SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, 
     sAnimTable_Standard, sPicTable_Giovanni, gDummySpriteAffineAnimTable};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Blue = {
+    TAG_NONE, OBJ_EVENT_PAL_TAG_HO_OH, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 2, 
+    SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, 
+    sAnimTable_Standard, sPicTable_Blue, gDummySpriteAffineAnimTable};
 
 //RS Outfit, Brendan
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanNormal_RS = {TAG_NONE, OBJ_EVENT_PAL_TAG_RS_BRENDAN, OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION, 512, 16, 32, 0, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, sAnimTable_BrendanMayNormal, sPicTable_BrendanNormal_RS, gDummySpriteAffineAnimTable};
