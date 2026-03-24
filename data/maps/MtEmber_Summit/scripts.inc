@@ -1,132 +1,56 @@
 MtEmber_Summit_MapScripts::
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, MtEmber_Summit_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE
+	map_script MAP_SCRIPT_ON_TRANSITION, MtEmber_Summit_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, MtEmber_Summit_OnResume
 	.byte 0
 
-MtEmber_Summit_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE:
-	map_script_2 VAR_MT_EMBER_SUMMIT_STATE, 0, MtEmber_Summit_Cutscene
-	.2byte 0
-
-
-MtEmber_Summit_Cutscene::
-	goto_if_set FLAG_MT_EMBER_HIDE_MOLTRES, MtEmber_Summit_Cutscene_2
-	lockall
-	delay 60
-	special SpawnCameraObject
-	applymovement OBJ_EVENT_ID_CAMERA, MtEmber_Summit_CameraMovementUp
-	waitmovement 0
-	special RemoveCameraObject
-	msgbox MtEmber_Summit_Cutscene_Text_0
-	playmoncry SPECIES_MOLTRES, CRY_MODE_ENCOUNTER
-	delay 30
-	removeobject 5
-	SetFlag FLAG_MT_EMBER_HIDE_MOLTRES
-	msgbox MtEmber_Summit_Cutscene_Text_1
-	applymovement 6, MtEmber_Summit_TurnCourtney
-	waitmovement 0
-	playse SE_PIN
-	applymovement 6, Common_Movement_ExclamationMark
-	waitmovement 0
-	msgbox MtEmber_Summit_Cutscene_Text_2
-	delay 30
-	special SpawnCameraObject
-	applymovement OBJ_EVENT_ID_CAMERA, MtEmber_Summit_CameraMovementDown
-	waitmovement 0
-	special RemoveCameraObject
-	SetVar VAR_MT_EMBER_SUMMIT_STATE, 1
-	releaseall
+MtEmber_Summit_OnResume::
+	call_if_set FLAG_SYS_SPECIAL_WILD_BATTLE, MtEmber_Summit_EventScript_TryRemoveMoltres
 	end
 
-MtEmber_Summit_Cutscene_2:
-	end
-
-
-MtEmber_Summit_CameraMovementUp:
-	walk_slow_up
-	walk_slow_up
-	walk_slow_up
-	walk_slow_up
-	walk_slow_up
-	walk_slow_up
-	walk_slow_up
-	step_end
-
-MtEmber_Summit_CameraMovementDown:
-	walk_slow_down
-	walk_slow_down
-	walk_slow_down
-	walk_slow_down
-	walk_slow_down
-	walk_slow_down
-	walk_slow_down
-	step_end
-
-MtEmber_Summit_TurnCourtney:
-	face_down
-	step_end
-
-MtEmber_Summit_Courtney::
-	trainerbattle_single TRAINER_CLIFFORD, MtEmber_Summit_Text_CourtneyIntro, MtEmber_Summit_Text_CourtneyDefeat, MtEmber_Summit_CourtneyDefeat
-	msgbox MtEmber_Summit_Text_CourtneyPostBattle
+MtEmber_Summit_EventScript_TryRemoveMoltres::
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_Return
+	removeobject VAR_LAST_TALKED
 	return
 
-
-MtEmber_Summit_CourtneyDefeat::
-	SetFlag FLAG_ISLAND1_COURTNEY_DEFEATED
-	lockall
-	playse SE_PIN
-	applymovement 6, Common_Movement_ExclamationMark
-	addobject 5
-	playmoncry SPECIES_MOLTRES, CRY_MODE_WEAK
-	applymovement 5, MtEmber_Summit_MoltresFlyAway
-	waitmovement 0
-	removeobject 5
-	msgbox MtEmber_Summit_CourtneyDefeat_Text_0
-	closemessage
-	fadescreen FADE_TO_BLACK
-	removeobject 6
-	fadescreen FADE_FROM_BLACK
-	releaseall
+MtEmber_Summit_OnTransition::
+	call_if_unset FLAG_FOUGHT_MOLTRES, MtEmber_Summit_EventScript_ShowMoltres
 	end
 
+MtEmber_Summit_EventScript_ShowMoltres::
+	clearflag FLAG_HIDE_MOLTRES
+	return
 
-MtEmber_Summit_MoltresFlyAway:
-	face_up
-	delay_16
-	delay_16
-	fly_up
-	step_end
-
-MtEmber_Summit_Moltres::
-	bufferspeciesname 0, SPECIES_MOLTRES
+MtEmber_Summit_EventScript_Moltres::
+	lock
+	faceplayer
+	setwildbattle SPECIES_MOLTRES, 50
+	waitse
+	playmoncry SPECIES_MOLTRES, CRY_MODE_ENCOUNTER
+	message Text_Gyaoo
+	waitmessage
+	waitmoncry
+	delay 10
+	playbgm MUS_RG_ENCOUNTER_GYM_LEADER, 0
+	waitbuttonpress
+	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	special StartLegendaryBattle
+	waitstate
+	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, MtEmber_Summit_EventScript_DefeatedMoltres
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, MtEmber_Summit_EventScript_RanFromMoltres
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, MtEmber_Summit_EventScript_RanFromMoltres
+	setflag FLAG_FOUGHT_MOLTRES
+	release
 	end
 
+MtEmber_Summit_EventScript_DefeatedMoltres::
+	setflag FLAG_FOUGHT_MOLTRES
+	goto EventScript_RemoveStaticMon
+	end
 
-MtEmber_Summit_Cutscene_Text_0:
-	.string "At last...I've found you, Moltres.\n"
-	.string "Together, we shall finally conquer this\l"
-	.string "world and expand the land masses, just\l"
-	.string "as Maxie foresaw!$"
-
-MtEmber_Summit_Cutscene_Text_1:
-	.string "I've got it! Let's move!$"
-
-MtEmber_Summit_Cutscene_Text_2:
-	.string "You again? I won't let you stop me this\n"
-	.string "time...$"
-
-MtEmber_Summit_CourtneyDefeat_Text_0:
-	.string "Wow! These legendaries are really hard\n"
-	.string "to control...well, it was ineffective\l"
-	.string "against you anyways, but I won't give\l"
-	.string "up!$"
-
-MtEmber_Summit_Text_CourtneyIntro::
-	.string "...$"
-
-MtEmber_Summit_Text_CourtneyDefeat::
-	.string "Even Moltres couldn't stop you...I guess\n"
-	.string "I need to find something stronger...$"
-
-MtEmber_Summit_Text_CourtneyPostBattle::
-	.string "You're starting to really annoy me...but\n"
-	.string "we will prevail!$"
+MtEmber_Summit_EventScript_RanFromMoltres::
+	setvar VAR_0x8004, SPECIES_MOLTRES
+	goto EventScript_MonFlewAway
+	end

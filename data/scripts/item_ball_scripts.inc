@@ -663,15 +663,15 @@ MagmaHideout_3F_3R_EventScript_ItemEscapeRope::
 	finditem ITEM_ESCAPE_ROPE
 	end
 
-Island1_KindleRoad_EventScript_ItemEther::
+KnotIsland_KindleRoad_EventScript_ItemEther::
 	finditem ITEM_ETHER
 	end
 
-Island1_KindleRoad_EventScript_ItemMaxRepel::
+KnotIsland_KindleRoad_EventScript_ItemMaxRepel::
 	finditem ITEM_MAX_REPEL
 	end
 
-Island1_KindleRoad_EventScript_ItemCarbos::
+KnotIsland_KindleRoad_EventScript_ItemCarbos::
 	finditem ITEM_CARBOS
 	end
 	

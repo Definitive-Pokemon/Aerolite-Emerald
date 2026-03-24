@@ -1153,21 +1153,21 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/scripts/test.inc"
 
-	.include "data/maps/Island1_TreasureBeach/scripts.inc"
+	.include "data/maps/KnotIsland_TreasureBeach/scripts.inc"
 
-	.include "data/maps/Island1_Main/scripts.inc"
+	.include "data/maps/KnotIsland_Main/scripts.inc"
 
-	.include "data/maps/Island1_Harbor/scripts.inc"
+	.include "data/maps/KnotIsland_Harbor/scripts.inc"
 
-	.include "data/maps/Island1_PokemonCenter_1F/scripts.inc"
+	.include "data/maps/KnotIsland_PokemonCenter_1F/scripts.inc"
 
-	.include "data/maps/Island1_House1/scripts.inc"
+	.include "data/maps/KnotIsland_House1/scripts.inc"
 
-	.include "data/maps/Island1_House2/scripts.inc"
+	.include "data/maps/KnotIsland_House2/scripts.inc"
 
-	.include "data/maps/Island1_PokemonCenter_2F/scripts.inc"
+	.include "data/maps/KnotIsland_PokemonCenter_2F/scripts.inc"
 
-	.include "data/maps/Island1_KindleRoad/scripts.inc"
+	.include "data/maps/KnotIsland_KindleRoad/scripts.inc"
 
 	.include "data/maps/MtEmber_Exterior/scripts.inc"
 
@@ -1213,51 +1213,51 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/Island2_CapeBrink_House/scripts.inc"
 
-	.include "data/maps/Island3_Main/scripts.inc"
+	.include "data/maps/KinIsland_Main/scripts.inc"
 
-	.include "data/maps/Island3_Port/scripts.inc"
+	.include "data/maps/KinIsland_Port/scripts.inc"
 
-	.include "data/maps/Island3_DunsparceTunnel/scripts.inc"
+	.include "data/maps/KinIsland_DunsparceTunnel/scripts.inc"
 
-	.include "data/maps/Island3_BondBridge/scripts.inc"
+	.include "data/maps/KinIsland_BondBridge/scripts.inc"
 
-	.include "data/maps/Island3_BerryForest/scripts.inc"
+	.include "data/maps/KinIsland_BerryForest/scripts.inc"
 
-	.include "data/maps/Island3_House1/scripts.inc"
+	.include "data/maps/KinIsland_House1/scripts.inc"
 
-	.include "data/maps/Island3_PokemonCenter_1F/scripts.inc"
+	.include "data/maps/KinIsland_PokemonCenter_1F/scripts.inc"
 
-	.include "data/maps/Island3_PokemonCenter_2F/scripts.inc"
+	.include "data/maps/KinIsland_PokemonCenter_2F/scripts.inc"
 
-	.include "data/maps/Island3_Mart/scripts.inc"
+	.include "data/maps/KinIsland_Mart/scripts.inc"
 
-	.include "data/maps/Island3_House2/scripts.inc"
+	.include "data/maps/KinIsland_House2/scripts.inc"
 
-	.include "data/maps/Island3_House3/scripts.inc"
+	.include "data/maps/KinIsland_House3/scripts.inc"
 
-	.include "data/maps/Island3_House4/scripts.inc"
+	.include "data/maps/KinIsland_House4/scripts.inc"
 
-	.include "data/maps/Island3_House5/scripts.inc"
+	.include "data/maps/KinIsland_House5/scripts.inc"
 
-	.include "data/maps/Island3_Harbor/scripts.inc"
+	.include "data/maps/KinIsland_Harbor/scripts.inc"
 
-	.include "data/maps/Island4_Main/scripts.inc"
+	.include "data/maps/FloeIsland_Main/scripts.inc"
 
-	.include "data/maps/Island4_PokemonDaycare/scripts.inc"
+	.include "data/maps/FloeIsland_PokemonDaycare/scripts.inc"
 
-	.include "data/maps/Island4_PokemonCenter_1F/scripts.inc"
+	.include "data/maps/FloeIsland_PokemonCenter_1F/scripts.inc"
 
-	.include "data/maps/Island4_PokemonCenter_2F/scripts.inc"
+	.include "data/maps/FloeIsland_PokemonCenter_2F/scripts.inc"
 
-	.include "data/maps/Island4_House1/scripts.inc"
+	.include "data/maps/FloeIsland_House1/scripts.inc"
 
-	.include "data/maps/Island4_LoreleisHouse/scripts.inc"
+	.include "data/maps/FloeIsland_LoreleisHouse/scripts.inc"
 
-	.include "data/maps/Island4_Harbor/scripts.inc"
+	.include "data/maps/FloeIsland_Harbor/scripts.inc"
 
-	.include "data/maps/Island4_House2/scripts.inc"
+	.include "data/maps/FloeIsland_House2/scripts.inc"
 
-	.include "data/maps/Island4_Mart/scripts.inc"
+	.include "data/maps/FloeIsland_Mart/scripts.inc"
 
 	.include "data/maps/IcefallCave_Entrance/scripts.inc"
 
@@ -1267,134 +1267,134 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/IcefallCave_Back/scripts.inc"
 
-	.include "data/maps/Island5_Main/scripts.inc"
+	.include "data/maps/ChronoIsland_Main/scripts.inc"
 
-	.include "data/maps/Island5_Meadow/scripts.inc"
+	.include "data/maps/ChronoIsland_Meadow/scripts.inc"
 
-	.include "data/maps/Island5_MemorialPillar/scripts.inc"
+	.include "data/maps/ChronoIsland_MemorialPillar/scripts.inc"
 
-	.include "data/maps/Island5_WaterLabyrinth/scripts.inc"
+	.include "data/maps/ChronoIsland_WaterLabyrinth/scripts.inc"
 
-	.include "data/maps/Island5_ResortGorgeous/scripts.inc"
+	.include "data/maps/ChronoIsland_ResortGorgeous/scripts.inc"
 
-	.include "data/maps/Island5_LostCave_Entrance/scripts.inc"
+	.include "data/maps/ChronoIsland_LostCave_Entrance/scripts.inc"
 
-	.include "data/maps/Island5_LostCave_Room1/scripts.inc"
+	.include "data/maps/ChronoIsland_LostCave_Room1/scripts.inc"
 
-	.include "data/maps/Island5_LostCave_Room2/scripts.inc"
+	.include "data/maps/ChronoIsland_LostCave_Room2/scripts.inc"
 
-	.include "data/maps/Island5_LostCave_Room3/scripts.inc"
+	.include "data/maps/ChronoIsland_LostCave_Room3/scripts.inc"
 
-	.include "data/maps/Island5_LostCave_Room4/scripts.inc"
+	.include "data/maps/ChronoIsland_LostCave_Room4/scripts.inc"
 
-	.include "data/maps/Island5_LostCave_Room5/scripts.inc"
+	.include "data/maps/ChronoIsland_LostCave_Room5/scripts.inc"
 
-	.include "data/maps/Island5_LostCave_Room6/scripts.inc"
+	.include "data/maps/ChronoIsland_LostCave_Room6/scripts.inc"
 
-	.include "data/maps/Island5_LostCave_Room7/scripts.inc"
+	.include "data/maps/ChronoIsland_LostCave_Room7/scripts.inc"
 
-	.include "data/maps/Island5_LostCave_Room8/scripts.inc"
+	.include "data/maps/ChronoIsland_LostCave_Room8/scripts.inc"
 
-	.include "data/maps/Island5_LostCave_Room9/scripts.inc"
+	.include "data/maps/ChronoIsland_LostCave_Room9/scripts.inc"
 
-	.include "data/maps/Island5_LostCave_Room10/scripts.inc"
+	.include "data/maps/ChronoIsland_LostCave_Room10/scripts.inc"
 
-	.include "data/maps/Island5_LostCave_Room11/scripts.inc"
+	.include "data/maps/ChronoIsland_LostCave_Room11/scripts.inc"
 
-	.include "data/maps/Island5_LostCave_Room12/scripts.inc"
+	.include "data/maps/ChronoIsland_LostCave_Room12/scripts.inc"
 
-	.include "data/maps/Island5_LostCave_Room13/scripts.inc"
+	.include "data/maps/ChronoIsland_LostCave_Room13/scripts.inc"
 
-	.include "data/maps/Island5_LostCave_Room14/scripts.inc"
+	.include "data/maps/ChronoIsland_LostCave_Room14/scripts.inc"
 
-	.include "data/maps/Island5_PokemonCenter_1F/scripts.inc"
+	.include "data/maps/ChronoIsland_PokemonCenter_1F/scripts.inc"
 
-	.include "data/maps/Island5_PokeCenter_2F/scripts.inc"
+	.include "data/maps/ChronoIsland_PokeCenter_2F/scripts.inc"
 
-	.include "data/maps/Island5_Harbor/scripts.inc"
+	.include "data/maps/ChronoIsland_Harbor/scripts.inc"
 
-	.include "data/maps/Island5_House1/scripts.inc"
+	.include "data/maps/ChronoIsland_House1/scripts.inc"
 
-	.include "data/maps/Island5_House2/scripts.inc"
+	.include "data/maps/ChronoIsland_House2/scripts.inc"
 
-	.include "data/maps/Island5_ResortGorgeous_House/scripts.inc"
+	.include "data/maps/ChronoIsland_ResortGorgeous_House/scripts.inc"
 
-	.include "data/maps/Island5_Warehouse/scripts.inc"
+	.include "data/maps/ChronoIsland_Warehouse/scripts.inc"
 
-	.include "data/maps/Island6_Main/scripts.inc"
+	.include "data/maps/FortuneIsland_Main/scripts.inc"
 
-	.include "data/maps/Island6_WaterPath/scripts.inc"
+	.include "data/maps/FortuneIsland_WaterPath/scripts.inc"
 
-	.include "data/maps/Island6_RuinValley/scripts.inc"
+	.include "data/maps/FortuneIsland_RuinValley/scripts.inc"
 
-	.include "data/maps/Island6_GreenPath/scripts.inc"
+	.include "data/maps/FortuneIsland_GreenPath/scripts.inc"
 
-	.include "data/maps/Island6_OutcastIsland/scripts.inc"
+	.include "data/maps/FortuneIsland_OutcastIsland/scripts.inc"
 
-	.include "data/maps/Island6_PokemonCenter_1F/scripts.inc"
+	.include "data/maps/FortuneIsland_PokemonCenter_1F/scripts.inc"
 
-	.include "data/maps/Island6_PokemonCenter_2F/scripts.inc"
+	.include "data/maps/FortuneIsland_PokemonCenter_2F/scripts.inc"
 
-	.include "data/maps/Island6_Harbor/scripts.inc"
+	.include "data/maps/FortuneIsland_Harbor/scripts.inc"
 
-	.include "data/maps/Island6_House/scripts.inc"
+	.include "data/maps/FortuneIsland_House/scripts.inc"
 
-	.include "data/maps/Island6_Mart/scripts.inc"
+	.include "data/maps/FortuneIsland_Mart/scripts.inc"
 
-	.include "data/maps/Island6_WaterPath_House1/scripts.inc"
+	.include "data/maps/FortuneIsland_WaterPath_House1/scripts.inc"
 
-	.include "data/maps/Island6_WaterPath_House2/scripts.inc"
+	.include "data/maps/FortuneIsland_WaterPath_House2/scripts.inc"
 
-	.include "data/maps/Island6_DottedHole_1F/scripts.inc"
+	.include "data/maps/FortuneIsland_DottedHole_1F/scripts.inc"
 
-	.include "data/maps/Island6_DottedHole_B1F/scripts.inc"
+	.include "data/maps/FortuneIsland_DottedHole_B1F/scripts.inc"
 
-	.include "data/maps/Island6_DottedHole_B2F/scripts.inc"
+	.include "data/maps/FortuneIsland_DottedHole_B2F/scripts.inc"
 
-	.include "data/maps/Island6_DottedHole_B3F/scripts.inc"
+	.include "data/maps/FortuneIsland_DottedHole_B3F/scripts.inc"
 
-	.include "data/maps/Island6_DottedHole_B4F/scripts.inc"
+	.include "data/maps/FortuneIsland_DottedHole_B4F/scripts.inc"
 
-	.include "data/maps/Island6_DottedHole_BottomRoom/scripts.inc"
+	.include "data/maps/FortuneIsland_DottedHole_BottomRoom/scripts.inc"
 
-	.include "data/maps/Island6_PatternBush/scripts.inc"
+	.include "data/maps/FortuneIsland_PatternBush/scripts.inc"
 
-	.include "data/maps/Island6_AlteringCave/scripts.inc"
+	.include "data/maps/FortuneIsland_AlteringCave/scripts.inc"
 
-	.include "data/maps/Island7_Main/scripts.inc"
+	.include "data/maps/QuestIsland_Main/scripts.inc"
 
-	.include "data/maps/Island7_TrainerTower/scripts.inc"
+	.include "data/maps/QuestIsland_TrainerTower/scripts.inc"
 
-	.include "data/maps/Island7_SevaultCanyon_Entrance/scripts.inc"
+	.include "data/maps/QuestIsland_SevaultCanyon_Entrance/scripts.inc"
 
-	.include "data/maps/Island7_SevaultCanyon/scripts.inc"
+	.include "data/maps/QuestIsland_SevaultCanyon/scripts.inc"
 
-	.include "data/maps/Island7_TanobyRuins/scripts.inc"
+	.include "data/maps/QuestIsland_TanobyRuins/scripts.inc"
 
-	.include "data/maps/Island7_House_Room1/scripts.inc"
+	.include "data/maps/QuestIsland_House_Room1/scripts.inc"
 
-	.include "data/maps/Island7_Mart/scripts.inc"
+	.include "data/maps/QuestIsland_Mart/scripts.inc"
 
-	.include "data/maps/Island7_PokemonCenter_1F/scripts.inc"
+	.include "data/maps/QuestIsland_PokemonCenter_1F/scripts.inc"
 
-	.include "data/maps/Island7_PokemonCenter_2F/scripts.inc"
+	.include "data/maps/QuestIsland_PokemonCenter_2F/scripts.inc"
 
-	.include "data/maps/Island7_Harbor/scripts.inc"
+	.include "data/maps/QuestIsland_Harbor/scripts.inc"
 
-	.include "data/maps/Island7_SevaultCanyon_House/scripts.inc"
+	.include "data/maps/QuestIsland_SevaultCanyon_House/scripts.inc"
 
-	.include "data/maps/Island7_TanobyRuins_MoneanChamber/scripts.inc"
+	.include "data/maps/QuestIsland_TanobyRuins_MoneanChamber/scripts.inc"
 
-	.include "data/maps/Island7_TanobyRuins_LiptooChamber/scripts.inc"
+	.include "data/maps/QuestIsland_TanobyRuins_LiptooChamber/scripts.inc"
 
-	.include "data/maps/Island7_TanobyRuins_WeepthChamber/scripts.inc"
+	.include "data/maps/QuestIsland_TanobyRuins_WeepthChamber/scripts.inc"
 
-	.include "data/maps/Island7_TanobyRuins_DilfordChamber/scripts.inc"
+	.include "data/maps/QuestIsland_TanobyRuins_DilfordChamber/scripts.inc"
 
-	.include "data/maps/Island7_TanobyRuins_ScufibChamber/scripts.inc"
+	.include "data/maps/QuestIsland_TanobyRuins_ScufibChamber/scripts.inc"
 
-	.include "data/maps/Island7_TanobyRuins_RixyChamber/scripts.inc"
+	.include "data/maps/QuestIsland_TanobyRuins_RixyChamber/scripts.inc"
 
-	.include "data/maps/Island7_TanobyRuins_ViapoisChamber/scripts.inc"
+	.include "data/maps/QuestIsland_TanobyRuins_ViapoisChamber/scripts.inc"
 
-	.include "data/maps/Island7_SevaultCanyon_TanobyKey/scripts.inc"
+	.include "data/maps/QuestIsland_SevaultCanyon_TanobyKey/scripts.inc"

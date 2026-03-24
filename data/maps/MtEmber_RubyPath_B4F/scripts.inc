@@ -1,37 +1,72 @@
 MtEmber_RubyPath_B4F_MapScripts::
 	.byte 0
 
-
-MtEmber_RubyPath_B4F_Grunt1::
-	trainerbattle_single TRAINER_CLIFFORD, MtEmber_RubyPath_B4F_Text_Grunt1Intro, MtEmber_RubyPath_B4F_Text_Grunt1Defeat
-	msgbox MtEmber_RubyPath_B4F_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
-	waitmessage
+MtEmber_RubyPath_B4F_EventScript_BrailleABC::
+	lockall
+	braillemessage Braille_Text_ABC
+	waitbuttonpress
+	releaseall
 	end
 
-
-MtEmber_RubyPath_B4F_Grunt2::
-	trainerbattle_single TRAINER_CLIFFORD, MtEmber_RubyPath_B4F_Text_Grunt2Intro, MtEmber_RubyPath_B4F_Text_Grunt2Defeat
-	msgbox MtEmber_RubyPath_B4F_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
-	waitmessage
+MtEmber_RubyPath_B4F_EventScript_BrailleGHI::
+	lockall
+	braillemessage Braille_Text_GHI
+	waitbuttonpress
+	releaseall
 	end
 
+MtEmber_RubyPath_B4F_EventScript_BrailleMNO::
+	lockall
+	braillemessage Braille_Text_MNO
+	waitbuttonpress
+	releaseall
+	end
 
-MtEmber_RubyPath_B4F_Text_Grunt1Intro::
-	.string "You can't be here! Official Team Magma\n"
-	.string "business!$"
+MtEmber_RubyPath_B4F_EventScript_BrailleTUV::
+	lockall
+	braillemessage Braille_Text_TUV
+	waitbuttonpress
+	releaseall
+	end
 
-MtEmber_RubyPath_B4F_Text_Grunt1Defeat::
-	.string "Don't you dare go down that ladder$"
+MtEmber_RubyPath_B4F_EventScript_BrailleDEF::
+	lockall
+	braillemessage Braille_Text_DEF
+	waitbuttonpress
+	releaseall
+	end
 
-MtEmber_RubyPath_B4F_Text_Grunt1PostBattle::
-	.string "Get lost already!$"
+MtEmber_RubyPath_B4F_EventScript_BrailleJKL::
+	lockall
+	braillemessage Braille_Text_JKL
+	waitbuttonpress
+	releaseall
+	end
 
-MtEmber_RubyPath_B4F_Text_Grunt2Intro::
-	.string "Official Team Magma business! Please\n"
-	.string "leave the area immediately!$"
+MtEmber_RubyPath_B4F_EventScript_BraillePQRS::
+	lockall
+	braillemessage Braille_Text_PQRS
+	waitbuttonpress
+	releaseall
+	end
 
-MtEmber_RubyPath_B4F_Text_Grunt2Defeat::
-	.string "Access strictly forbidden!$"
+MtEmber_RubyPath_B4F_EventScript_BrailleWXYZ::
+	lockall
+	braillemessage Braille_Text_WXYZ
+	waitbuttonpress
+	releaseall
+	end
 
-MtEmber_RubyPath_B4F_Text_Grunt2PostBattle::
-	.string "Please leave immediately$"
+MtEmber_RubyPath_B4F_EventScript_BraillePeriod::
+	lockall
+	braillemessage Braille_Text_Period
+	waitbuttonpress
+	releaseall
+	end
+
+MtEmber_RubyPath_B4F_EventScript_BrailleComma::
+	lockall
+	braillemessage Braille_Text_Comma
+	waitbuttonpress
+	releaseall
+	end
