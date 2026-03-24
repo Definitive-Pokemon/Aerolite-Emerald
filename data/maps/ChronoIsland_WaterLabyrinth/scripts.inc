@@ -62,6 +62,7 @@ ChronoIsland_WaterLabyrinth_EventScript_NoRoomForEgg::
 ChronoIsland_WaterLabyrinth_EventScript_ReturnForEgg::
 	goto ChronoIsland_WaterLabyrinth_EventScript_TryGiveEgg
 	end
+
 ChronoIsland_WaterLabyrinth_Text_LetMeTakeLookAtMons::
     .string "You travel all over the place,\n"
     .string "don't you?\p"
@@ -111,6 +112,23 @@ ChronoIsland_WaterLabyrinth_Text_CuteMonRemindsMeOfDaisy::
     .string "She was a little angel.\p"
     .string "That little girl's name…\n"
     .string "I think it was DAISY.$"
+
+ChronoIsland_WaterLabyrinth_EventScript_Alize::
+	trainerbattle_single TRAINER_PKMN_BREEDER_ALIZE, ChronoIsland_WaterLabyrinth_Text_AlizeIntro, ChronoIsland_WaterLabyrinth_Text_AlizeDefeat
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, ChronoIsland_WaterLabyrinth_EventScript_AlizeRematch
+	msgbox ChronoIsland_WaterLabyrinth_Text_AlizePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+ChronoIsland_WaterLabyrinth_EventScript_AlizeRematch::
+	trainerbattle_rematch TRAINER_CLIFFORD, ChronoIsland_WaterLabyrinth_Text_AlizeRematchIntro, ChronoIsland_WaterLabyrinth_Text_AlizeDefeat
+	msgbox ChronoIsland_WaterLabyrinth_Text_AlizePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+ChronoIsland_WaterLabyrinth_Text_AlizeRematchIntro::
+	.string "Oh, hello!\p"
+	.string "Are you raising your POKéMON in a\n"
+	.string "good environment?$"
 
 ChronoIsland_WaterLabyrinth_Text_AlizeIntro::
     .string "This is an excellent environment\n"

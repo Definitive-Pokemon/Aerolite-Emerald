@@ -1153,7 +1153,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TWO_ISLAND",
+      "map_section": "MAPSEC_BOON_ISLAND",
       "name": "Two Island",
       "x": 0,
       "y": 0,
@@ -1161,7 +1161,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_THREE_ISLAND",
+      "map_section": "MAPSEC_KIN_ISLAND",
       "name": "Three Island",
       "x": 0,
       "y": 0,
@@ -1169,7 +1169,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_FOUR_ISLAND",
+      "map_section": "MAPSEC_FLOE_ISLAND",
       "name": "Four Island",
       "x": 0,
       "y": 0,
@@ -1177,7 +1177,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_FIVE_ISLAND",
+      "map_section": "MAPSEC_CHRONO_ISLAND",
       "name": "Five Island",
       "x": 0,
       "y": 0,
@@ -1185,7 +1185,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_SEVEN_ISLAND",
+      "map_section": "MAPSEC_QUEST_ISLAND",
       "name": "Seven Island",
       "x": 0,
       "y": 0,
@@ -1193,7 +1193,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_SIX_ISLAND",
+      "map_section": "MAPSEC_FORTUNE_ISLAND",
       "name": "Six Island",
       "x": 0,
       "y": 0,

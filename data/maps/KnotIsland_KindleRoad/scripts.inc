@@ -315,6 +315,60 @@ KnotIsland_KindleRoad_Text_MikPostBattle::
     .string "MIK: How could my combination\n"
     .string "with KIA fail?$"
 
+KnotIsland_KindleRoad_Text_MariaRematchIntro::
+	.string "The weather's gorgeous!\n"
+	.string "I'll try not to spoil it.$"
+
+KnotIsland_KindleRoad_Text_AbigailRematchIntro::
+	.string "My sunburn is starting to hurt…$"
+
+KnotIsland_KindleRoad_Text_FinnRematchIntro::
+	.string "The fire bird's mountain casts\n"
+	.string "a huge shadow…$"
+
+KnotIsland_KindleRoad_Text_GarrettRematchIntro::
+	.string "I have this strong feeling that\n"
+	.string "I can win this time!$"
+
+KnotIsland_KindleRoad_Text_TommyRematchIntro::
+	.string "Wait! Wait a second!\n"
+	.string "I'm sure I've hooked a big one!$"
+
+KnotIsland_KindleRoad_Text_SharonRematchIntro::
+	.string "You'll help me out with my\n"
+	.string "training again?$"
+
+KnotIsland_KindleRoad_Text_TanyaRematchIntro::
+	.string "We haven't missed a single day of\n"
+	.string "training yet!$"
+
+KnotIsland_KindleRoad_Text_SheaRematchIntro::
+	.string "Every morning, before breakfast,\n"
+	.string "I swim around this island…\l"
+	.string "Three times!$"
+
+KnotIsland_KindleRoad_Text_HughRematchIntro::
+	.string "Dress appropriately for battle!\n"
+	.string "Lose that frivolous outfit, I said!$"
+
+KnotIsland_KindleRoad_Text_BryceRematchIntro::
+	.string "You know, everything tastes great\n"
+	.string "when you're out in the wild.$"
+
+KnotIsland_KindleRoad_Text_ClaireRematchIntro::
+	.string "I ate too much again, so will you\n"
+	.string "battle us for some exercise?$"
+
+KnotIsland_KindleRoad_Text_KiaRematchIntro::
+	.string "KIA: My big brother and I make\n"
+	.string "an awesome combination!\p"
+	.string "We won't lose this time!$"
+
+KnotIsland_KindleRoad_Text_MikRematchIntro::
+	.string "MIK: Together with KIA, we're\n"
+	.string "afraid of nothing!\p"
+	.string "We'll prove it to you this time!$"
+
 KnotIsland_KindleRoad_Text_MikNotEnoughMons::
     .string "MIK: Hey, do you want to battle\n"
     .string "with us two?\p"

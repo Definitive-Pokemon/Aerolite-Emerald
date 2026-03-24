@@ -10,7 +10,7 @@ KnotIsland_PokemonCenter_1F_MapScripts::
 	.byte 0
 
 KnotIsland_PokemonCenter_1F_OnLoad::
-	@call_if_ge VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 5, KnotIsland_PokemonCenter_1F_EventScript_SetRubyMetatile
+	@call_if_ge VAR_MAP_SCENE_KNOT_ISLAND_POKEMON_CENTER_1F, 5, KnotIsland_PokemonCenter_1F_EventScript_SetRubyMetatile
 	@call_if_set FLAG_SYS_CAN_LINK_WITH_RS, KnotIsland_PokemonCenter_1F_EventScript_SetNetworkMachineOn
 	end
 
@@ -29,14 +29,14 @@ KnotIsland_PokemonCenter_1F_EventScript_SetNetworkMachineOn::
 	return
 
 KnotIsland_PokemonCenter_1F_OnTransition::
-	setrespawn HEAL_LOCATION_ONE_ISLAND
-	@call_if_eq VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 6, KnotIsland_PokemonCenter_1F_EventScript_SetCelioQuestDone
-	@call_if_eq VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 0, KnotIsland_PokemonCenter_1F_EventScript_SetBillCelioFirstMeetingPos
-	@call_if_eq VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 2, KnotIsland_PokemonCenter_1F_EventScript_SetBillCelioReadyToLeavePos
+	setrespawn HEAL_LOCATION_KNOT_ISLAND
+	@call_if_eq VAR_MAP_SCENE_KNOT_ISLAND_POKEMON_CENTER_1F, 6, KnotIsland_PokemonCenter_1F_EventScript_SetCelioQuestDone
+	@call_if_eq VAR_MAP_SCENE_KNOT_ISLAND_POKEMON_CENTER_1F, 0, KnotIsland_PokemonCenter_1F_EventScript_SetBillCelioFirstMeetingPos
+	@call_if_eq VAR_MAP_SCENE_KNOT_ISLAND_POKEMON_CENTER_1F, 2, KnotIsland_PokemonCenter_1F_EventScript_SetBillCelioReadyToLeavePos
 	end
 
 KnotIsland_PokemonCenter_1F_EventScript_SetCelioQuestDone::
-	@setvar VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 7
+	@setvar VAR_MAP_SCENE_KNOT_ISLAND_POKEMON_CENTER_1F, 7
 	return
 
 KnotIsland_PokemonCenter_1F_EventScript_SetBillCelioFirstMeetingPos::
@@ -54,7 +54,7 @@ KnotIsland_PokemonCenter_1F_EventScript_SetBillCelioReadyToLeavePos::
 	return
 
 KnotIsland_PokemonCenter_1F_OnFrame::
-	@map_script_2 VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 0, KnotIsland_PokemonCenter_1F_EventScript_MeetCelioScene
+	@map_script_2 VAR_MAP_SCENE_KNOT_ISLAND_POKEMON_CENTER_1F, 0, KnotIsland_PokemonCenter_1F_EventScript_MeetCelioScene
 	.2byte 0
 
 KnotIsland_PokemonCenter_1F_EventScript_MeetCelioScene::
@@ -117,7 +117,7 @@ KnotIsland_PokemonCenter_1F_EventScript_MeetCelioScene::
 	applymovement LOCALID_CELIO, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	@setflag FLAG_SYS_PC_STORAGE_DISABLED
-	@setvar VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 1
+	@setvar VAR_MAP_SCENE_KNOT_ISLAND_POKEMON_CENTER_1F, 1
 	releaseall
 	end
 
@@ -188,15 +188,15 @@ KnotIsland_PokemonCenter_1F_EventScript_BillGoTakeStroll::
 KnotIsland_PokemonCenter_1F_EventScript_Celio::
 	lock
 	faceplayer
-	@goto_if_eq VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 7, KnotIsland_PokemonCenter_1F_EventScript_CelioGiveBillFact
-	@goto_if_eq VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 6, KnotIsland_PokemonCenter_1F_EventScript_CelioJustGivenSapphire
+	@goto_if_eq VAR_MAP_SCENE_KNOT_ISLAND_POKEMON_CENTER_1F, 7, KnotIsland_PokemonCenter_1F_EventScript_CelioGiveBillFact
+	@goto_if_eq VAR_MAP_SCENE_KNOT_ISLAND_POKEMON_CENTER_1F, 6, KnotIsland_PokemonCenter_1F_EventScript_CelioJustGivenSapphire
 	@goto_if_set FLAG_RECOVERED_SAPPHIRE, KnotIsland_PokemonCenter_1F_EventScript_GiveCelioSapphire
-	@goto_if_eq VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 5, KnotIsland_PokemonCenter_1F_EventScript_ExplainRainbowPass
+	@goto_if_eq VAR_MAP_SCENE_KNOT_ISLAND_POKEMON_CENTER_1F, 5, KnotIsland_PokemonCenter_1F_EventScript_ExplainRainbowPass
 	@goto_if_set FLAG_GOT_RUBY, KnotIsland_PokemonCenter_1F_EventScript_GiveCelioRuby
-	@goto_if_eq VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 4, KnotIsland_PokemonCenter_1F_EventScript_CelioWaitingForRuby
+	@goto_if_eq VAR_MAP_SCENE_KNOT_ISLAND_POKEMON_CENTER_1F, 4, KnotIsland_PokemonCenter_1F_EventScript_CelioWaitingForRuby
 	@specialvar VAR_RESULT, IsNationalPokedexEnabled
 	goto_if_eq VAR_RESULT, TRUE, KnotIsland_PokemonCenter_1F_EventScript_CelioRequestRuby
-	@goto_if_eq VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 3, KnotIsland_PokemonCenter_1F_EventScript_CelioPlayerMissingNationalDex
+	@goto_if_eq VAR_MAP_SCENE_KNOT_ISLAND_POKEMON_CENTER_1F, 3, KnotIsland_PokemonCenter_1F_EventScript_CelioPlayerMissingNationalDex
 	msgbox KnotIsland_PokemonCenter_1F_Text_SorryForBeingPoorHost
 	closemessage
 	applymovement LOCALID_CELIO, Common_Movement_FaceOriginalDirection
@@ -261,7 +261,7 @@ KnotIsland_PokemonCenter_1F_EventScript_GiveCelioSapphire::
 	setflag FLAG_SYS_CAN_LINK_WITH_RS
 	setflag FLAG_HIDE_CERULEAN_CAVE_GUARD
 	setflag FLAG_HIDE_LORELEI_IN_HER_HOUSE
-	@setvar VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 6
+	@setvar VAR_MAP_SCENE_KNOT_ISLAND_POKEMON_CENTER_1F, 6
 	special InitRoamer
 	release
 	end
@@ -301,7 +301,7 @@ KnotIsland_PokemonCenter_1F_EventScript_GiveRainbowPass::
 	msgbox KnotIsland_PokemonCenter_1F_Text_AnotherGemstoneInSeviiIslands
 	@removeitem ITEM_RUBY
 	@removeitem ITEM_TRI_PASS
-	@setvar VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 5
+	@setvar VAR_MAP_SCENE_KNOT_ISLAND_POKEMON_CENTER_1F, 5
 	@additem ITEM_RAINBOW_PASS
 	@setflag FLAG_SYS_SEVII_MAP_4567
 	@playfanfare MUS_OBTAIN_KEY_ITEM
@@ -329,7 +329,7 @@ KnotIsland_PokemonCenter_1F_EventScript_CelioRequestRuby::
 	waitmovement 0
 	msgbox KnotIsland_PokemonCenter_1F_Text_NeedsSpecialGemstone
 	setvar VAR_MAP_SCENE_MT_EMBER_EXTERIOR, 1
-	setvar VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 4
+	setvar VAR_MAP_SCENE_KNOT_ISLAND_POKEMON_CENTER_1F, 4
 	release
 	end
 
@@ -459,11 +459,11 @@ KnotIsland_PokemonCenter_1F_EventScript_LeaveKnotIslandScene::
 	applymovement LOCALID_BILL, KnotIsland_PokemonCenter_1F_Movement_BillExit
 	waitmovement 0
 	playse SE_EXIT
-	setflag FLAG_HIDE_ONE_ISLAND_POKECENTER_BILL
-	setvar VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 3
+	setflag FLAG_HIDE_KNOT_ISLAND_POKECENTER_BILL
+	setvar VAR_MAP_SCENE_KNOT_ISLAND_POKEMON_CENTER_1F, 3
 	clearflag FLAG_HIDE_CINNABAR_BILL
 	setvar VAR_MAP_SCENE_CINNABAR_ISLAND, 3
-	setvar VAR_0x8004, SEAGALLOP_ONE_ISLAND
+	setvar VAR_0x8004, SEAGALLOP_KNOT_ISLAND
 	setvar VAR_0x8006, SEAGALLOP_CINNABAR_ISLAND
 	goto EventScript_SetSail
 	end
