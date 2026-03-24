@@ -8,51 +8,51 @@ Island_Harbors_EventScript_GoToLilycove::
 	release
 	end
 	
-Island_Harbors_EventScript_GoToIsland1::
+Island_Harbors_EventScript_GoToKnotIsland::
 	call Island_Harbors_EventScript_BoardFerry1
-	warp MAP_ISLAND1_HARBOR, 8, 4
+	warp MAP_KNOT_ISLAND_HARBOR, 8, 4
 	waitstate
 	release
 	end
 	
 Island_Harbors_EventScript_GoToIsland2::
 	call Island_Harbors_EventScript_BoardFerry1
-	warp MAP_ISLAND2_HARBOR, 8, 4
+	warp MAP_BOON_ISLAND_HARBOR, 8, 4
 	waitstate
 	release
 	end
 	
-Island_Harbors_EventScript_GoToIsland3::
+Island_Harbors_EventScript_GoToKinIsland::
 	call Island_Harbors_EventScript_BoardFerry1
-	warp MAP_ISLAND3_HARBOR, 8, 4
+	warp MAP_KIN_ISLAND_HARBOR, 8, 4
 	waitstate
 	release
 	end
 	
-Island_Harbors_EventScript_GoToIsland4::
+Island_Harbors_EventScript_GoToFloeIsland::
 	call Island_Harbors_EventScript_BoardFerry1
-	warp MAP_ISLAND4_HARBOR, 8, 4
+	warp MAP_FLOE_ISLAND_HARBOR, 8, 4
 	waitstate
 	release
 	end
 	
-Island_Harbors_EventScript_GoToIsland5::
+Island_Harbors_EventScript_GoToChronoIsland::
 	call Island_Harbors_EventScript_BoardFerry1
-	warp MAP_ISLAND5_HARBOR, 8, 4
+	warp MAP_CHRONO_ISLAND_HARBOR, 8, 4
 	waitstate
 	release
 	end
 	
-Island_Harbors_EventScript_GoToIsland6::
+Island_Harbors_EventScript_GoToFortuneIsland::
 	call Island_Harbors_EventScript_BoardFerry1
-	warp MAP_ISLAND6_HARBOR, 8, 4
+	warp MAP_FORTUNE_ISLAND_HARBOR, 8, 4
 	waitstate
 	release
 	end
 	
-Island_Harbors_EventScript_GoToIsland7::
+Island_Harbors_EventScript_GoToQuestIsland::
 	call Island_Harbors_EventScript_BoardFerry1
-	warp MAP_ISLAND7_HARBOR, 8, 4
+	warp MAP_QUEST_ISLAND_HARBOR, 8, 4
 	waitstate
 	release
 	end
