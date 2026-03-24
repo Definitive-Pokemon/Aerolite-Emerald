@@ -2094,6 +2094,7 @@ const union {
         .IRON_TAIL = TRUE,
         .RETURN = TRUE,
         .DOUBLE_TEAM = TRUE,
+		.BRICK_BREAK = TRUE,
         .AERIAL_ACE = TRUE,
         .FACADE = TRUE,
         .SECRET_POWER = TRUE,
@@ -2103,6 +2104,7 @@ const union {
         .STEEL_WING = TRUE,
         .CUT = TRUE,
         .FLY = TRUE,
+		.ROCK_SMASH = TRUE,
     } },
 
     [SPECIES_DODUO] = { .learnset = {
@@ -4851,6 +4853,7 @@ const union {
         .HYPER_BEAM = TRUE,
         .PROTECT = TRUE,
         .RAIN_DANCE = TRUE,
+		.GIGA_DRAIN = TRUE,
         .FRUSTRATION = TRUE,
         .EARTHQUAKE = TRUE,
         .RETURN = TRUE,
