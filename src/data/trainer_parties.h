@@ -3784,8 +3784,8 @@ static const struct TrainerMonItemCustomMoves sParty_Wallace[] = {
     .iv = 255,
     .lvl = 44,	// 50 on Hard
     .species = SPECIES_SEAKING,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_RAIN_DANCE, MOVE_SURF, MOVE_MEGAHORN, MOVE_ICE_BEAM}
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_DOUBLE_EDGE, MOVE_SURF, MOVE_MEGAHORN, MOVE_ICE_BEAM}
     },
     {
     .iv = 255,
