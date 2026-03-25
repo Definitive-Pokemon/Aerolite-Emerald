@@ -941,37 +941,36 @@
 #define TRAINER_BIKER_GOON_2 934
 #define TRAINER_BIKER_GOON_3 935
 #define TRAINER_BIKER_2 936
+#define TRAINER_RUIN_MANIAC_LAYTON 937
+#define TRAINER_BUG_CATCHER_ANTHONY 938
+#define TRAINER_BUG_CATCHER_CHARLIE 939
+#define TRAINER_YOUNGSTER_JOHNSON 940
+#define TRAINER_BIKER_RICARDO 941
+#define TRAINER_BIKER_JAREN 942
+#define TRAINER_SCIENTIST_GIDEON 943
+#define TRAINER_BLACK_BELT_SHEA 944
+#define TRAINER_BLACK_BELT_HUGH 945
+#define TRAINER_CAMPER_BRYCE 946
+#define TRAINER_PICNICKER_CLAIRE 947
+#define TRAINER_LADY_SELPHY 948
+#define TRAINER_CRUSH_GIRL_TANYA 949
+#define TRAINER_RUIN_MANIAC_LAWSON 950
+#define TRAINER_PSYCHIC_LAURA 951
+#define TRAINER_PKMN_BREEDER_BETHANY 952
+#define TRAINER_PKMN_BREEDER_ALLISON 953
+#define TRAINER_BUG_CATCHER_GARRET 954
+#define TRAINER_BUG_CATCHER_JONAH 955
+#define TRAINER_BUG_CATCHER_VANCE 956
+#define TRAINER_YOUNGSTER_NASH 957
+#define TRAINER_YOUNGSTER_CORDELL 958
+#define TRAINER_LASS_DALIA 959
+#define TRAINER_LASS_JOANA 960
+#define TRAINER_CAMPER_RILEY 961
+#define TRAINER_CRUSH_KIN_MIK_KIA 962
+#define TRAINER_CRUSH_GIRL_JOCELYN 963
+#define TRAINER_POKEMANIAC_MARK_2 964
+#define TRAINER_PKMN_RANGER_LOGAN 965
 /*
-
-#define aba 937
-#define aba 938
-#define aba 939
-#define aba 940
-#define aba 941
-#define aba 942
-#define aba 943
-#define aba 944
-#define aba 945
-#define aba 946
-#define aba 947
-#define aba 948
-#define aba 949
-#define aba 950
-#define aba 951
-#define aba 952
-#define aba 953
-#define aba 954
-#define aba 955
-#define aba 956
-#define aba 957
-#define aba 958
-#define aba 959
-#define aba 960
-#define aba 961
-#define aba 962
-#define aba 963
-#define aba 964
-#define aba 965
 #define aba 966
 #define aba 967
 #define aba 968
@@ -1011,7 +1010,7 @@
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT                      937
-#define MAX_TRAINERS_COUNT                  937
+#define TRAINERS_COUNT                      966
+#define MAX_TRAINERS_COUNT                  966
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H
