@@ -1333,7 +1333,7 @@
 #define FLAG_HIDE_CHRONO_ISLAND_MEADOW_MAX_POTION                     0x4F8 
 #define FLAG_HIDE_CHRONO_ISLAND_MEADOW_PP_UP                          0x4F9 
 #define FLAG_UNLOCKED_ROCKET_WAREHOUSE                              0x4FA 
-#define FLAG_UNLOCKED_ROCKET_WAREHOUSE                              0x4FB 
+#define FLAG_UNUSED_DUPLICATE                                         0x4FB 
 #define FLAG_HIDE_CHRONO_ISLAND_ROCKET_WAREHOUSE_BIG_PEARL            0x4FC
 #define FLAG_HIDE_CHRONO_ISLAND_ROCKET_WAREHOUSE_TM36                 0x4FD 
 #define FLAG_HIDE_CHRONO_ISLAND_ROCKET_WAREHOUSE_UP_GRADE             0x4FE 

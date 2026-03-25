@@ -3751,6 +3751,44 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza1[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_Juan1[] = {
+    {
+    .iv = 200,
+    .lvl = 41,
+    .species = SPECIES_LUVDISC,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_WATER_PULSE, MOVE_ATTRACT, MOVE_SWEET_KISS, MOVE_FLAIL}
+    },
+    {
+    .iv = 200,
+    .lvl = 41,
+    .species = SPECIES_WHISCASH,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_RAIN_DANCE, MOVE_WATER_PULSE, MOVE_AMNESIA, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv = 200,
+    .lvl = 43,
+    .species = SPECIES_SEALEO,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_ENCORE, MOVE_BODY_SLAM, MOVE_AURORA_BEAM, MOVE_WATER_PULSE}
+    },
+    {
+    .iv = 200,
+    .lvl = 43,
+    .species = SPECIES_CRAWDAUNT,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_WATER_PULSE, MOVE_CRABHAMMER, MOVE_TAUNT, MOVE_LEER}
+    },
+    {
+    .iv = 250,
+    .lvl = 46,
+    .species = SPECIES_KINGDRA,
+    .heldItem = ITEM_CHESTO_BERRY,
+    .moves = {MOVE_WATER_PULSE, MOVE_DOUBLE_TEAM, MOVE_ICE_BEAM, MOVE_REST}
+    }
+};
+
 static const struct TrainerMonItemCustomMoves sParty_Wallace[] = {
     {
     .iv = 255,
@@ -13705,7 +13743,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BikerGoon3[] = {
     },
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Biker2[] = {DUMMY_TRAINER_MON};
+static const struct TrainerMonNoItemDefaultMoves sParty_Biker2[] = { 
+    {
+        .iv = 0,
+        .lvl = 7,
+        .species = SPECIES_CATERPIE,
+    }
+};
 
 static const struct TrainerMonNoItemDefaultMoves sParty_BugCatcherAnthony[] = {
     {
