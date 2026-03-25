@@ -112,6 +112,9 @@
 #define TRAINER_PIC_NURSE                 93
 #define TRAINER_PIC_LEADER_TATE           94
 #define TRAINER_PIC_LEADER_LIZA           95
+#define TRAINER_PIC_ROCKET_GRUNT_M        96
+#define TRAINER_PIC_ROCKET_GRUNT_F        97
+#define TRAINER_PIC_GIOVANNI              98
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0
@@ -363,6 +366,9 @@
 #define TRAINER_CLASS_PYRAMID_KING   0x40
 #define TRAINER_CLASS_RS_PROTAG      0x41
 #define TRAINER_CLASS_NURSE          0x42
+#define TRAINER_CLASS_ROCKET_GRUNT   0x43
+#define TRAINER_CLASS_ROCKET_ADMIN   0x44
+#define TRAINER_CLASS_ROCKET_LEADER  0x45
 
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music
 #define TRAINER_ENCOUNTER_MUSIC_FEMALE       1 // standard female encounter music
@@ -378,6 +384,7 @@
 #define TRAINER_ENCOUNTER_MUSIC_HIKER       11 // used for other trainer classes too
 #define TRAINER_ENCOUNTER_MUSIC_INTERVIEWER 12
 #define TRAINER_ENCOUNTER_MUSIC_RICH        13 // Rich Boys and Gentlemen
+#define TRAINER_ENCOUNTER_MUSIC_ROCKET      14
 
 #define F_TRAINER_FEMALE (1 << 7)
 

@@ -924,25 +924,25 @@
 #define TRAINER_PAINTER_EDNA 918
 #define TRAINER_GENTLEMAN_CLIFFORD 919
 #define TRAINER_FISHERMAN_TOMMY 920
-
+#define TRAINER_TEAM_ROCKET_GRUNT_42 920
+#define TRAINER_TEAM_ROCKET_GRUNT_43 921
+#define TRAINER_TEAM_ROCKET_GRUNT_44 922
+#define TRAINER_TEAM_ROCKET_GRUNT_45 923
+#define TRAINER_TEAM_ROCKET_GRUNT_46 924
+#define TRAINER_TEAM_ROCKET_GRUNT_47 925
+#define TRAINER_TEAM_ROCKET_GRUNT_48 926
+#define TRAINER_TEAM_ROCKET_GRUNT_49 927
+#define TRAINER_TEAM_ROCKET_GRUNT_50 928
+#define TRAINER_TEAM_ROCKET_GRUNT_51 929
+#define TRAINER_TEAM_ROCKET_ADMIN 930
+#define TRAINER_TEAM_ROCKET_ADMIN_2 931
+#define TRAINER_CRUSH_GIRL_SHARON 932
+#define TRAINER_BIKER_GOON 933
+#define TRAINER_BIKER_GOON_2 934
+#define TRAINER_BIKER_GOON_3 935
+#define TRAINER_BIKER_2 936
 /*
-#define aba 920
-#define aba 921
-#define aba 922
-#define aba 923
-#define aba 924
-#define aba 925
-#define aba 926
-#define aba 927
-#define aba 928
-#define aba 929
-#define aba 930
-#define aba 931
-#define aba 932
-#define aba 933
-#define aba 934
-#define aba 935
-#define aba 936
+
 #define aba 937
 #define aba 938
 #define aba 939
@@ -1011,7 +1011,7 @@
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT                      921
-#define MAX_TRAINERS_COUNT                  921
+#define TRAINERS_COUNT                      937
+#define MAX_TRAINERS_COUNT                  937
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H
