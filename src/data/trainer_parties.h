@@ -3487,7 +3487,7 @@ static const struct TrainerMonItemCustomMoves sParty_Drake[] = {
     .lvl = 52,	// 58 on Hard
     .species = SPECIES_AGGRON,
     .heldItem = ITEM_SALAC_BERRY,
-    .moves = {MOVE_THUNDER_WAVE, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_IRON_TAIL}
+    .moves = {MOVE_THUNDER_WAVE, MOVE_EARTHQUAKE, MOVE_DRAGON_CLAW, MOVE_IRON_TAIL}
     },
     {
     .iv = 250,
