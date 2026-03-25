@@ -970,9 +970,9 @@
 #define TRAINER_CRUSH_GIRL_JOCELYN 963
 #define TRAINER_POKEMANIAC_MARK_2 964
 #define TRAINER_PKMN_RANGER_LOGAN 965
+#define TRAINER_PKMN_RANGER_BETH 966
+#define TRAINER_PICNICKER_MARCY 967
 /*
-#define aba 966
-#define aba 967
 #define aba 968
 #define aba 969
 #define aba 970
