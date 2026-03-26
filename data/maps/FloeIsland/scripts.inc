@@ -138,7 +138,6 @@ FloeIsland_EventScript_OldWoman::
 	end
 
 FloeIsland_EventScript_OldWomanLoreleiLeft::
-	famechecker FAMECHECKER_LORELEI, 5
 	msgbox FloeIsland_Text_LoreleiMetLaprasAsChild
 	release
 	end
@@ -146,7 +145,6 @@ FloeIsland_EventScript_OldWomanLoreleiLeft::
 FloeIsland_EventScript_LittleGirl::
 	lock
 	faceplayer
-	famechecker FAMECHECKER_LORELEI, 4
 	msgbox FloeIsland_Text_LoreleiHasLotsOfStuffedDolls
 	release
 	end

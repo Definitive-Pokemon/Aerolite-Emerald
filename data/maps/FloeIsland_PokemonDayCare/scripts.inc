@@ -150,7 +150,7 @@ FloeIsland_PokemonDayCare_Movement_RetrieveMon::
 	delay_16
 	delay_16
 	face_up
-	walk_slower_up
+	walk_up
 	set_invisible
 	delay_16
 	delay_16
@@ -159,7 +159,7 @@ FloeIsland_PokemonDayCare_Movement_RetrieveMon::
 	delay_16
 	face_down
 	set_visible
-	walk_slower_down
+	walk_down
 	step_end
 
 @ Unused. Possibly a commented script, or a typo end added to the above Movement script

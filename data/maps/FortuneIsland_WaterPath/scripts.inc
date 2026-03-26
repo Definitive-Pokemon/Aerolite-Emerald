@@ -57,7 +57,7 @@ FortuneIsland_WaterPath_EventScript_Miu::
 	end
 
 FortuneIsland_WaterPath_EventScript_MiuRematch::
-	trainerbattle_rematch TRAINER_CLIFFORD, FortuneIsland_WaterPath_Text_MiuRematchIntro, FortuneIsland_WaterPath_Text_MiuDefeat, FortuneIsland_WaterPath_Text_MiuNotEnoughMons
+	trainerbattle_rematch TRAINER_CLIFFORD, FortuneIsland_WaterPath_Text_MiuRematchIntro, FortuneIsland_WaterPath_Text_MiuDefeat
 	msgbox FortuneIsland_WaterPath_Text_MiuPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -69,7 +69,7 @@ FortuneIsland_WaterPath_EventScript_Mia::
 	end
 
 FortuneIsland_WaterPath_EventScript_MiaRematch::
-	trainerbattle_rematch TRAINER_CLIFFORD, FortuneIsland_WaterPath_Text_MiaRematchIntro, FortuneIsland_WaterPath_Text_MiaDefeat, FortuneIsland_WaterPath_Text_MiaNotEnoughMons
+	trainerbattle_rematch TRAINER_CLIFFORD, FortuneIsland_WaterPath_Text_MiaRematchIntro, FortuneIsland_WaterPath_Text_MiaDefeat
 	msgbox FortuneIsland_WaterPath_Text_MiaPostBattle, MSGBOX_AUTOCLOSE
 	end
 

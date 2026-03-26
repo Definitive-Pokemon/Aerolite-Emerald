@@ -81,7 +81,7 @@ QuestIsland_SevaultCanyon_EventScript_Lex::
 	end
 
 QuestIsland_SevaultCanyon_EventScript_LexRematch::
-	trainerbattle_rematch TRAINER_CLIFFORD, QuestIsland_SevaultCanyon_Text_LexRematchIntro, QuestIsland_SevaultCanyon_Text_LexDefeat, QuestIsland_SevaultCanyon_Text_LexNotEnoughMons
+	trainerbattle_rematch TRAINER_CLIFFORD, QuestIsland_SevaultCanyon_Text_LexRematchIntro, QuestIsland_SevaultCanyon_Text_LexDefeat
 	msgbox QuestIsland_SevaultCanyon_Text_LexPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -93,7 +93,7 @@ QuestIsland_SevaultCanyon_EventScript_Nya::
 	end
 
 QuestIsland_SevaultCanyon_EventScript_NyaRematch::
-	trainerbattle_rematch TRAINER_CLIFFORD, QuestIsland_SevaultCanyon_Text_NyaRematchIntro, QuestIsland_SevaultCanyon_Text_NyaDefeat, QuestIsland_SevaultCanyon_Text_NyaNotEnoughMons
+	trainerbattle_rematch TRAINER_CLIFFORD, QuestIsland_SevaultCanyon_Text_NyaRematchIntro, QuestIsland_SevaultCanyon_Text_NyaDefeat
 	msgbox QuestIsland_SevaultCanyon_Text_NyaPostBattle, MSGBOX_AUTOCLOSE
 	end
 

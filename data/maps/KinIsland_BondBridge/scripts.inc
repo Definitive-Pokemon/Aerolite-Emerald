@@ -69,7 +69,7 @@ KinIsland_BondBridge_EventScript_Joy::
 	end
 
 KinIsland_BondBridge_EventScript_JoyRematch::
-	trainerbattle_rematch TRAINER_CLIFFORD, KinIsland_BondBridge_Text_JoyRematchIntro, KinIsland_BondBridge_Text_JoyDefeat, KinIsland_BondBridge_Text_JoyNotEnoughMons
+	trainerbattle_rematch TRAINER_CLIFFORD, KinIsland_BondBridge_Text_JoyRematchIntro, KinIsland_BondBridge_Text_JoyDefeat
 	msgbox KinIsland_BondBridge_Text_JoyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -81,7 +81,7 @@ KinIsland_BondBridge_EventScript_Meg::
 	end
 
 KinIsland_BondBridge_EventScript_MegRematch::
-	trainerbattle_rematch TRAINER_CLIFFORD, KinIsland_BondBridge_Text_MegRematchIntro, KinIsland_BondBridge_Text_MegDefeat, KinIsland_BondBridge_Text_MegNotEnoughMons
+	trainerbattle_rematch TRAINER_CLIFFORD, KinIsland_BondBridge_Text_MegRematchIntro, KinIsland_BondBridge_Text_MegDefeat
 	msgbox KinIsland_BondBridge_Text_MegPostBattle, MSGBOX_AUTOCLOSE
 	end
 

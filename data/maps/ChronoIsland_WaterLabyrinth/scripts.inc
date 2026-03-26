@@ -14,7 +14,6 @@ ChronoIsland_WaterLabyrinth_EventScript_EggGentleman::
 	end
 
 ChronoIsland_WaterLabyrinth_EventScript_MonDaisyComment::
-	famechecker FAMECHECKER_DAISY, 2
 	msgbox ChronoIsland_WaterLabyrinth_Text_CuteMonRemindsMeOfDaisy
 	release
 	end

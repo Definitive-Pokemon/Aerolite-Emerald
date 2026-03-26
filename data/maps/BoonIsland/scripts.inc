@@ -186,7 +186,6 @@ BoonIsland_EventScript_Woman::
 BoonIsland_EventScript_Beauty::
 	lock
 	faceplayer
-	famechecker FAMECHECKER_BRUNO, 4
 	msgbox BoonIsland_Text_BrunoCameToIslandWhileBack
 	release
 	end

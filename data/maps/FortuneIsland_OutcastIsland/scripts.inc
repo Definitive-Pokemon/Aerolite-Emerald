@@ -45,7 +45,7 @@ FortuneIsland_OutcastIsland_EventScript_Ava::
 	end
 
 FortuneIsland_OutcastIsland_EventScript_AvaRematch::
-	trainerbattle_rematch TRAINER_CLIFFORD, FortuneIsland_OutcastIsland_Text_AvaRematchIntro, FortuneIsland_OutcastIsland_Text_AvaDefeat, FortuneIsland_OutcastIsland_Text_AvaNotEnoughMons
+	trainerbattle_rematch TRAINER_CLIFFORD, FortuneIsland_OutcastIsland_Text_AvaRematchIntro, FortuneIsland_OutcastIsland_Text_AvaDefeat
 	msgbox FortuneIsland_OutcastIsland_Text_AvaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -57,7 +57,7 @@ FortuneIsland_OutcastIsland_EventScript_Geb::
 	end
 
 FortuneIsland_OutcastIsland_EventScript_GebRematch::
-	trainerbattle_rematch TRAINER_CLIFFORD, FortuneIsland_OutcastIsland_Text_GebRematchIntro, FortuneIsland_OutcastIsland_Text_GebDefeat, FortuneIsland_OutcastIsland_Text_GebNotEnoughMons
+	trainerbattle_rematch TRAINER_CLIFFORD, FortuneIsland_OutcastIsland_Text_GebRematchIntro, FortuneIsland_OutcastIsland_Text_GebDefeat
 	msgbox FortuneIsland_OutcastIsland_Text_GebPostBattle, MSGBOX_AUTOCLOSE
 	end
 
