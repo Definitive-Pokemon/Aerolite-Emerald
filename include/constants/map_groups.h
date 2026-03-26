@@ -631,7 +631,7 @@
 #define MAP_ROUTE124_DIVING_TREASURE_HUNTERS_HOUSE (0 | (33 << 8))
 
 // gMapGroup_Sevii_Islands1
-#define MAP_KNOT_ISLAND_MAIN              (0 | (34 << 8))
+#define MAP_KNOT_ISLAND                   (0 | (34 << 8))
 #define MAP_KNOT_ISLAND_HARBOR            (1 | (34 << 8))
 #define MAP_KNOT_ISLAND_HOUSE1            (2 | (34 << 8))
 #define MAP_KNOT_ISLAND_HOUSE2            (3 | (34 << 8))
@@ -641,7 +641,7 @@
 #define MAP_KNOT_ISLAND_KINDLE_ROAD       (7 | (34 << 8))
 
 // gMapGroup_Sevii_Islands2
-#define MAP_BOON_ISLAND_MAIN               (0 | (35 << 8))
+#define MAP_BOON_ISLAND                    (0 | (35 << 8))
 #define MAP_BOON_ISLAND_HARBOR             (1 | (35 << 8))
 #define MAP_BOON_ISLAND_HOUSE              (2 | (35 << 8))
 #define MAP_BOON_ISLAND_JOYFUL_GAME_CORNER (3 | (35 << 8))
@@ -651,7 +651,7 @@
 #define MAP_BOON_ISLAND_CAPE_BRINK_HOUSE   (7 | (35 << 8))
 
 // gMapGroup_Sevii_Islands3
-#define MAP_KIN_ISLAND_MAIN              (0 | (36 << 8))
+#define MAP_KIN_ISLAND                   (0 | (36 << 8))
 #define MAP_KIN_ISLAND_PORT              (1 | (36 << 8))
 #define MAP_KIN_ISLAND_DUNSPARCE_TUNNEL  (2 | (36 << 8))
 #define MAP_KIN_ISLAND_BOND_BRIDGE       (3 | (36 << 8))
@@ -667,7 +667,7 @@
 #define MAP_KIN_ISLAND_HARBOR            (13 | (36 << 8))
 
 // gMapGroup_Sevii_Islands4
-#define MAP_FLOE_ISLAND_MAIN              (0 | (37 << 8))
+#define MAP_FLOE_ISLAND                   (0 | (37 << 8))
 #define MAP_FLOE_ISLAND_POKEMON_DAYCARE   (1 | (37 << 8))
 #define MAP_FLOE_ISLAND_POKEMON_CENTER_1F (2 | (37 << 8))
 #define MAP_FLOE_ISLAND_POKEMON_CENTER_2F (3 | (37 << 8))
@@ -678,7 +678,7 @@
 #define MAP_FLOE_ISLAND_MART              (8 | (37 << 8))
 
 // gMapGroup_Sevii_Islands5
-#define MAP_CHRONO_ISLAND_MAIN                  (0 | (38 << 8))
+#define MAP_CHRONO_ISLAND                       (0 | (38 << 8))
 #define MAP_CHRONO_ISLAND_MEADOW                (1 | (38 << 8))
 #define MAP_CHRONO_ISLAND_MEMORIAL_PILLAR       (2 | (38 << 8))
 #define MAP_CHRONO_ISLAND_WATER_LABYRINTH       (3 | (38 << 8))
@@ -692,7 +692,7 @@
 #define MAP_CHRONO_ISLAND_WAREHOUSE             (11 | (38 << 8))
 
 // gMapGroup_Sevii_Islands6
-#define MAP_FORTUNE_ISLAND_MAIN              (0 | (39 << 8))
+#define MAP_FORTUNE_ISLAND                   (0 | (39 << 8))
 #define MAP_FORTUNE_ISLAND_WATER_PATH        (1 | (39 << 8))
 #define MAP_FORTUNE_ISLAND_RUIN_VALLEY       (2 | (39 << 8))
 #define MAP_FORTUNE_ISLAND_GREEN_PATH        (3 | (39 << 8))
@@ -706,7 +706,7 @@
 #define MAP_FORTUNE_ISLAND_WATER_PATH_HOUSE2 (11 | (39 << 8))
 
 // gMapGroup_Sevii_Islands7
-#define MAP_QUEST_ISLAND_MAIN                    (0 | (40 << 8))
+#define MAP_QUEST_ISLAND                        (0 | (40 << 8))
 #define MAP_QUEST_ISLAND_TRAINER_TOWER           (1 | (40 << 8))
 #define MAP_QUEST_ISLAND_SEVAULT_CANYON_ENTRANCE (2 | (40 << 8))
 #define MAP_QUEST_ISLAND_SEVAULT_CANYON          (3 | (40 << 8))

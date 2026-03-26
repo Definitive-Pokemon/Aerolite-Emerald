@@ -32,7 +32,7 @@ KnotIsland_Harbor_EventScript_Sailor::
 	setvar VAR_0x8001, 1
 	switch VAR_RESULT
 	case 0, Island_Harbors_EventScript_GoToLilycove
-	case 1, Island_Harbors_EventScript_GoToIsland2
+	case 1, Island_Harbors_EventScript_GoToBoonIsland
 	case 2, Island_Harbors_EventScript_GoToKinIsland
 	case 3, Island_Harbors_EventScript_GoToFloeIsland
 	case 4, Island_Harbors_EventScript_GoToChronoIsland

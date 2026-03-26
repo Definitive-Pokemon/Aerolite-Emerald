@@ -1155,7 +1155,7 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/KnotIsland_TreasureBeach/scripts.inc"
 
-	.include "data/maps/KnotIsland_Main/scripts.inc"
+	.include "data/maps/KnotIsland/scripts.inc"
 
 	.include "data/maps/KnotIsland_Harbor/scripts.inc"
 
@@ -1197,23 +1197,23 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/MtEmber_Summit/scripts.inc"
 
-	.include "data/maps/Island2_Main/scripts.inc"
+	.include "data/maps/BoonIsland/scripts.inc"
 
-	.include "data/maps/Island2_CapeBrink/scripts.inc"
+	.include "data/maps/BoonIsland_CapeBrink/scripts.inc"
 
-	.include "data/maps/Island2_JoyfulGameCorner/scripts.inc"
+	.include "data/maps/BoonIsland_JoyfulGameCorner/scripts.inc"
 
-	.include "data/maps/Island2_House/scripts.inc"
+	.include "data/maps/BoonIsland_House/scripts.inc"
 
-	.include "data/maps/Island2_PokemonCenter_1F/scripts.inc"
+	.include "data/maps/BoonIsland_PokemonCenter_1F/scripts.inc"
 
-	.include "data/maps/Island2_PokemonCenter_2F/scripts.inc"
+	.include "data/maps/BoonIsland_PokemonCenter_2F/scripts.inc"
 
-	.include "data/maps/Island2_Harbor/scripts.inc"
+	.include "data/maps/BoonIsland_Harbor/scripts.inc"
 
-	.include "data/maps/Island2_CapeBrink_House/scripts.inc"
+	.include "data/maps/BoonIsland_CapeBrink_House/scripts.inc"
 
-	.include "data/maps/KinIsland_Main/scripts.inc"
+	.include "data/maps/KinIsland/scripts.inc"
 
 	.include "data/maps/KinIsland_Port/scripts.inc"
 
@@ -1241,7 +1241,7 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/KinIsland_Harbor/scripts.inc"
 
-	.include "data/maps/FloeIsland_Main/scripts.inc"
+	.include "data/maps/FloeIsland/scripts.inc"
 
 	.include "data/maps/FloeIsland_PokemonDaycare/scripts.inc"
 
@@ -1267,7 +1267,7 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/IcefallCave_Back/scripts.inc"
 
-	.include "data/maps/ChronoIsland_Main/scripts.inc"
+	.include "data/maps/ChronoIsland/scripts.inc"
 
 	.include "data/maps/ChronoIsland_Meadow/scripts.inc"
 
@@ -1321,7 +1321,7 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/ChronoIsland_Warehouse/scripts.inc"
 
-	.include "data/maps/FortuneIsland_Main/scripts.inc"
+	.include "data/maps/FortuneIsland/scripts.inc"
 
 	.include "data/maps/FortuneIsland_WaterPath/scripts.inc"
 
@@ -1361,7 +1361,7 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/FortuneIsland_AlteringCave/scripts.inc"
 
-	.include "data/maps/QuestIsland_Main/scripts.inc"
+	.include "data/maps/QuestIsland/scripts.inc"
 
 	.include "data/maps/QuestIsland_TrainerTower/scripts.inc"
 

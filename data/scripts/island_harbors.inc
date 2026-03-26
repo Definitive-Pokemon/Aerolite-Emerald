@@ -15,7 +15,7 @@ Island_Harbors_EventScript_GoToKnotIsland::
 	release
 	end
 	
-Island_Harbors_EventScript_GoToIsland2::
+Island_Harbors_EventScript_GoToBoonIsland::
 	call Island_Harbors_EventScript_BoardFerry1
 	warp MAP_BOON_ISLAND_HARBOR, 8, 4
 	waitstate

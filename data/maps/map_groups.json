@@ -34,17 +34,17 @@
     "gMapGroup_IndoorRoute123",
     "gMapGroup_IndoorRoute119",
     "gMapGroup_IndoorRoute124",
-    "gMapGroup_Sevii_Islands1",
-    "gMapGroup_Sevii_Islands2",
-    "gMapGroup_Sevii_Islands3",
-    "gMapGroup_Sevii_Islands4",
-    "gMapGroup_Sevii_Islands5",
-    "gMapGroup_Sevii_Islands6",
-    "gMapGroup_Sevii_Islands7",
+    "gMapGroup_Sevii_KnotIsland",
+    "gMapGroup_Sevii_BoonIsland",
+    "gMapGroup_Sevii_KinIsland",
+    "gMapGroup_Sevii_FloeIsland",
+    "gMapGroup_Sevii_ChronoIsland",
+    "gMapGroup_Sevii_FortuneIsland",
+    "gMapGroup_Sevii_QuestIsland",
     "gMapGroup_Sevii_Islands_MtEmber",
     "gMapGroup_Sevii_Islands_IcefallCave",
     "gMapGroup_Sevii_Islands_LostCave",
-    "gMapGroup_Sevii_Islands_Six_Dungeons",
+    "gMapGroup_Sevii_FortuneIsland_Dungeons",
     "gMapGroup_Sevii_Islands_Tanoby_Ruins"
   ],
   "gMapGroup_TownsAndRoutes": [
@@ -672,8 +672,8 @@
   "gMapGroup_IndoorRoute124": [
     "Route124_DivingTreasureHuntersHouse"
   ],
-  "gMapGroup_Sevii_Islands1": [
-    "KnotIsland_Main",
+  "gMapGroup_Sevii_KnotIsland": [
+    "KnotIsland",
     "KnotIsland_Harbor",
     "KnotIsland_House1",
     "KnotIsland_House2",
@@ -682,18 +682,18 @@
     "KnotIsland_TreasureBeach",
     "KnotIsland_KindleRoad"
   ],
-  "gMapGroup_Sevii_Islands2": [
-    "Island2_Main",
-    "Island2_Harbor",
-    "Island2_House",
-    "Island2_JoyfulGameCorner",
-    "Island2_PokemonCenter_1F",
-    "Island2_PokemonCenter_2F",
-    "Island2_CapeBrink",
-    "Island2_CapeBrink_House"
+  "gMapGroup_Sevii_BoonIsland": [
+    "BoonIsland",
+    "BoonIsland_Harbor",
+    "BoonIsland_House",
+    "BoonIsland_JoyfulGameCorner",
+    "BoonIsland_PokemonCenter_1F",
+    "BoonIsland_PokemonCenter_2F",
+    "BoonIsland_CapeBrink",
+    "BoonIsland_CapeBrink_House"
   ],
-  "gMapGroup_Sevii_Islands3": [
-    "KinIsland_Main",
+  "gMapGroup_Sevii_KinIsland": [
+    "KinIsland",
     "KinIsland_Port",
     "KinIsland_DunsparceTunnel",
     "KinIsland_BondBridge",
@@ -708,8 +708,8 @@
     "KinIsland_House5",
     "KinIsland_Harbor"
   ],
-  "gMapGroup_Sevii_Islands4": [
-    "FloeIsland_Main",
+  "gMapGroup_Sevii_FloeIsland": [
+    "FloeIsland",
     "FloeIsland_PokemonDaycare",
     "FloeIsland_PokemonCenter_1F",
     "FloeIsland_PokemonCenter_2F",
@@ -719,8 +719,8 @@
     "FloeIsland_House2",
     "FloeIsland_Mart"
   ],
-  "gMapGroup_Sevii_Islands5": [
-    "ChronoIsland_Main",
+  "gMapGroup_Sevii_ChronoIsland": [
+    "ChronoIsland",
     "ChronoIsland_Meadow",
     "ChronoIsland_MemorialPillar",
     "ChronoIsland_WaterLabyrinth",
@@ -733,8 +733,8 @@
     "ChronoIsland_ResortGorgeous_House",
     "ChronoIsland_Warehouse"
   ],
-  "gMapGroup_Sevii_Islands6": [
-    "FortuneIsland_Main",
+  "gMapGroup_Sevii_FortuneIsland": [
+    "FortuneIsland",
     "FortuneIsland_WaterPath",
     "FortuneIsland_RuinValley",
     "FortuneIsland_GreenPath",
@@ -747,8 +747,8 @@
     "FortuneIsland_WaterPath_House1",
     "FortuneIsland_WaterPath_House2"
   ],
-  "gMapGroup_Sevii_Islands7": [
-    "QuestIsland_Main",
+  "gMapGroup_Sevii_QuestIsland": [
+    "QuestIsland",
     "QuestIsland_TrainerTower",
     "QuestIsland_SevaultCanyon_Entrance",
     "QuestIsland_SevaultCanyon",
@@ -799,7 +799,7 @@
     "ChronoIsland_LostCave_Room13",
     "ChronoIsland_LostCave_Room14"
   ],
-  "gMapGroup_Sevii_Islands_Six_Dungeons": [
+  "gMapGroup_Sevii_FortuneIsland_Dungeons": [
     "FortuneIsland_DottedHole_1F",
     "FortuneIsland_DottedHole_B1F",
     "FortuneIsland_DottedHole_B2F",
