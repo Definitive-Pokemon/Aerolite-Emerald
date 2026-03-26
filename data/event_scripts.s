@@ -1355,7 +1355,7 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/FortuneIsland_DottedHole_B4F/scripts.inc"
 
-	.include "data/maps/FortuneIsland_DottedHole_BottomRoom/scripts.inc"
+	.include "data/maps/FortuneIsland_DottedHole_SapphireRoom/scripts.inc"
 
 	.include "data/maps/FortuneIsland_PatternBush/scripts.inc"
 

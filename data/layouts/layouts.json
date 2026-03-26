@@ -5855,15 +5855,15 @@
     },
     {
       "id": "LAYOUT_FORTUNE_ISLAND_DOTTED_HOLE_BOTTOM_ROOM",
-      "name": "FortuneIsland_DottedHole_BottomRoom_Layout",
+      "name": "FortuneIsland_DottedHole_SapphireRoom_Layout",
       "width": 16,
       "height": 15,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
-      "border_filepath": "data/layouts/FortuneIsland_DottedHole_BottomRoom/border.bin",
-      "blockdata_filepath": "data/layouts/FortuneIsland_DottedHole_BottomRoom/map.bin"
+      "border_filepath": "data/layouts/FortuneIsland_DottedHole_SapphireRoom/border.bin",
+      "blockdata_filepath": "data/layouts/FortuneIsland_DottedHole_SapphireRoom/map.bin"
     },
     {
       "id": "LAYOUT_FORTUNE_ISLAND_PATTERN_BUSH",
