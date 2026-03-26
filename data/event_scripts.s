@@ -1243,7 +1243,7 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/FloeIsland/scripts.inc"
 
-	.include "data/maps/FloeIsland_PokemonDaycare/scripts.inc"
+	.include "data/maps/FloeIsland_PokemonDayCare/scripts.inc"
 
 	.include "data/maps/FloeIsland_PokemonCenter_1F/scripts.inc"
 
