@@ -5579,15 +5579,15 @@
     },
     {
       "id": "LAYOUT_CHRONO_ISLAND_POKE_CENTER_2F",
-      "name": "ChronoIsland_PokeCenter_2F_Layout",
+      "name": "ChronoIsland_PokemonCenter_2F_Layout",
       "width": 14,
       "height": 10,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_PokemonCenter",
-      "border_filepath": "data/layouts/ChronoIsland_PokeCenter_2F/border.bin",
-      "blockdata_filepath": "data/layouts/ChronoIsland_PokeCenter_2F/map.bin"
+      "border_filepath": "data/layouts/ChronoIsland_PokemonCenter_2F/border.bin",
+      "blockdata_filepath": "data/layouts/ChronoIsland_PokemonCenter_2F/map.bin"
     },
     {
       "id": "LAYOUT_CHRONO_ISLAND_HARBOR",

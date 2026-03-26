@@ -1309,7 +1309,7 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/ChronoIsland_PokemonCenter_1F/scripts.inc"
 
-	.include "data/maps/ChronoIsland_PokeCenter_2F/scripts.inc"
+	.include "data/maps/ChronoIsland_PokemonCenter_2F/scripts.inc"
 
 	.include "data/maps/ChronoIsland_Harbor/scripts.inc"
 
