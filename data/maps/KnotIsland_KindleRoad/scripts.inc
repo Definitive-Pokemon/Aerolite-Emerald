@@ -141,7 +141,7 @@ KnotIsland_KindleRoad_EventScript_Kia::
 	end
 
 KnotIsland_KindleRoad_EventScript_KiaRematch::
-	trainerbattle_rematch TRAINER_CLIFFORD, KnotIsland_KindleRoad_Text_KiaRematchIntro, KnotIsland_KindleRoad_Text_KiaDefeat, KnotIsland_KindleRoad_Text_KiaNotEnoughMons
+trainerbattle_rematch TRAINER_CLIFFORD, KnotIsland_KindleRoad_Text_KiaRematchIntro, KnotIsland_KindleRoad_Text_KiaDefeat
 	msgbox KnotIsland_KindleRoad_Text_KiaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -153,7 +153,7 @@ KnotIsland_KindleRoad_EventScript_Mik::
 	end
 
 KnotIsland_KindleRoad_EventScript_MikRematch::
-	trainerbattle_rematch TRAINER_CLIFFORD, KnotIsland_KindleRoad_Text_MikRematchIntro, KnotIsland_KindleRoad_Text_MikDefeat, KnotIsland_KindleRoad_Text_MikNotEnoughMons
+	trainerbattle_rematch TRAINER_CLIFFORD, KnotIsland_KindleRoad_Text_MikRematchIntro, KnotIsland_KindleRoad_Text_MikDefeat
 	msgbox KnotIsland_KindleRoad_Text_MikPostBattle, MSGBOX_AUTOCLOSE
 	end
 
