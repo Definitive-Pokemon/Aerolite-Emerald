@@ -33,7 +33,7 @@ QuestIsland_House_Room1_OnFrame::
 
 QuestIsland_House_Room1_EventScript_OldWomanCommentOnBattle::
 	lockall
-	textcolor NPC_TEXT_COLOR_FEMALE
+
 	applymovement LOCALID_PLAYER, QuestIsland_House_Room1_Movement_PlayerReEnterRoom
 	waitmovement 0
 	applymovement LOCALID_QUEST_ISLAND_HOUSE_OLD_WOMAN, QuestIsland_House_Room1_Movement_OldWomanWalkBehindPlayer

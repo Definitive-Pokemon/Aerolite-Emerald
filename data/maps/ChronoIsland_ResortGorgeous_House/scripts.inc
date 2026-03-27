@@ -40,13 +40,13 @@ ChronoIsland_ResortGorgeous_House_EventScript_ShowRequestedMon::
 	addobject LOCALID_RESORT_GORGEOUS_HOUSE_BUTLER
 	applymovement LOCALID_RESORT_GORGEOUS_HOUSE_BUTLER, ChronoIsland_ResortGorgeous_House_Movement_ButlerEnter
 	waitmovement 0
-	textcolor NPC_TEXT_COLOR_MALE
+
 	msgbox ChronoIsland_ResortGorgeous_House_Text_ButlerYesMyLady
 	applymovement LOCALID_RESORT_GORGEOUS_HOUSE_SELPHY, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
-	textcolor NPC_TEXT_COLOR_FEMALE
+
 	msgbox ChronoIsland_ResortGorgeous_House_Text_SelphyGiveTokenOfAppreciation
-	textcolor NPC_TEXT_COLOR_MALE
+
 	msgbox ChronoIsland_ResortGorgeous_House_Text_ButlerIShallDoAsYouBid
 	closemessage
 	call_if_eq VAR_FACING, DIR_NORTH, ChronoIsland_ResortGorgeous_House_EventScript_ButlerApproachPlayerNorth
@@ -91,9 +91,9 @@ ChronoIsland_ResortGorgeous_House_EventScript_ButlerApproachPlayerWest::
 	return
 
 ChronoIsland_ResortGorgeous_House_EventScript_NoRoomForReward::
-	textcolor NPC_TEXT_COLOR_MALE
+
 	msgbox ChronoIsland_ResortGorgeous_House_Text_ButlerBagAppearsToBeFull
-	textcolor NPC_TEXT_COLOR_FEMALE
+
 	msgbox ChronoIsland_ResortGorgeous_House_Text_OhHowDisappointing
 	setflag SHOWN_REQUESTED_MON
 	setvar VAR_RESORT_GORGEOUS_REQUESTED_MON, SPECIES_NONE

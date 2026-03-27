@@ -28,7 +28,7 @@ ChronoIsland_WaterLabyrinth_EventScript_TryGiveEgg::
 	goto_if_eq VAR_RESULT, PARTY_SIZE, ChronoIsland_WaterLabyrinth_EventScript_NoRoomForEgg
 	setflag FLAG_GOT_TOGEPI_EGG
 	giveegg SPECIES_TOGEPI
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+
 	playfanfare MUS_RG_LEVEL_UP
 	message ChronoIsland_WaterLabyrinth_Text_ReceivedEggFromMan
 	waitfanfare

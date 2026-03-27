@@ -120,7 +120,7 @@ FloeIsland_PokemonDayCare_RetrieveMon::
 	msgbox DayCare_Text_HeresYourMon
 	waitse
 	playmoncry VAR_RESULT, CRY_MODE_NORMAL
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+
 	msgbox DayCare_Text_TookBackMon
 	call EventScript_RestorePrevTextColor
 	waitmoncry

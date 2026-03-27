@@ -14,7 +14,7 @@ QuestIsland_SevaultCanyon_House_EventScript_ChanseyDanceMan::
 	applymovement LOCALID_CHANSEY_DANCE_MAN, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox QuestIsland_SevaultCanyon_House_Text_ChanseyDanceJoinIn
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+
 	msgbox QuestIsland_SevaultCanyon_House_Text_WouldYouLikeToDance, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, QuestIsland_SevaultCanyon_House_EventScript_DeclineDance
 	msgbox QuestIsland_SevaultCanyon_House_Text_DancedChanseyDance
@@ -46,7 +46,7 @@ QuestIsland_SevaultCanyon_House_EventScript_AlreadyDanced::
 	end
 
 QuestIsland_SevaultCanyon_House_EventScript_DeclineDance::
-	textcolor NPC_TEXT_COLOR_MALE
+
 	msgbox QuestIsland_SevaultCanyon_House_Text_ComeOnDance
 	release
 	end

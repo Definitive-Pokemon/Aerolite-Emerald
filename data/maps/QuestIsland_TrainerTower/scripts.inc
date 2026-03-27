@@ -30,7 +30,6 @@ QuestIsland_TrainerTower_EventScript_RodetteRematch::
 	msgbox QuestIsland_TrainerTower_Text_RodettePostBattle, MSGBOX_AUTOCLOSE
 	end
 
-
 QuestIsland_TrainerTower_Text_DarioRematchIntro::
 	.string "I sensed your approach.$"
 

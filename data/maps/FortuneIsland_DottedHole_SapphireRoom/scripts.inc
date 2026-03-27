@@ -7,7 +7,7 @@ FortuneIsland_DottedHole_SapphireRoom_MapScripts::
 FortuneIsland_DottedHole_SapphireRoom_EventScript_Sapphire::
 	lock
 	faceplayer
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+
 	playfanfare MUS_RG_OBTAIN_KEY_ITEM
 	message FortuneIsland_DottedHole_SapphireRoom_Text_FoundSapphire
 	waitmessage
@@ -33,7 +33,7 @@ FortuneIsland_DottedHole_SapphireRoom_EventScript_Sapphire::
 	call_if_eq VAR_FACING, DIR_SOUTH, FortuneIsland_DottedHole_SapphireRoom_EventScript_ThiefLookAtSapphireSouth
 	call_if_eq VAR_FACING, DIR_EAST, FortuneIsland_DottedHole_SapphireRoom_EventScript_ThiefLookAtSapphireEast
 	call_if_eq VAR_FACING, DIR_WEST, FortuneIsland_DottedHole_SapphireRoom_EventScript_ThiefLookAtSapphireWest
-	textcolor NPC_TEXT_COLOR_MALE
+
 	msgbox FortuneIsland_DottedHole_SapphireRoom_Text_IWasRightInTailingYou
 	closemessage
 	call_if_eq VAR_FACING, DIR_NORTH, FortuneIsland_DottedHole_SapphireRoom_EventScript_ThiefGetSapphireNorth

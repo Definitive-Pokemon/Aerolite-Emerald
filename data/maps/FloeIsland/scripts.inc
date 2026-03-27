@@ -28,7 +28,7 @@ FloeIsland_OnFrame::
 
 FloeIsland_EventScript_RivalScene::
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+
 	applymovement LOCALID_FLOE_ISLAND_RIVAL, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	playbgm MUS_RG_ENCOUNTER_RIVAL, 0
@@ -101,7 +101,7 @@ FloeIsland_EventScript_DaycareAcceptEgg::
 	end
 
 FloeIsland_EventScript_DaycareReceivedEgg::
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+
 	message DayCare_Text_ReceivedEgg
 	call EventScript_RestorePrevTextColor
 	playfanfare MUS_RG_LEVEL_UP

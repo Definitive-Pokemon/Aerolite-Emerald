@@ -15,7 +15,7 @@ KnotIsland_OnFrameTable::
 
 KnotIsland_EventScript_EnterKnotIsland_FirstTime::
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+
 	applymovement LOCALID_PLAYER, KnotIsland_Movement_PlayerExitHarbor
 	waitmovement 0
 	msgbox KnotIsland_Text_BillLetsGoSeeCelio

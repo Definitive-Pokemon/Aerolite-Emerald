@@ -21,7 +21,7 @@ FortuneIsland_PokemonCenter_1F_OnFrame::
 
 FortuneIsland_PokemonCenter_1F_EventScript_RivalScene::
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+
 	applymovement LOCALID_FORTUNE_ISLAND_RIVAL, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	playbgm MUS_RG_ENCOUNTER_RIVAL, 0

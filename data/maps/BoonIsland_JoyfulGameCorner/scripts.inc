@@ -37,9 +37,9 @@ BoonIsland_JoyfulGameCorner_OnFrame::
 
 BoonIsland_JoyfulGameCorner_EventScript_FoundLostelleScene::
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+
 	msgbox BoonIsland_JoyfulGameCorner_Text_YouRescuedLostelle
-	textcolor NPC_TEXT_COLOR_FEMALE
+
 	@special BufferBigGuyOrBigGirlString
 	msgbox BoonIsland_JoyfulGameCorner_Text_LostelleItsOkayDaddy
 	closemessage
@@ -51,7 +51,7 @@ BoonIsland_JoyfulGameCorner_EventScript_FoundLostelleScene::
 
 BoonIsland_JoyfulGameCorner_EventScript_HelpFindLostelleScene::
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+
 	applymovement LOCALID_JOYFUL_GAME_CORNER_DADDY, BoonIsland_JoyfulGameCorner_Movement_DaddyPacing
 	waitmovement 0
 	msgbox BoonIsland_JoyfulGameCorner_Text_WhereHasLostelleGottenTo
@@ -154,7 +154,7 @@ BoonIsland_JoyfulGameCorner_EventScript_GiveDaddyMeteorite::
 	goto_if_set FLAG_NO_ROOM_FOR_JOYFUL_GAME_CORNER_MOON_STONE, BoonIsland_JoyfulGameCorner_EventScript_ReceiveMoonStone
 	msgbox BoonIsland_JoyfulGameCorner_Text_ThisIsForMe
 	setvar VAR_MAP_SCENE_KNOT_ISLAND_POKEMON_CENTER_1F, 2
-	textcolor NPC_TEXT_COLOR_NEUTRAL
+
 	playfanfare MUS_RG_OBTAIN_TMHM
 	message BoonIsland_JoyfulGameCorner_Text_HandedMeteoriteToLostellesDaddy
 	waitmessage
