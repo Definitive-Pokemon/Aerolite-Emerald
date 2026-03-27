@@ -189,7 +189,7 @@ ChronoIsland_MemorialPillar_Text_ThisIsWhereIBuriedMyOnix::
     .string "It was named TECTONIX…$"
 
 ChronoIsland_MemorialPillar_Text_HereLiesTectonixLemonadeOffering::
-    .string "“Here lies TECTONIX Eis engraved\n"
+    .string "“Here lies TECTONIX” is engraved\n"
     .string "on a boulder.\p"
     .string "There is a LEMONADE placed as an\n"
     .string "offering in front of the grave.$"
