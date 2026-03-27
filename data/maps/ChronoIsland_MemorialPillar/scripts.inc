@@ -233,6 +233,6 @@ ChronoIsland_MemorialPillar_Text_ScrubScrubTectonix::
 ChronoIsland_MemorialPillar_Text_HereLiesTectonix::
     .string "Boulders and rocks are neatly piled\n"
     .string "up as a cairn.\p"
-    .string "“Here lies TECTONIX Eis engraved\n"
+    .string "“Here lies TECTONIX” is engraved\n"
     .string "on a boulder.$"
 
