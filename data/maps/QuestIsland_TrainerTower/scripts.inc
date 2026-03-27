@@ -77,13 +77,3 @@ QuestIsland_TrainerTower_Text_TrainerTowerSign::
 
 QuestIsland_TrainerTower_Text_TrainerTowerAhead::
     .string "TRAINER TOWER AHEAD$"
-
-@ Unused text perhaps indicating Trainer Tower was planned to be unlocked by something
-QuestIsland_TrainerTower_Text_LooksLikeTrainerTowerIsClosed::
-    .string "トレーナ�Eタワーには\n"
-    .string "ぁE��は　はぁE��なぁE��みたい‥$"
-
-QuestIsland_TrainerTower_Text_TrainerTowerIsOpenLetsGoIn::
-    .string "トレーナ�Eタワーが　あいてる！\n"
-    .string "さっそく　はぁE��てみよう�E�E"
-
