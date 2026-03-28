@@ -593,6 +593,17 @@
 #define MAP_NAVEL_ROCK_UNOWN_CHAMBER                        (91 | (26 << 8))
 #define MAP_NAVEL_ROCK_UNOWN_ROOM_1                         (92 | (26 << 8))
 #define MAP_NAVEL_ROCK_UNOWN_ROOM_2                         (93 | (26 << 8))
+#define MAP_TRAINER_TOWER_1F                                (94 | (26 << 8))
+#define MAP_TRAINER_TOWER_2F                                (95 | (26 << 8))
+#define MAP_TRAINER_TOWER_3F                                (96 | (26 << 8))
+#define MAP_TRAINER_TOWER_4F                                (97 | (26 << 8))
+#define MAP_TRAINER_TOWER_5F                                (98 | (26 << 8))
+#define MAP_TRAINER_TOWER_6F                                (99 | (26 << 8))
+#define MAP_TRAINER_TOWER_7F                                (100 | (26 << 8))
+#define MAP_TRAINER_TOWER_8F                                (101 | (26 << 8))
+#define MAP_TRAINER_TOWER_ROOF                              (102 | (26 << 8))
+#define MAP_TRAINER_TOWER_LOBBY                             (103 | (26 << 8))
+#define MAP_TRAINER_TOWER_ELEVATOR                          (104 | (26 << 8))
 
 // gMapGroup_IndoorRoute104Prototype
 #define MAP_ROUTE104_PROTOTYPE                          (0 | (27 << 8))
@@ -630,7 +641,7 @@
 // gMapGroup_IndoorRoute124
 #define MAP_ROUTE124_DIVING_TREASURE_HUNTERS_HOUSE (0 | (33 << 8))
 
-// gMapGroup_Sevii_Islands1
+// gMapGroup_Sevii_KnotIsland
 #define MAP_KNOT_ISLAND                   (0 | (34 << 8))
 #define MAP_KNOT_ISLAND_HARBOR            (1 | (34 << 8))
 #define MAP_KNOT_ISLAND_HOUSE1            (2 | (34 << 8))
@@ -640,7 +651,7 @@
 #define MAP_KNOT_ISLAND_TREASURE_BEACH    (6 | (34 << 8))
 #define MAP_KNOT_ISLAND_KINDLE_ROAD       (7 | (34 << 8))
 
-// gMapGroup_Sevii_Islands2
+// gMapGroup_Sevii_BoonIsland
 #define MAP_BOON_ISLAND                    (0 | (35 << 8))
 #define MAP_BOON_ISLAND_HARBOR             (1 | (35 << 8))
 #define MAP_BOON_ISLAND_HOUSE              (2 | (35 << 8))
@@ -650,7 +661,7 @@
 #define MAP_BOON_ISLAND_CAPE_BRINK         (6 | (35 << 8))
 #define MAP_BOON_ISLAND_CAPE_BRINK_HOUSE   (7 | (35 << 8))
 
-// gMapGroup_Sevii_Islands3
+// gMapGroup_Sevii_KinIsland
 #define MAP_KIN_ISLAND                   (0 | (36 << 8))
 #define MAP_KIN_ISLAND_PORT              (1 | (36 << 8))
 #define MAP_KIN_ISLAND_DUNSPARCE_TUNNEL  (2 | (36 << 8))
@@ -666,9 +677,9 @@
 #define MAP_KIN_ISLAND_HOUSE5            (12 | (36 << 8))
 #define MAP_KIN_ISLAND_HARBOR            (13 | (36 << 8))
 
-// gMapGroup_Sevii_Islands4
+// gMapGroup_Sevii_FloeIsland
 #define MAP_FLOE_ISLAND                   (0 | (37 << 8))
-#define MAP_FLOE_ISLAND_POKEMON_DAYCARE   (1 | (37 << 8))
+#define MAP_FLOE_ISLAND_POKEMON_DAY_CARE  (1 | (37 << 8))
 #define MAP_FLOE_ISLAND_POKEMON_CENTER_1F (2 | (37 << 8))
 #define MAP_FLOE_ISLAND_POKEMON_CENTER_2F (3 | (37 << 8))
 #define MAP_FLOE_ISLAND_HOUSE1            (4 | (37 << 8))
@@ -677,21 +688,21 @@
 #define MAP_FLOE_ISLAND_HOUSE2            (7 | (37 << 8))
 #define MAP_FLOE_ISLAND_MART              (8 | (37 << 8))
 
-// gMapGroup_Sevii_Islands5
+// gMapGroup_Sevii_ChronoIsland
 #define MAP_CHRONO_ISLAND                       (0 | (38 << 8))
 #define MAP_CHRONO_ISLAND_MEADOW                (1 | (38 << 8))
 #define MAP_CHRONO_ISLAND_MEMORIAL_PILLAR       (2 | (38 << 8))
 #define MAP_CHRONO_ISLAND_WATER_LABYRINTH       (3 | (38 << 8))
 #define MAP_CHRONO_ISLAND_RESORT_GORGEOUS       (4 | (38 << 8))
 #define MAP_CHRONO_ISLAND_POKEMON_CENTER_1F     (5 | (38 << 8))
-#define MAP_CHRONO_ISLAND_POKE_CENTER_2F        (6 | (38 << 8))
+#define MAP_CHRONO_ISLAND_POKEMON_CENTER_2F     (6 | (38 << 8))
 #define MAP_CHRONO_ISLAND_HARBOR                (7 | (38 << 8))
 #define MAP_CHRONO_ISLAND_HOUSE1                (8 | (38 << 8))
 #define MAP_CHRONO_ISLAND_HOUSE2                (9 | (38 << 8))
 #define MAP_CHRONO_ISLAND_RESORT_GORGEOUS_HOUSE (10 | (38 << 8))
 #define MAP_CHRONO_ISLAND_WAREHOUSE             (11 | (38 << 8))
 
-// gMapGroup_Sevii_Islands6
+// gMapGroup_Sevii_FortuneIsland
 #define MAP_FORTUNE_ISLAND                   (0 | (39 << 8))
 #define MAP_FORTUNE_ISLAND_WATER_PATH        (1 | (39 << 8))
 #define MAP_FORTUNE_ISLAND_RUIN_VALLEY       (2 | (39 << 8))
@@ -705,19 +716,18 @@
 #define MAP_FORTUNE_ISLAND_WATER_PATH_HOUSE1 (10 | (39 << 8))
 #define MAP_FORTUNE_ISLAND_WATER_PATH_HOUSE2 (11 | (39 << 8))
 
-// gMapGroup_Sevii_Islands7
-#define MAP_QUEST_ISLAND                        (0 | (40 << 8))
+// gMapGroup_Sevii_QuestIsland
+#define MAP_QUEST_ISLAND                         (0 | (40 << 8))
 #define MAP_QUEST_ISLAND_TRAINER_TOWER           (1 | (40 << 8))
 #define MAP_QUEST_ISLAND_SEVAULT_CANYON_ENTRANCE (2 | (40 << 8))
 #define MAP_QUEST_ISLAND_SEVAULT_CANYON          (3 | (40 << 8))
 #define MAP_QUEST_ISLAND_TANOBY_RUINS            (4 | (40 << 8))
 #define MAP_QUEST_ISLAND_HOUSE_ROOM1             (5 | (40 << 8))
-#define MAP_QUEST_ISLAND_HOUSE_ROOM2             (6 | (40 << 8))
-#define MAP_QUEST_ISLAND_MART                    (7 | (40 << 8))
-#define MAP_QUEST_ISLAND_POKEMON_CENTER_1F       (8 | (40 << 8))
-#define MAP_QUEST_ISLAND_POKEMON_CENTER_2F       (9 | (40 << 8))
-#define MAP_QUEST_ISLAND_HARBOR                  (10 | (40 << 8))
-#define MAP_QUEST_ISLAND_SEVAULT_CANYON_HOUSE    (11 | (40 << 8))
+#define MAP_QUEST_ISLAND_MART                    (6 | (40 << 8))
+#define MAP_QUEST_ISLAND_POKEMON_CENTER_1F       (7 | (40 << 8))
+#define MAP_QUEST_ISLAND_POKEMON_CENTER_2F       (8 | (40 << 8))
+#define MAP_QUEST_ISLAND_HARBOR                  (9 | (40 << 8))
+#define MAP_QUEST_ISLAND_SEVAULT_CANYON_HOUSE    (10 | (40 << 8))
 
 // gMapGroup_Sevii_Islands_MtEmber
 #define MAP_MT_EMBER_EXTERIOR             (0 | (41 << 8))
@@ -758,15 +768,15 @@
 #define MAP_CHRONO_ISLAND_LOST_CAVE_ROOM13   (13 | (43 << 8))
 #define MAP_CHRONO_ISLAND_LOST_CAVE_ROOM14   (14 | (43 << 8))
 
-// gMapGroup_Sevii_Islands_Six_Dungeons
-#define MAP_FORTUNE_ISLAND_DOTTED_HOLE_1F          (0 | (44 << 8))
-#define MAP_FORTUNE_ISLAND_DOTTED_HOLE_B1F         (1 | (44 << 8))
-#define MAP_FORTUNE_ISLAND_DOTTED_HOLE_B2F         (2 | (44 << 8))
-#define MAP_FORTUNE_ISLAND_DOTTED_HOLE_B3F         (3 | (44 << 8))
-#define MAP_FORTUNE_ISLAND_DOTTED_HOLE_B4F         (4 | (44 << 8))
-#define MAP_FORTUNE_ISLAND_DOTTED_HOLE_BOTTOM_ROOM (5 | (44 << 8))
-#define MAP_FORTUNE_ISLAND_PATTERN_BUSH            (6 | (44 << 8))
-#define MAP_FORTUNE_ISLAND_ALTERING_CAVE           (7 | (44 << 8))
+// gMapGroup_Sevii_FortuneIsland_Dungeons
+#define MAP_FORTUNE_ISLAND_DOTTED_HOLE_1F            (0 | (44 << 8))
+#define MAP_FORTUNE_ISLAND_DOTTED_HOLE_B1F           (1 | (44 << 8))
+#define MAP_FORTUNE_ISLAND_DOTTED_HOLE_B2F           (2 | (44 << 8))
+#define MAP_FORTUNE_ISLAND_DOTTED_HOLE_B3F           (3 | (44 << 8))
+#define MAP_FORTUNE_ISLAND_DOTTED_HOLE_B4F           (4 | (44 << 8))
+#define MAP_FORTUNE_ISLAND_DOTTED_HOLE_SAPPHIRE_ROOM (5 | (44 << 8))
+#define MAP_FORTUNE_ISLAND_PATTERN_BUSH              (6 | (44 << 8))
+#define MAP_FORTUNE_ISLAND_ALTERING_CAVE             (7 | (44 << 8))
 
 // gMapGroup_Sevii_Islands_Tanoby_Ruins
 #define MAP_QUEST_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER  (0 | (45 << 8))
@@ -779,7 +789,5 @@
 #define MAP_QUEST_ISLAND_SEVAULT_CANYON_TANOBY_KEY    (7 | (45 << 8))
 
 #define MAP_GROUPS_COUNT 46
-
-// static const u8 MAP_GROUP_COUNT[] = {57, 5, 6, 7, 8, 9, 10, 8, 8, 15, 9, 18, 11, 24, 14, 16, 17, 2, 2, 2, 3, 1, 1, 1, 126, 61, 94, 2, 1, 13, 1, 1, 3, 1, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H
