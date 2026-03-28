@@ -1365,6 +1365,18 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/QuestIsland_TrainerTower/scripts.inc"
 
+	.include "data/maps/TrainerTower_1F/scripts.inc"
+	.include "data/maps/TrainerTower_2F/scripts.inc"
+	.include "data/maps/TrainerTower_3F/scripts.inc"
+	.include "data/maps/TrainerTower_4F/scripts.inc"
+	.include "data/maps/TrainerTower_5F/scripts.inc"
+	.include "data/maps/TrainerTower_6F/scripts.inc"
+	.include "data/maps/TrainerTower_7F/scripts.inc"
+	.include "data/maps/TrainerTower_8F/scripts.inc"
+	.include "data/maps/TrainerTower_Roof/scripts.inc"
+	.include "data/maps/TrainerTower_Lobby/scripts.inc"
+	.include "data/maps/TrainerTower_Elevator/scripts.inc"
+
 	.include "data/maps/QuestIsland_SevaultCanyon_Entrance/scripts.inc"
 
 	.include "data/maps/QuestIsland_SevaultCanyon/scripts.inc"
