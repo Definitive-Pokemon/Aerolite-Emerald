@@ -171,6 +171,7 @@ QuestIsland_House_Room1_Movement_OldWomanMoveAsideRight::
 QuestIsland_House_Room1_EventScript_Box::
 	msgbox QuestIsland_House_Room1_Text_SlightBreezeAroundBox, MSGBOX_SIGN
 	end
+
 QuestIsland_House_Room1_Text_OnlyEnjoymentWatchingBattles::
     .string "I may not look like much now,\n"
     .string "but when I was younger…\p"

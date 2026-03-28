@@ -196,7 +196,7 @@
       "x": 12,
       "y": 13,
       "elevation": 0,
-      "dest_map": "MAP_FLOE_ISLAND_POKEMON_DAY_CARE",
+      "dest_map": "MAP_FLOE_ISLAND_POKEMON_DAYCARE",
       "dest_warp_id": "0"
     },
     {
@@ -210,7 +210,7 @@
       "x": 38,
       "y": 12,
       "elevation": 0,
-      "dest_map": "MAP_FLOE_ISLAND_ICEFALL_CAVE_ENTRANCE",
+      "dest_map": "MAP_ICEFALL_CAVE_ENTRANCE",
       "dest_warp_id": "0"
     },
     {
