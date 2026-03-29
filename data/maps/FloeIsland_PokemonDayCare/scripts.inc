@@ -122,7 +122,6 @@ FloeIsland_PokemonDayCare_RetrieveMon::
 	playmoncry VAR_RESULT, CRY_MODE_NORMAL
 
 	msgbox DayCare_Text_TookBackMon
-	call EventScript_RestorePrevTextColor
 	waitmoncry
 	specialvar VAR_RESULT, GetDaycareState
 	goto_if_eq VAR_RESULT, DAYCARE_ONE_MON, FloeIsland_PokemonDayCare_AskRetrieveOtherMon

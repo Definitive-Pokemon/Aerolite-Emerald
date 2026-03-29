@@ -33,7 +33,6 @@ ChronoIsland_WaterLabyrinth_EventScript_TryGiveEgg::
 	message ChronoIsland_WaterLabyrinth_Text_ReceivedEggFromMan
 	waitfanfare
 	waitmessage
-	call EventScript_RestorePrevTextColor
 	goto ChronoIsland_WaterLabyrinth_EventScript_PostEggComment
 	end
 

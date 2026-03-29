@@ -21,7 +21,7 @@ MtEmber_Exterior_OnLoad::
 	end
 
 MtEmber_Exterior_EventScript_OpenCave::
-	setmetatile 42, 39, METATILE_MtEmber_CaveEntrance, 0
+	@setmetatile 42, 39, METATILE_MtEmber_CaveEntrance, 0
 	return
 
 MtEmber_Exterior_EventScript_Grunt1::

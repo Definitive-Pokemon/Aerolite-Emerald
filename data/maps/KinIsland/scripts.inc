@@ -256,7 +256,7 @@ KinIsland_EventScript_BattleBikersScene::
 	playbgm MUS_RG_ENCOUNTER_BOY, 0
 	msgbox KinIsland_Text_PaxtonIntro
 	setvar VAR_LAST_TALKED, LOCALID_PAXTON
-	trainerbattle_no_intro TRAINER_CUE_BALL_PAXTON, KinIsland_Text_PaxtonDefeat
+	trainerbattle_no_intro TRAINER_PAXTON, KinIsland_Text_PaxtonDefeat
 	msgbox KinIsland_Text_PaxtonPostBattle
 	closemessage
 	fadescreen FADE_TO_BLACK

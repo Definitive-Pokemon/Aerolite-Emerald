@@ -222,22 +222,22 @@ FortuneIsland_DottedHole_SapphireRoom_Movement_PlayerWatchThiefExit::
 FortuneIsland_DottedHole_SapphireRoom_EventScript_BrailleMessage::
 	lockall
 	setvar VAR_0x8005, 130
-	braillemessage Braille_Text_LetTheTwo
-	braillemessage Braille_Text_Glittering
-	braillemessage Braille_Text_Stones
-	braillemessage Braille_Text_OneInRed
-	braillemessage Braille_Text_OneInBlue
-	braillemessage Braille_Text_ConnectThe
-	braillemessage Braille_Text_Past
-	braillemessage Braille_Text_TwoFriends
-	braillemessage Braille_Text_Sharing
-	braillemessage Braille_Text_PowerOpen
-	braillemessage Braille_Text_AWindowTo
-	braillemessage Braille_Text_ANewWorld
-	braillemessage Braille_Text_ThatGlows
-	braillemessage Braille_Text_TheNext
-	braillemessage Braille_Text_WorldWaits
-	braillemessage Braille_Text_ForYou
+	@braillemessage Braille_Text_LetTheTwo
+	@braillemessage Braille_Text_Glittering
+	@braillemessage Braille_Text_Stones
+	@braillemessage Braille_Text_OneInRed
+	@braillemessage Braille_Text_OneInBlue
+	@braillemessage Braille_Text_ConnectThe
+	@braillemessage Braille_Text_Past
+	@braillemessage Braille_Text_TwoFriends
+	@braillemessage Braille_Text_Sharing
+	@braillemessage Braille_Text_PowerOpen
+	@braillemessage Braille_Text_AWindowTo
+	@braillemessage Braille_Text_ANewWorld
+	@braillemessage Braille_Text_ThatGlows
+	@braillemessage Braille_Text_TheNext
+	@braillemessage Braille_Text_WorldWaits
+	@braillemessage Braille_Text_ForYou
 	waitbuttonpress
 	releaseall
 	end

@@ -101,9 +101,7 @@ FloeIsland_EventScript_DaycareAcceptEgg::
 	end
 
 FloeIsland_EventScript_DaycareReceivedEgg::
-
 	message DayCare_Text_ReceivedEgg
-	call EventScript_RestorePrevTextColor
 	playfanfare MUS_RG_LEVEL_UP
 	waitfanfare
 	waitbuttonpress
@@ -132,7 +130,7 @@ FloeIsland_EventScript_CheckOnTwoMons::
 FloeIsland_EventScript_OldWoman::
 	lock
 	faceplayer
-	goto_if_set FLAG_SYS_CAN_LINK_WITH_RS, FloeIsland_EventScript_OldWomanLoreleiLeft
+	@goto_if_set FLAG_SYS_CAN_LINK_WITH_RS, FloeIsland_EventScript_OldWomanLoreleiLeft
 	msgbox FloeIsland_Text_LoreleiHasReturned
 	release
 	end

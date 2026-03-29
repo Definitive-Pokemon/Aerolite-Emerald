@@ -15,17 +15,17 @@ KnotIsland_PokemonCenter_1F_OnLoad::
 	end
 
 KnotIsland_PokemonCenter_1F_EventScript_SetRubyMetatile::
-	setmetatile 13, 4, METATILE_PokemonCenter_NetworkMachine_Ruby, 1
+	@setmetatile 13, 4, METATILE_PokemonCenter_NetworkMachine_Ruby, 1
 	return
 
 KnotIsland_PokemonCenter_1F_EventScript_SetSapphireMetatile::
-	setmetatile 16, 4, METATILE_PokemonCenter_NetworkMachine_Sapphire, 1
+	@setmetatile 16, 4, METATILE_PokemonCenter_NetworkMachine_Sapphire, 1
 	return
 
 KnotIsland_PokemonCenter_1F_EventScript_SetNetworkMachineOn::
 	call KnotIsland_PokemonCenter_1F_EventScript_SetSapphireMetatile
-	setmetatile 14, 4, METATILE_PokemonCenter_NetworkMachine_ScreenLeft_On, 1
-	setmetatile 15, 4, METATILE_PokemonCenter_NetworkMachine_ScreenRight_On, 1
+	@setmetatile 14, 4, METATILE_PokemonCenter_NetworkMachine_ScreenLeft_On, 1
+	@setmetatile 15, 4, METATILE_PokemonCenter_NetworkMachine_ScreenRight_On, 1
 	return
 
 KnotIsland_PokemonCenter_1F_OnTransition::
@@ -167,7 +167,7 @@ KnotIsland_PokemonCenter_1F_Movement_BillWalkToCelio::
 KnotIsland_PokemonCenter_1F_EventScript_Nurse::
 	lock
 	faceplayer
-	call EventScript_PkmnCenterNurse
+	call Common_EventScript_PkmnCenterNurse
 	release
 	end
 
@@ -257,9 +257,7 @@ KnotIsland_PokemonCenter_1F_EventScript_GiveCelioSapphire::
 	applymovement LOCALID_CELIO, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox KnotIsland_PokemonCenter_1F_Text_ManagedToLinkWithHoennThankYou
-	special SetPostgameFlags
-	setflag FLAG_SYS_CAN_LINK_WITH_RS
-	setflag FLAG_HIDE_CERULEAN_CAVE_GUARD
+	@setflag FLAG_SYS_CAN_LINK_WITH_RS
 	setflag FLAG_HIDE_LORELEI_IN_HER_HOUSE
 	@setvar VAR_MAP_SCENE_KNOT_ISLAND_POKEMON_CENTER_1F, 6
 	special InitRoamer
@@ -363,7 +361,7 @@ KnotIsland_PokemonCenter_1F_EventScript_Hiker::
 KnotIsland_PokemonCenter_1F_EventScript_BattleGirl::
 	lock
 	faceplayer
-	goto_if_set FLAG_SYS_CAN_LINK_WITH_RS, KnotIsland_PokemonCenter_1F_EventScript_BattleGirlHoennLinked
+	@goto_if_set FLAG_SYS_CAN_LINK_WITH_RS, KnotIsland_PokemonCenter_1F_EventScript_BattleGirlHoennLinked
 	msgbox KnotIsland_PokemonCenter_1F_Text_WishICouldTradeWithBoyfriend
 	release
 	end
@@ -375,8 +373,8 @@ KnotIsland_PokemonCenter_1F_EventScript_BattleGirlHoennLinked::
 
 KnotIsland_PokemonCenter_1F_EventScript_NetworkMachine::
 	lockall
-	goto_if_set FLAG_SYS_CAN_LINK_WITH_RS, KnotIsland_PokemonCenter_1F_EventScript_NetworkMachineLinkedWithHoenn
-	goto_if_set FLAG_SEVII_DETOUR_FINISHED, KnotIsland_PokemonCenter_1F_EventScript_NetworkMachineLinkedWithKanto
+	@goto_if_set FLAG_SYS_CAN_LINK_WITH_RS, KnotIsland_PokemonCenter_1F_EventScript_NetworkMachineLinkedWithHoenn
+	@goto_if_set FLAG_SEVII_DETOUR_FINISHED, KnotIsland_PokemonCenter_1F_EventScript_NetworkMachineLinkedWithKanto
 	msgbox KnotIsland_PokemonCenter_1F_Text_MachineUnderAdjustment
 	releaseall
 	end
@@ -461,11 +459,7 @@ KnotIsland_PokemonCenter_1F_EventScript_LeaveKnotIslandScene::
 	playse SE_EXIT
 	setflag FLAG_HIDE_KNOT_ISLAND_POKECENTER_BILL
 	setvar VAR_MAP_SCENE_KNOT_ISLAND_POKEMON_CENTER_1F, 3
-	clearflag FLAG_HIDE_CINNABAR_BILL
-	setvar VAR_MAP_SCENE_CINNABAR_ISLAND, 3
-	setvar VAR_0x8004, SEAGALLOP_KNOT_ISLAND
-	setvar VAR_0x8006, SEAGALLOP_CINNABAR_ISLAND
-	goto EventScript_SetSail
+	@ used to be set sail
 	end
 
 KnotIsland_PokemonCenter_1F_EventScript_PlayerWalkToBillTop::

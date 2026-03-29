@@ -5987,7 +5987,7 @@
       "width": 5,
       "height": 7,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_SilphCo",
+      "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/TrainerTower_Elevator/border.bin",
       "blockdata_filepath": "data/layouts/TrainerTower_Elevator/map.bin"
     },

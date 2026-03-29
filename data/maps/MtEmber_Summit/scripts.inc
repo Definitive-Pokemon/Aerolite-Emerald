@@ -4,7 +4,7 @@ MtEmber_Summit_MapScripts::
 	.byte 0
 
 MtEmber_Summit_OnResume::
-	call_if_set FLAG_SYS_SPECIAL_WILD_BATTLE, MtEmber_Summit_EventScript_TryRemoveMoltres
+	@call_if_set FLAG_SYS_SPECIAL_WILD_BATTLE, MtEmber_Summit_EventScript_TryRemoveMoltres
 	end
 
 MtEmber_Summit_EventScript_TryRemoveMoltres::
@@ -14,7 +14,7 @@ MtEmber_Summit_EventScript_TryRemoveMoltres::
 	return
 
 MtEmber_Summit_OnTransition::
-	call_if_unset FLAG_FOUGHT_MOLTRES, MtEmber_Summit_EventScript_ShowMoltres
+	@call_if_unset FLAG_FOUGHT_MOLTRES, MtEmber_Summit_EventScript_ShowMoltres
 	end
 
 MtEmber_Summit_EventScript_ShowMoltres::
@@ -33,24 +33,25 @@ MtEmber_Summit_EventScript_Moltres::
 	delay 10
 	playbgm MUS_RG_ENCOUNTER_GYM_LEADER, 0
 	waitbuttonpress
-	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
-	special StartLegendaryBattle
+	@ doesnt exist in Emerald
+	@setflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	@special StartLegendaryBattle
 	waitstate
-	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	@clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
 	specialvar VAR_RESULT, GetBattleOutcome
 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, MtEmber_Summit_EventScript_DefeatedMoltres
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, MtEmber_Summit_EventScript_RanFromMoltres
 	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, MtEmber_Summit_EventScript_RanFromMoltres
-	setflag FLAG_FOUGHT_MOLTRES
+	@setflag FLAG_FOUGHT_MOLTRES
 	release
 	end
 
 MtEmber_Summit_EventScript_DefeatedMoltres::
-	setflag FLAG_FOUGHT_MOLTRES
-	goto EventScript_RemoveStaticMon
+	@setflag FLAG_FOUGHT_MOLTRES
+	@goto EventScript_RemoveStaticMon
 	end
 
 MtEmber_Summit_EventScript_RanFromMoltres::
 	setvar VAR_0x8004, SPECIES_MOLTRES
-	goto EventScript_MonFlewAway
+	@goto EventScript_MonFlewAway
 	end

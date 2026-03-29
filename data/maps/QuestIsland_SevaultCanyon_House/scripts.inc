@@ -19,7 +19,6 @@ QuestIsland_SevaultCanyon_House_EventScript_ChanseyDanceMan::
 	goto_if_eq VAR_RESULT, NO, QuestIsland_SevaultCanyon_House_EventScript_DeclineDance
 	msgbox QuestIsland_SevaultCanyon_House_Text_DancedChanseyDance
 	closemessage
-	call EventScript_RestorePrevTextColor
 	call_if_ne VAR_FACING, DIR_SOUTH, QuestIsland_SevaultCanyon_House_EventScript_PlayerFaceDown
 	delay 30
 	playbgm MUS_RG_SCHOOL, 0

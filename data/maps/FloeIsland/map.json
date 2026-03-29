@@ -101,7 +101,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
       "x": 5,
       "y": 11,
       "elevation": 3,

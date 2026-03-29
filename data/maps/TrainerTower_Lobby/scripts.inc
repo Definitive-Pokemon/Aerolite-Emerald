@@ -4,7 +4,7 @@ TrainerTower_Lobby_MapScripts::
 TrainerTower_Lobby_EventScript_Nurse::
 	lock
 	faceplayer
-	call EventScript_PkmnCenterNurse
+	call Common_EventScript_PkmnCenterNurse
 	release
 	end
 
@@ -27,7 +27,7 @@ TrainerTower_Lobby_EventScript_MartClerk::
 	message Text_MayIHelpYou
 	waitmessage
 	pokemart TrainerTower_Lobby_Mart_Items
-	msgbox Text_PleaseComeAgain
+	msgbox gText_PleaseComeAgain
 	release
 	end
 

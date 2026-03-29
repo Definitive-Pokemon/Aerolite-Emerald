@@ -292,7 +292,7 @@
 #define FLAG_RECEIVED_REVIVED_FOSSIL_MON     0x10B
 #define FLAG_SECRET_BASE_REGISTRY_ENABLED    0x10C
 #define FLAG_RECEIVED_TM_THIEF               0x10D
-#define FLAG_CONTEST_SKETCH_CREATED          0x10E  // Set but never read
+#define FLAG_MINTS_CLERK                     0x10E 
 #define FLAG_EVIL_TEAM_ESCAPED_STERN_SPOKE   0x10F
 #define FLAG_RECEIVED_EXP_SHARE              0x110
 #define FLAG_POKERUS_EXPLAINED               0x111
@@ -776,7 +776,7 @@
 #define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY   0x2D7
 #define FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM                         0x2D8
 
-#define FLAG_UNUSED_0x2D9                                           0x2D9 // Unused Flag
+#define FLAG_OLD_MAN_AND_DUSCLOPS                                   0x2D9
 
 #define FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER                     0x2DA
 #define FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT                          0x2DB
@@ -873,7 +873,9 @@
 #define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE         0x336
 #define FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA                          0x337
 #define FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD                          0x338
-#define FLAG_HIDE_LEGEND_MON_CAVE_OF_ORIGIN                         0x339 // Unused, leftover from R/S
+
+#define FLAG_MET_FRONTIER_ELEMENTAL_MOVE_TUTOR                      0x339
+
 #define FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE                            0x33A
 #define FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE                             0x33B
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE                     0x33C
@@ -1361,9 +1363,11 @@
 #define FLAG_HIDE_QUEST_ISLAND_SEVAULT_CANYON_NUGGET                0x514 
 #define FLAG_HIDE_QUEST_ISLAND_SEVAULT_CANYON_HOUSE_LUCKY_PUNCH     0x515 
 #define FLAG_WORLD_MAP_QUEST_ISLAND_SEVAULT_CANYON_TANOBY_KEY       0x516 
+#define FLAG_HIDE_CHAMPIONS_ROOM_WALLACE                            0x517
 
 // TODO, add Astral Emerald flags here! (set TRAINER_FLAGS_START to last one + 1)
-#define FLAG_RENAME_ME                                              0x517
+#define FLAG_GOT_RUBY                                               0x517
+#define FLAG_HIDE_SAPPHIRE                                          0x518
 
 // Trainer Flags
 // Trainer flags occupy 0x500 - 0x85F, the last 9 of which are unused

@@ -8,7 +8,7 @@ BoonIsland_OnTransition::
 	end
 
 BoonIsland_EventScript_SetShopState::
-	goto_if_set FLAG_SYS_CAN_LINK_WITH_RS, BoonIsland_EventScript_SetShopStateAfterHoennLink
+	@goto_if_set FLAG_SYS_CAN_LINK_WITH_RS, BoonIsland_EventScript_SetShopStateAfterHoennLink
 	goto_if_set FLAG_SYS_GAME_CLEAR, BoonIsland_EventScript_SetShopStateAfterChampion
 	goto_if_set FLAG_RESCUED_LOSTELLE, BoonIsland_EventScript_SetShopStateAfterLostelleRescue
 	goto BoonIsland_EventScript_SetShopStateDefault
@@ -109,7 +109,7 @@ BoonIsland_EventScript_ClerkShopSkipIntro::
 
 BoonIsland_EventScript_ShopInitial::
 	pokemart BoonIsland_Items_ShopInitial
-	msgbox Text_PleaseComeAgain
+	msgbox gText_PleaseComeAgain
 	release
 	end
 
@@ -123,7 +123,7 @@ BoonIsland_Items_ShopInitial::
 
 BoonIsland_EventScript_ShopExpanded1::
 	pokemart BoonIsland_Items_ShopExpanded1
-	msgbox Text_PleaseComeAgain
+	msgbox gText_PleaseComeAgain
 	release
 	end
 
@@ -139,7 +139,7 @@ BoonIsland_Items_ShopExpanded1::
 
 BoonIsland_EventScript_ShopExpanded2::
 	pokemart BoonIsland_Items_ShopExpanded2
-	msgbox Text_PleaseComeAgain
+	msgbox gText_PleaseComeAgain
 	release
 	end
 
@@ -157,7 +157,7 @@ BoonIsland_Items_ShopExpanded2::
 
 BoonIsland_EventScript_ShopExpanded3::
 	pokemart BoonIsland_Items_ShopExpanded3
-	msgbox Text_PleaseComeAgain
+	msgbox gText_PleaseComeAgain
 	release
 	end
 

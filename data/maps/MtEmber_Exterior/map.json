@@ -59,7 +59,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_BATTLE_GIRL",
+      "graphics_id": "OBJ_EVENT_GFX_WOMAN_3",
       "x": 22,
       "y": 35,
       "elevation": 3,
@@ -101,7 +101,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
       "x": 29,
       "y": 41,
       "elevation": 3,
@@ -115,7 +115,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
       "x": 30,
       "y": 42,
       "elevation": 3,
@@ -171,7 +171,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
       "x": 34,
       "y": 14,
       "elevation": 3,
@@ -185,7 +185,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
       "x": 36,
       "y": 15,
       "elevation": 3,
@@ -227,7 +227,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
       "x": 18,
       "y": 39,
       "elevation": 3,
@@ -241,7 +241,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
       "x": 19,
       "y": 40,
       "elevation": 3,

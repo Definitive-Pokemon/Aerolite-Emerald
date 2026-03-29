@@ -67,7 +67,7 @@ FortuneIsland_PokemonCenter_1F_Movement_PlayerWatchRivalExit::
 FortuneIsland_PokemonCenter_1F_EventScript_Nurse::
 	lock
 	faceplayer
-	call EventScript_PkmnCenterNurse
+	call Common_EventScript_PkmnCenterNurse
 	release
 	end
 

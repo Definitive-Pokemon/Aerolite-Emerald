@@ -3,7 +3,7 @@ KnotIsland_Harbor_MapScripts::
 	.byte 0
 	
 KnotIsland_Harbor_OnFrameTable::
-	map_script_2 VAR_KNOT_ISLAND_STATE, 0, KnotIsland_Harbor_EventScript_EnterKnotIsland_HarborFirstTime
+	map_script_2 VAR_MAP_SCENE_KNOT_ISLAND_HARBOR, 0, KnotIsland_Harbor_EventScript_EnterKnotIsland_HarborFirstTime
 	.2byte 0
 	
 KnotIsland_Harbor_EventScript_EnterKnotIsland_HarborFirstTime::

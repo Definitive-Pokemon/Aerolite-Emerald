@@ -22,7 +22,7 @@ BoonIsland_JoyfulGameCorner_EventScript_SetLostelleReturnedPos::
 
 BoonIsland_JoyfulGameCorner_OnWarp::
 	map_script_2 VAR_MAP_SCENE_BOON_ISLAND_JOYFUL_GAME_CORNER, 2, BoonIsland_JoyfulGameCorner_EventScript_TurnPlayerNorth
-	map_script_2 VAR_CABLE_CLUB_STATE, USING_MINIGAME, EventScript_CheckTurnAttendant
+	@map_script_2 VAR_CABLE_CLUB_STATE, USING_MINIGAME, EventScript_CheckTurnAttendant
 	.2byte 0
 
 BoonIsland_JoyfulGameCorner_EventScript_TurnPlayerNorth::
@@ -69,7 +69,7 @@ BoonIsland_JoyfulGameCorner_EventScript_HelpFindLostelleScene::
 	waitmovement 0
 	msgbox BoonIsland_JoyfulGameCorner_Text_PleaseHelpFindLostelle
 	closemessage
-	playse SE_RS_DOOR
+	playse SE_DOOR
 	waitse
 	applymovement LOCALID_PLAYER, BoonIsland_JoyfulGameCorner_Movement_PlayerFaceDaddy
 	waitmovement 0
@@ -154,12 +154,10 @@ BoonIsland_JoyfulGameCorner_EventScript_GiveDaddyMeteorite::
 	goto_if_set FLAG_NO_ROOM_FOR_JOYFUL_GAME_CORNER_MOON_STONE, BoonIsland_JoyfulGameCorner_EventScript_ReceiveMoonStone
 	msgbox BoonIsland_JoyfulGameCorner_Text_ThisIsForMe
 	setvar VAR_MAP_SCENE_KNOT_ISLAND_POKEMON_CENTER_1F, 2
-
-	playfanfare MUS_RG_OBTAIN_TMHM
+	playfanfare MUS_OBTAIN_TMHM
 	message BoonIsland_JoyfulGameCorner_Text_HandedMeteoriteToLostellesDaddy
 	waitmessage
 	waitfanfare
-	call EventScript_RestorePrevTextColor
 	removeitem ITEM_METEORITE
 	msgbox BoonIsland_JoyfulGameCorner_Text_OhThisIsFromBill
 	goto BoonIsland_JoyfulGameCorner_EventScript_ReceiveMoonStone
