@@ -123,8 +123,8 @@
 #define VAR_RESORT_GORGEOUS_REQUESTED_MON                0x4067 
 #define VAR_MAP_SCENE_KNOT_ISLAND_HARBOR                 0x4068
 #define VAR_MAP_SCENE_BOON_ISLAND                        0x4069
-#define VAR_FREEZE_SURF_BLOB                             0x406A // Unused Var
-#define VAR_ROUTE112_STATE                               0x406B // Unused Var
+#define VAR_FREEZE_SURF_BLOB                             0x406A 
+#define VAR_SURF_MON_SLOT                               0x406B 
 #define VAR_ROUTE113_STATE                               0x406C // Unused Var
 #define VAR_ROUTE114_STATE                               0x406D // Unused Var
 #define VAR_ROUTE115_STATE                               0x406E // Unused Var
