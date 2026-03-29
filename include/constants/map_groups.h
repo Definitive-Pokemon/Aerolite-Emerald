@@ -728,7 +728,6 @@
 #define MAP_QUEST_ISLAND_POKEMON_CENTER_2F       (8 | (40 << 8))
 #define MAP_QUEST_ISLAND_HARBOR                  (9 | (40 << 8))
 #define MAP_QUEST_ISLAND_SEVAULT_CANYON_HOUSE    (10 | (40 << 8))
-#define MAP_QUEST_ISLAND_HOUSE_ROOM2             (11 | (40 << 8))
 
 // gMapGroup_Sevii_Islands_MtEmber
 #define MAP_MT_EMBER_EXTERIOR             (0 | (41 << 8))
