@@ -84,15 +84,15 @@ FloeIsland_EventScript_DaycareReceivedEgg::
 
 FloeIsland_EventScript_CheckOnOneMon::
 	special GetDaycareMonNicknames
-	msgbox DayCare_Text_YourMonIsDoingFine
+	@msgbox DayCare_Text_YourMonIsDoingFine
 	release
 	end
 
 FloeIsland_EventScript_CheckOnTwoMons::
 	special GetDaycareMonNicknames
-	msgbox DayCare_Text_YourMonsAreDoingFine
-	special SetDaycareCompatibilityString
-	special ShowFieldMessageStringVar4
+	@msgbox DayCare_Text_YourMonsAreDoingFine
+	@special SetDaycareCompatibilityString
+	@special ShowFieldMessageStringVar4
 	waitmessage
 	waitbuttonpress
 	release

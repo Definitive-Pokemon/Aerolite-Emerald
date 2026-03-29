@@ -13,7 +13,7 @@ KinIsland_DunsparceTunnel_OnTransition::
 	end
 
 KinIsland_DunsparceTunnel_EventScript_SetLayoutDugOut::
-	setmaplayoutindex LAYOUT_KIN_ISLAND_DUNSPARCE_TUNNEL_DUG_OUT
+	@setmaplayoutindex LAYOUT_KIN_ISLAND_DUNSPARCE_TUNNEL_DUG_OUT
 	return
 
 KinIsland_DunsparceTunnel_EventScript_MoveProspectorToWall::
