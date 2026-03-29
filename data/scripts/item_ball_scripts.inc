@@ -779,19 +779,19 @@ FloeIsland_IcefallCave_B1F_EventScript_ItemNeverMeltIce::
 	finditem ITEM_NEVER_MELT_ICE
 	end
 
-ChronoIsland_RocketWarehouse_EventScript_ItemBigPearl::
+ChronoIsland_Warehouse_EventScript_ItemBigPearl::
 	finditem ITEM_BIG_PEARL
 	end
 
-ChronoIsland_RocketWarehouse_EventScript_ItemTM36::
+ChronoIsland_Warehouse_EventScript_ItemTM36::
 	finditem ITEM_TM36
 	end
 
-ChronoIsland_RocketWarehouse_EventScript_ItemPearl::
+ChronoIsland_Warehouse_EventScript_ItemPearl::
 	finditem ITEM_PEARL
 	end
 
-ChronoIsland_RocketWarehouse_EventScript_ItemUpGrade::
+ChronoIsland_Warehouse_EventScript_ItemUpGrade::
 	finditem ITEM_UP_GRADE
 	end
 
