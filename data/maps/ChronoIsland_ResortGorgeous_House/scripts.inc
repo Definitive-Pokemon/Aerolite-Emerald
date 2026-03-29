@@ -17,7 +17,7 @@ ChronoIsland_ResortGorgeous_House_EventScript_Selphy::
 	end
 
 ChronoIsland_ResortGorgeous_House_EventScript_RequestMon::
-	special SampleResortGorgeousMonAndReward
+	@special SampleResortGorgeousMonAndReward
 	msgbox ChronoIsland_ResortGorgeous_House_Text_WishToSeeMonPlease
 	release
 	end
@@ -29,13 +29,13 @@ ChronoIsland_ResortGorgeous_House_EventScript_RequestTookTooLong::
 
 ChronoIsland_ResortGorgeous_House_EventScript_CheckForRequestedMon::
 	copyvar VAR_0x8004, VAR_RESORT_GORGEOUS_REQUESTED_MON
-	specialvar VAR_RESULT, DoesPlayerPartyContainSpecies
+	@specialvar VAR_RESULT, DoesPlayerPartyContainSpecies
 	goto_if_eq VAR_RESULT, TRUE, ChronoIsland_ResortGorgeous_House_EventScript_ShowRequestedMon
 	goto ChronoIsland_ResortGorgeous_House_EventScript_RequestMon
 	end
 
 ChronoIsland_ResortGorgeous_House_EventScript_ShowRequestedMon::
-	special SampleResortGorgeousMonAndReward
+	@special SampleResortGorgeousMonAndReward
 	msgbox ChronoIsland_ResortGorgeous_House_Text_MonYouCaughtForMeThankYou
 	addobject LOCALID_RESORT_GORGEOUS_HOUSE_BUTLER
 	applymovement LOCALID_RESORT_GORGEOUS_HOUSE_BUTLER, ChronoIsland_ResortGorgeous_House_Movement_ButlerEnter

@@ -7,7 +7,7 @@ ChronoIsland_WaterLabyrinth_EventScript_EggGentleman::
 	goto_if_set FLAG_GOT_TOGEPI_EGG, ChronoIsland_WaterLabyrinth_EventScript_PostEggComment
 	goto_if_set FLAG_NO_ROOM_FOR_TOGEPI_EGG, ChronoIsland_WaterLabyrinth_EventScript_ReturnForEgg
 	msgbox ChronoIsland_WaterLabyrinth_Text_LetMeTakeLookAtMons
-	specialvar VAR_RESULT, GetLeadMonFriendship
+	specialvar VAR_RESULT, GetLeadMonFriendshipScore
 	goto_if_eq VAR_RESULT, 6, ChronoIsland_WaterLabyrinth_EventScript_LeadMonMaxFriendship
 	msgbox ChronoIsland_WaterLabyrinth_Text_HmmISeeIsee
 	release
@@ -41,11 +41,11 @@ ChronoIsland_WaterLabyrinth_EventScript_TryGiveEgg::
 ChronoIsland_WaterLabyrinth_EventScript_PostEggComment::
 	bufferspeciesname STR_VAR_2, SPECIES_TOGEPI
 	setvar VAR_0x8004, SPECIES_TOGEPI
-	specialvar VAR_RESULT, PlayerPartyContainsSpeciesWithPlayerID
+	@specialvar VAR_RESULT, PlayerPartyContainsSpeciesWithPlayerID
 	goto_if_eq VAR_RESULT, TRUE, ChronoIsland_WaterLabyrinth_EventScript_MonDaisyComment
 	bufferspeciesname STR_VAR_2, SPECIES_TOGETIC
 	setvar VAR_0x8004, SPECIES_TOGETIC
-	specialvar VAR_RESULT, PlayerPartyContainsSpeciesWithPlayerID
+	@specialvar VAR_RESULT, PlayerPartyContainsSpeciesWithPlayerID
 	goto_if_eq VAR_RESULT, TRUE, ChronoIsland_WaterLabyrinth_EventScript_MonDaisyComment
 	msgbox ChronoIsland_WaterLabyrinth_Text_GladIMetSomeoneLikeYou
 	release

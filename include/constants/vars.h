@@ -126,7 +126,7 @@
 #define VAR_FREEZE_SURF_BLOB                             0x406A 
 #define VAR_SURF_MON_SLOT                               0x406B 
 #define VAR_ROUTE110_STATE                               0x406C
-#define VAR_ROUTE114_STATE                               0x406D // Unused Var
+#define VAR_MAP_SCENE_CHRONO_ISLAND_LOST_CAVE_ROOM10     0x406D
 #define VAR_ROUTE115_STATE                               0x406E // Unused Var
 #define VAR_ROUTE116_STATE                               0x406F
 #define VAR_ROUTE117_STATE                               0x4070 // Unused Var

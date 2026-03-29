@@ -4972,6 +4972,18 @@
       "blockdata_filepath": "data/layouts/KinIsland_DunsparceTunnel/map.bin"
     },
     {
+      "id": "LAYOUT_KIN_ISLAND_DUNSPARCE_TUNNEL_DUG_OUT",
+      "name": "KinIsland_DunsparceTunnel_DugOut_Layout",
+      "width": 30,
+      "height": 7,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/KinIsland_DunsparceTunnel_DugOut/border.bin",
+      "blockdata_filepath": "data/layouts/KinIsland_DunsparceTunnel_DugOut/map.bin"
+    },
+    {
       "id": "LAYOUT_KIN_ISLAND_BOND_BRIDGE",
       "name": "KinIsland_BondBridge_Layout",
       "width": 96,

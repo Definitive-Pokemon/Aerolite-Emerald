@@ -27,7 +27,7 @@ FortuneIsland_DottedHole_SapphireRoom_EventScript_Sapphire::
 	setvar VAR_0x8005, 0
 	setvar VAR_0x8006, 12
 	setvar VAR_0x8007, 3
-	special ShakeScreen
+	special ShakeCamera
 	delay 60
 	call_if_eq VAR_FACING, DIR_NORTH, FortuneIsland_DottedHole_SapphireRoom_EventScript_ThiefLookAtSapphireNorth
 	call_if_eq VAR_FACING, DIR_SOUTH, FortuneIsland_DottedHole_SapphireRoom_EventScript_ThiefLookAtSapphireSouth

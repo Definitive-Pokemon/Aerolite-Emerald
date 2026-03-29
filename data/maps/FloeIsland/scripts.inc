@@ -71,44 +71,15 @@ FloeIsland_Movement_PlayerWatchRivalExit::
 	step_end
 
 FloeIsland_EventScript_DaycareMan::
-	lock
-	faceplayer
-	special GetDaycareMonNicknames
-	specialvar VAR_RESULT, GetDaycareState
-	goto_if_eq VAR_RESULT, DAYCARE_EGG_WAITING, FloeIsland_EventScript_DaycareEggWaiting
-	goto_if_eq VAR_RESULT, DAYCARE_ONE_MON, FloeIsland_EventScript_CheckOnOneMon
-	goto_if_eq VAR_RESULT, DAYCARE_TWO_MONS, FloeIsland_EventScript_CheckOnTwoMons
-	msgbox DayCare_Text_ImDaycareManSpeakToMyWife
-	release
 	end
 
 FloeIsland_EventScript_DaycareEggWaiting::
-	msgbox DayCare_Text_DoYouWantEgg, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, FloeIsland_EventScript_DaycareAcceptEgg
-	msgbox DayCare_Text_IWillKeepDoYouWantIt, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, FloeIsland_EventScript_DaycareAcceptEgg
-	msgbox DayCare_Text_IllKeepIt
-	clearflag FLAG_PENDING_DAYCARE_EGG
-	special RejectEggFromDayCare
-	release
 	end
 
 FloeIsland_EventScript_DaycareAcceptEgg::
-	specialvar VAR_RESULT, CalculatePlayerPartyCount
-	goto_if_ne VAR_RESULT, PARTY_SIZE, FloeIsland_EventScript_DaycareReceivedEgg
-	msgbox DayCare_Text_YouHaveNoRoomForIt
-	release
 	end
 
 FloeIsland_EventScript_DaycareReceivedEgg::
-	message DayCare_Text_ReceivedEgg
-	playfanfare MUS_LEVEL_UP
-	waitfanfare
-	waitbuttonpress
-	msgbox DayCare_Text_TakeGoodCareOfIt
-	special GiveEggFromDaycare
-	clearflag FLAG_PENDING_DAYCARE_EGG
-	release
 	end
 
 FloeIsland_EventScript_CheckOnOneMon::

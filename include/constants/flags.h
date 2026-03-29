@@ -1374,11 +1374,14 @@
 #define FLAG_HIDE_BOON_ISLAND_SUPER_NERD 0x51C
 #define FLAG_RECOVERED_SAPPHIRE 0x51D
 #define FLAG_HIDE_CHAMPIONS_ROOM_STEVEN 0x51E
+#define FLAG_CERULEAN_CAVE_LUCKY_EGG 0x51F
+#define FLAG_KNOT_ISLAND_HIDE_BILL 0x520
+#define FLAG_HIDE_CHRONO_ISLAND_ROCKET_WAREHOUSE_PEARL 0x521
 // Trainer Flags
 // Trainer flags occupy 0x500 - 0x85F, the last 9 of which are unused
 // See constants/opponents.h. The values there + FLAG_TRAINER_FLAG_START are the flag IDs
 
-#define TRAINER_FLAGS_START                                         0x51F
+#define TRAINER_FLAGS_START                                         0x522
 #define TRAINER_FLAGS_END                                           (TRAINER_FLAGS_START + MAX_TRAINERS_COUNT - 1) 
 
 // System Flags

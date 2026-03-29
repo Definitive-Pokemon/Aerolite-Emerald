@@ -29,7 +29,7 @@ FortuneIsland_RuinValley_EventScript_DottedHoleDoor::
 	msgbox FortuneIsland_RuinValley_Text_CheckDoorMoreThoroughly, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, FortuneIsland_RuinValley_EventScript_IgnoreDottedHoleDoor
 	msgbox FortuneIsland_RuinValley_Text_SeveralDotsOnTheDoor
-	braillemessage Braille_Text_Cut
+	@braillemessage Braille_Text_Cut
 	waitbuttonpress
 	releaseall
 	end

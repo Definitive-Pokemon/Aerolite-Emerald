@@ -107,7 +107,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M_WATER",
+      "graphics_id": "OBJ_EVENT_GFX_TUBER_M",
       "x": 56,
       "y": 7,
       "elevation": 1,

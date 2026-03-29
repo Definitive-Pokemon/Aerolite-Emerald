@@ -34,7 +34,7 @@ ChronoIsland_Meadow_EventScript_WarehouseDoorAlreadyOpen::
 	end
 
 ChronoIsland_Meadow_EventScript_SetWarehouseDoorUnlocked::
-	setmetatile 12, 21, METATILE_SeviiIslands45_RocketWarehouseDoor_Unlocked, 1
+	@setmetatile 12, 21, METATILE_SeviiIslands45_RocketWarehouseDoor_Unlocked, 1
 	return
 
 ChronoIsland_Meadow_EventScript_Rocket1::

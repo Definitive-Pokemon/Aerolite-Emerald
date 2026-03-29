@@ -17,7 +17,7 @@ QuestIsland_House_Room1_EventScript_SetTrainerVisitingLayout::
 	setvar TRAINER_VISITING, TRUE
 	setobjectxyperm LOCALID_QUEST_ISLAND_HOUSE_OLD_WOMAN, 4, 2
 	setobjectmovementtype LOCALID_QUEST_ISLAND_HOUSE_OLD_WOMAN, MOVEMENT_TYPE_FACE_DOWN
-	setmaplayoutindex LAYOUT_QUEST_ISLAND_HOUSE_ROOM1_DOOR_OPEN
+	@setmaplayoutindex LAYOUT_QUEST_ISLAND_HOUSE_ROOM1_DOOR_OPEN
 	return
 
 QuestIsland_House_Room1_EventScript_MoveOldWomanToDoor::
@@ -95,10 +95,10 @@ QuestIsland_House_Room1_EventScript_TrainerVisiting::
 	msgbox QuestIsland_House_Room1_Text_SaveProgressBeforeBattle, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, QuestIsland_House_Room1_EventScript_DeclineBattle
 	special LoadPlayerParty
-	call EventScript_AskSaveGame
+	@call EventScript_AskSaveGame
 	goto_if_eq VAR_RESULT, 0, QuestIsland_House_Room1_EventScript_DeclineBattle
 	special SavePlayerParty
-	special ReducePlayerPartyToThree
+	@special ReducePlayerPartyToThree
 	msgbox QuestIsland_House_Room1_Text_DontHoldAnythingBack
 	closemessage
 	call_if_eq VAR_FACING, DIR_NORTH, QuestIsland_House_Room1_EventScript_EnterBattleRoomNorth
