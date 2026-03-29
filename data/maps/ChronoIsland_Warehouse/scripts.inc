@@ -20,8 +20,8 @@ ChronoIsland_RocketWarehouse_OnLoad::
 	end
 
 ChronoIsland_RocketWarehouse_EventScript_SetArrowsForReEntry::
-	setmetatile 26, 20, METATILE_SilphCo_Arrow_Up, 0
-	setmetatile 27, 20, METATILE_SilphCo_Arrow_Up, 0
+	@setmetatile 26, 20, METATILE_SilphCo_Arrow_Up, 0
+	@setmetatile 27, 20, METATILE_SilphCo_Arrow_Up, 0
 	return
 
 ChronoIsland_RocketWarehouse_EventScript_Cage::
@@ -135,7 +135,7 @@ ChronoIsland_RocketWarehouse_EventScript_DefeatedAdmin1::
 	end
 
 ChronoIsland_RocketWarehouse_EventScript_PlayerFaceAdmin1::
-	goto_if_eq PLAYER_X_POS, 27, EventScript_Return
+	goto_if_eq PLAYER_X_POS, 27, Common_EventScript_NopReturn
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	return

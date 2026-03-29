@@ -713,9 +713,9 @@
 #define FLAG_HIDDEN_ITEM_QUEST_ISLAND_TRAINER_TOWER_BIG_PEARL (FLAG_HIDDEN_ITEMS_START + 0xA9)
 #define FLAG_HIDDEN_ITEM_QUEST_ISLAND_TRAINER_TOWER_PEARL (FLAG_HIDDEN_ITEMS_START + 0xAA)
 #define FLAG_HIDDEN_ITEM_QUEST_ISLAND_TRAINER_TOWER_NANAB_BERRY (FLAG_HIDDEN_ITEMS_START + 0xAB)
+#define FLAG_HIDDEN_ITEM_MT_EMBER_EXTERIOR_ULTRA_BALL (FLAG_HIDDEN_ITEMS_START + 0xAC)
+#define FLAG_HIDDEN_ITEM_MT_EMBER_EXTERIOR_FIRE_STONE (FLAG_HIDDEN_ITEMS_START + 0xAD)
 
-//(FLAG_HIDDEN_ITEMS_START + 0xAC)
-//(FLAG_HIDDEN_ITEMS_START + 0xAD)
 //(FLAG_HIDDEN_ITEMS_START + 0xAE)
 //(FLAG_HIDDEN_ITEMS_START + 0xAF)
 
@@ -1368,12 +1368,17 @@
 // TODO, add Astral Emerald flags here! (set TRAINER_FLAGS_START to last one + 1)
 #define FLAG_GOT_RUBY                                               0x517
 #define FLAG_HIDE_SAPPHIRE                                          0x518
-
+#define FLAG_HIDE_RUBY                                              0x519
+#define FLAG_HIDE_BOON_ISLAND_WOMAN 0x51A
+#define FLAG_HIDE_BOON_ISLAND_BEAUTY 0x51B
+#define FLAG_HIDE_BOON_ISLAND_SUPER_NERD 0x51C
+#define FLAG_RECOVERED_SAPPHIRE 0x51D
+#define FLAG_HIDE_CHAMPIONS_ROOM_STEVEN 0x51E
 // Trainer Flags
 // Trainer flags occupy 0x500 - 0x85F, the last 9 of which are unused
 // See constants/opponents.h. The values there + FLAG_TRAINER_FLAG_START are the flag IDs
 
-#define TRAINER_FLAGS_START                                         0x517
+#define TRAINER_FLAGS_START                                         0x51F
 #define TRAINER_FLAGS_END                                           (TRAINER_FLAGS_START + MAX_TRAINERS_COUNT - 1) 
 
 // System Flags

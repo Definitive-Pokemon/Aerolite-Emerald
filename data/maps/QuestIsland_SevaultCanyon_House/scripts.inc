@@ -6,7 +6,7 @@ QuestIsland_SevaultCanyon_House_MapScripts::
 QuestIsland_SevaultCanyon_House_EventScript_ChanseyDanceMan::
 	lock
 	goto_if_set DID_CHANSEY_DANCE, QuestIsland_SevaultCanyon_House_EventScript_AlreadyDanced
-	playbgm MUS_RG_SCHOOL, 0
+	playbgm MUS_SCHOOL, 0
 	applymovement LOCALID_CHANSEY_DANCE_MAN, QuestIsland_SevaultCanyon_House_Movement_ChanseyDance
 	waitmovement 0
 	fadedefaultbgm
@@ -21,7 +21,7 @@ QuestIsland_SevaultCanyon_House_EventScript_ChanseyDanceMan::
 	closemessage
 	call_if_ne VAR_FACING, DIR_SOUTH, QuestIsland_SevaultCanyon_House_EventScript_PlayerFaceDown
 	delay 30
-	playbgm MUS_RG_SCHOOL, 0
+	playbgm MUS_SCHOOL, 0
 	applymovement LOCALID_PLAYER, QuestIsland_SevaultCanyon_House_Movement_ChanseyDance
 	waitmovement 0
 	fadedefaultbgm

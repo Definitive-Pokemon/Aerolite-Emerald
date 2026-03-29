@@ -102,7 +102,7 @@ FloeIsland_EventScript_DaycareAcceptEgg::
 
 FloeIsland_EventScript_DaycareReceivedEgg::
 	message DayCare_Text_ReceivedEgg
-	playfanfare MUS_RG_LEVEL_UP
+	playfanfare MUS_LEVEL_UP
 	waitfanfare
 	waitbuttonpress
 	msgbox DayCare_Text_TakeGoodCareOfIt

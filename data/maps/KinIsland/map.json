@@ -28,7 +28,7 @@
   "object_events": [
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_MAN",
+      "graphics_id": "OBJ_EVENT_GFX_MAN_1",
       "x": 7,
       "y": 24,
       "elevation": 3,
@@ -42,7 +42,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_MAN",
+      "graphics_id": "OBJ_EVENT_GFX_MAN_1",
       "x": 8,
       "y": 23,
       "elevation": 3,
@@ -140,7 +140,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
+      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
       "x": 20,
       "y": 7,
       "elevation": 3,
@@ -182,7 +182,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY_1",
+      "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY",
       "x": 14,
       "y": 14,
       "elevation": 3,
@@ -196,7 +196,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_DODUO",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(DODUO)",
       "x": 15,
       "y": 14,
       "elevation": 3,

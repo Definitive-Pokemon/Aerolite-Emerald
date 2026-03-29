@@ -99,7 +99,7 @@ BoonIsland_EventScript_ClerkShopInitial::
 	end
 
 BoonIsland_EventScript_ClerkShopSkipIntro::
-	message Text_MayIHelpYou
+	message gText_HowMayIServeYou
 	waitmessage
 	goto_if_eq VAR_MAP_SCENE_BOON_ISLAND, 4, BoonIsland_EventScript_ShopExpanded3
 	goto_if_eq VAR_MAP_SCENE_BOON_ISLAND, 3, BoonIsland_EventScript_ShopExpanded2

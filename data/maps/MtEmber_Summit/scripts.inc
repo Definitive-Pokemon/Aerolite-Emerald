@@ -9,7 +9,7 @@ MtEmber_Summit_OnResume::
 
 MtEmber_Summit_EventScript_TryRemoveMoltres::
 	specialvar VAR_RESULT, GetBattleOutcome
-	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_Return
+	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, Common_EventScript_NopReturn
 	removeobject VAR_LAST_TALKED
 	return
 
@@ -27,7 +27,7 @@ MtEmber_Summit_EventScript_Moltres::
 	setwildbattle SPECIES_MOLTRES, 50
 	waitse
 	playmoncry SPECIES_MOLTRES, CRY_MODE_ENCOUNTER
-	message Text_Gyaoo
+	@message Text_Gyaoo
 	waitmessage
 	waitmoncry
 	delay 10

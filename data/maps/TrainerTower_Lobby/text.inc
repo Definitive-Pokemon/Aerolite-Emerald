@@ -1,92 +1,4 @@
-TrainerTower_Lobby_MapScripts::
-	.byte 0
-
-TrainerTower_Lobby_EventScript_Nurse::
-	lock
-	faceplayer
-	call Common_EventScript_PkmnCenterNurse
-	release
-	end
-
-TrainerTower_Lobby_EventScript_Receptionist::
-	lock
-	faceplayer
-	goto_if_eq VAR_RESULT, TRUE, TrainerTower_Lobby_EventScript_ThanksForCompeting
-	msgbox TrainerTower_Lobby_Text_GiveItYourBest
-	goto TrainerTower_Lobby_EventScript_ReceptionistEnd
-
-TrainerTower_Lobby_EventScript_ThanksForCompeting::
-	msgbox TrainerTower_Lobby_Text_ThanksForCompeting
-TrainerTower_Lobby_EventScript_ReceptionistEnd::
-	release
-	end
-
-TrainerTower_Lobby_EventScript_MartClerk::
-	lock
-	faceplayer
-	message gText_HowMayIServeYou
-	waitmessage
-	pokemart TrainerTower_Lobby_Mart_Items
-	msgbox gText_PleaseComeAgain
-	release
-	end
-
-	.align 2
-TrainerTower_Lobby_Mart_Items::
-	.2byte ITEM_ULTRA_BALL
-	.2byte ITEM_GREAT_BALL
-	.2byte ITEM_FULL_RESTORE
-	.2byte ITEM_MAX_POTION
-	.2byte ITEM_HYPER_POTION
-	.2byte ITEM_REVIVE
-	.2byte ITEM_FULL_HEAL
-	.2byte ITEM_ESCAPE_ROPE
-	.2byte ITEM_MAX_REPEL
-	.2byte ITEM_NONE
-	release
-	end
-
-TrainerTower_Lobby_EventScript_EntryTrigger::
-	lockall
-	applymovement LOCALID_PLAYER, TrainerTower_Lobby_Movement_FaceReceptionist
-	msgbox TrainerTower_Lobby_Text_WelcomeToTrainerTower
-	end
-
-
-TrainerTower_Lobby_EventScript_BeginChallenge::
-	copyvar VAR_0x8005, VAR_RESULT
-	setvar VAR_MAP_SCENE_TRAINER_TOWER, 1
-	special HealPlayerParty
-	msgbox TrainerTower_Lobby_Text_StartClockGetSetGo
-	releaseall
-	end
-
-TrainerTower_Lobby_Movement_FaceReceptionist::
-	face_right
-	step_end
-
-TrainerTower_Lobby_Movement_WalkDown::
-	walk_down
-	step_end
-
-TrainerTower_Lobby_EventScript_ShowRecords::
-	lockall
-	fadescreen FADE_TO_BLACK
-	setvar VAR_0x8004, 1
-	special ShowBattleRecords
-	waitstate
-	releaseall
-	end
-
-TrainerTower_Lobby_EventScript_CooltrainerF::
-	msgbox TrainerTower_Lobby_Text_WonderWhatKindsOfTrainers, MSGBOX_NPC
-	end
-
-TrainerTower_Lobby_EventScript_BaldingMan::
-	msgbox TrainerTower_Lobby_Text_StairsTougherThanAnyBattle, MSGBOX_NPC
-	end
-
-	@ All Trainer Tower text (Lobby and Roof) is interleaved here
+@ All Trainer Tower text (Lobby and Roof) is interleaved here
 
 TrainerTower_Lobby_Text_WelcomeToTrainerTower::
     .string "Hello!\p"
@@ -205,5 +117,4 @@ TrainerTower_Lobby_Text_StairsTougherThanAnyBattle::
     .string "Gasp…\p"
     .string "Never mind battling! These stairs…\n"
     .string "They're tougher than any battle…$"
-
 

@@ -9,7 +9,7 @@ FortuneIsland_RuinValley_OnLoad::
 	end
 
 FortuneIsland_RuinValley_EventScript_OpenDottedHoleDoor::
-	setmetatile 24, 24, METATILE_SeviiIslands67_DottedHoleDoor_Open, 0
+	@setmetatile 24, 24, METATILE_SeviiIslands67_DottedHoleDoor_Open, 0
 	return
 
 FortuneIsland_RuinValley_EventScript_Scientist::

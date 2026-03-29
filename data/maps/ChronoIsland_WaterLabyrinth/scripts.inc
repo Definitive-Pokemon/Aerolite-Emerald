@@ -29,7 +29,7 @@ ChronoIsland_WaterLabyrinth_EventScript_TryGiveEgg::
 	setflag FLAG_GOT_TOGEPI_EGG
 	giveegg SPECIES_TOGEPI
 
-	playfanfare MUS_RG_LEVEL_UP
+	playfanfare MUS_LEVEL_UP
 	message ChronoIsland_WaterLabyrinth_Text_ReceivedEggFromMan
 	waitfanfare
 	waitmessage
